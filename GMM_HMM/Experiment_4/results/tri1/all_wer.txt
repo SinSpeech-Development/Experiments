@@ -1,0 +1,132 @@
+compute-wer --text --mode=present ark:exp/tri1/decode_test/scoring/test_filt.txt ark,p:- 
+%WER 47.26 [ 74215 / 157046, 12885 ins, 5623 del, 55707 sub ]
+%SER 78.47 [ 27977 / 35653 ]
+Scored 35653 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri1/decode_test/scoring/test_filt.txt ark,p:- 
+%WER 46.49 [ 73018 / 157046, 11035 ins, 6653 del, 55330 sub ]
+%SER 78.16 [ 27866 / 35653 ]
+Scored 35653 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri1/decode_test/scoring/test_filt.txt ark,p:- 
+%WER 45.98 [ 72207 / 157046, 9477 ins, 7739 del, 54991 sub ]
+%SER 78.03 [ 27821 / 35653 ]
+Scored 35653 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri1/decode_test/scoring/test_filt.txt ark,p:- 
+%WER 46.80 [ 73504 / 157046, 11983 ins, 6040 del, 55481 sub ]
+%SER 78.30 [ 27915 / 35653 ]
+Scored 35653 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri1/decode_test/scoring/test_filt.txt ark,p:- 
+%WER 46.13 [ 72441 / 157046, 10237 ins, 7132 del, 55072 sub ]
+%SER 78.06 [ 27832 / 35653 ]
+Scored 35653 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri1/decode_test/scoring/test_filt.txt ark,p:- 
+%WER 45.66 [ 71710 / 157046, 8712 ins, 8286 del, 54712 sub ]
+%SER 77.95 [ 27792 / 35653 ]
+Scored 35653 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri1/decode_test/scoring/test_filt.txt ark,p:- 
+%WER 46.57 [ 73141 / 157046, 11283 ins, 6437 del, 55421 sub ]
+%SER 78.26 [ 27903 / 35653 ]
+Scored 35653 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri1/decode_test/scoring/test_filt.txt ark,p:- 
+%WER 45.94 [ 72147 / 157046, 9512 ins, 7661 del, 54974 sub ]
+%SER 78.06 [ 27832 / 35653 ]
+Scored 35653 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri1/decode_test/scoring/test_filt.txt ark,p:- 
+%WER 45.55 [ 71529 / 157046, 8070 ins, 8914 del, 54545 sub ]
+%SER 77.99 [ 27804 / 35653 ]
+Scored 35653 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri1/decode_test/scoring/test_filt.txt ark,p:- 
+%WER 46.47 [ 72981 / 157046, 10643 ins, 6882 del, 55456 sub ]
+%SER 78.34 [ 27932 / 35653 ]
+Scored 35653 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri1/decode_test/scoring/test_filt.txt ark,p:- 
+%WER 45.89 [ 72072 / 157046, 8938 ins, 8143 del, 54991 sub ]
+%SER 78.19 [ 27876 / 35653 ]
+Scored 35653 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri1/decode_test/scoring/test_filt.txt ark,p:- 
+%WER 45.61 [ 71633 / 157046, 7523 ins, 9513 del, 54597 sub ]
+%SER 78.15 [ 27864 / 35653 ]
+Scored 35653 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri1/decode_test/scoring/test_filt.txt ark,p:- 
+%WER 46.56 [ 73117 / 157046, 10122 ins, 7331 del, 55664 sub ]
+%SER 78.58 [ 28015 / 35653 ]
+Scored 35653 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri1/decode_test/scoring/test_filt.txt ark,p:- 
+%WER 46.03 [ 72284 / 157046, 8448 ins, 8627 del, 55209 sub ]
+%SER 78.47 [ 27977 / 35653 ]
+Scored 35653 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri1/decode_test/scoring/test_filt.txt ark,p:- 
+%WER 45.84 [ 71985 / 157046, 7069 ins, 10069 del, 54847 sub ]
+%SER 78.49 [ 27983 / 35653 ]
+Scored 35653 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri1/decode_test/scoring/test_filt.txt ark,p:- 
+%WER 46.70 [ 73334 / 157046, 9694 ins, 7690 del, 55950 sub ]
+%SER 78.74 [ 28072 / 35653 ]
+Scored 35653 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri1/decode_test/scoring/test_filt.txt ark,p:- 
+%WER 46.19 [ 72546 / 157046, 8010 ins, 9140 del, 55396 sub ]
+%SER 78.65 [ 28041 / 35653 ]
+Scored 35653 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri1/decode_test/scoring/test_filt.txt ark,p:- 
+%WER 46.07 [ 72350 / 157046, 6679 ins, 10645 del, 55026 sub ]
+%SER 78.71 [ 28061 / 35653 ]
+Scored 35653 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri1/decode_test/scoring/test_filt.txt ark,p:- 
+%WER 46.97 [ 73770 / 157046, 9335 ins, 8055 del, 56380 sub ]
+%SER 79.05 [ 28184 / 35653 ]
+Scored 35653 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri1/decode_test/scoring/test_filt.txt ark,p:- 
+%WER 46.55 [ 73104 / 157046, 7676 ins, 9608 del, 55820 sub ]
+%SER 78.99 [ 28164 / 35653 ]
+Scored 35653 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri1/decode_test/scoring/test_filt.txt ark,p:- 
+%WER 46.46 [ 72965 / 157046, 6395 ins, 11178 del, 55392 sub ]
+%SER 79.03 [ 28176 / 35653 ]
+Scored 35653 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri1/decode_test/scoring/test_filt.txt ark,p:- 
+%WER 47.32 [ 74309 / 157046, 9045 ins, 8410 del, 56854 sub ]
+%SER 79.38 [ 28302 / 35653 ]
+Scored 35653 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri1/decode_test/scoring/test_filt.txt ark,p:- 
+%WER 46.96 [ 73745 / 157046, 7416 ins, 10070 del, 56259 sub ]
+%SER 79.33 [ 28282 / 35653 ]
+Scored 35653 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri1/decode_test/scoring/test_filt.txt ark,p:- 
+%WER 46.85 [ 73569 / 157046, 6157 ins, 11603 del, 55809 sub ]
+%SER 79.39 [ 28304 / 35653 ]
+Scored 35653 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri1/decode_test/scoring/test_filt.txt ark,p:- 
+%WER 51.09 [ 80227 / 157046, 17182 ins, 4431 del, 58614 sub ]
+%SER 80.36 [ 28651 / 35653 ]
+Scored 35653 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri1/decode_test/scoring/test_filt.txt ark,p:- 
+%WER 50.09 [ 78672 / 157046, 15228 ins, 5157 del, 58287 sub ]
+%SER 80.05 [ 28539 / 35653 ]
+Scored 35653 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri1/decode_test/scoring/test_filt.txt ark,p:- 
+%WER 49.33 [ 77471 / 157046, 13546 ins, 5924 del, 58001 sub ]
+%SER 79.82 [ 28460 / 35653 ]
+Scored 35653 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri1/decode_test/scoring/test_filt.txt ark,p:- 
+%WER 49.49 [ 77721 / 157046, 15538 ins, 4825 del, 57358 sub ]
+%SER 79.58 [ 28373 / 35653 ]
+Scored 35653 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri1/decode_test/scoring/test_filt.txt ark,p:- 
+%WER 48.51 [ 76186 / 157046, 13540 ins, 5657 del, 56989 sub ]
+%SER 79.24 [ 28253 / 35653 ]
+Scored 35653 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri1/decode_test/scoring/test_filt.txt ark,p:- 
+%WER 47.79 [ 75053 / 157046, 11825 ins, 6527 del, 56701 sub ]
+%SER 79.01 [ 28168 / 35653 ]
+Scored 35653 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri1/decode_test/scoring/test_filt.txt ark,p:- 
+%WER 48.15 [ 75612 / 157046, 14086 ins, 5196 del, 56330 sub ]
+%SER 78.87 [ 28121 / 35653 ]
+Scored 35653 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri1/decode_test/scoring/test_filt.txt ark,p:- 
+%WER 47.28 [ 74254 / 157046, 12131 ins, 6147 del, 55976 sub ]
+%SER 78.57 [ 28012 / 35653 ]
+Scored 35653 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri1/decode_test/scoring/test_filt.txt ark,p:- 
+%WER 46.61 [ 73203 / 157046, 10431 ins, 7140 del, 55632 sub ]
+%SER 78.40 [ 27953 / 35653 ]
+Scored 35653 sentences, 0 not present in hyp.

@@ -28,3 +28,10 @@
     * total train unique words: 55246
     * total test unique words: 22101
     * total validation  unique words: 0
+
+##### Best WERs:
+
+- mono: 61.38
+- tri1: 45.55
+- tri2b: 43.57
+- tri3b: 39.55
