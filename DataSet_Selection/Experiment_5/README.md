@@ -26,9 +26,13 @@
     * total validation  unique utterances: 0
 
 4. Words
-    * total train unique words: 50787
+    * total train unique words: 50786
     * total test unique words: 20662
     * total validation  unique words: 0
+
+##### OOV Words in test set
+
+- 4627
 
 ##### Best WERs:
     

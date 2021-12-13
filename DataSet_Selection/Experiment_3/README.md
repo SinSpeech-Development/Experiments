@@ -27,6 +27,10 @@
     * total test unique words: 
     * total validation  unique words: 0
 
+##### OOV Words in test set
+
+- 6243
+
 ##### Best WERs:
 
 - mono: 59.72
