@@ -1,0 +1,115 @@
+feat-to-len scp:data/train/feats.scp ark,t:data/train_50000short/tmp.len 
+utils/subset_data_dir.sh: reducing #utt from 142478 to 50000
+===== BEGIN : Train 50000 Short Mono =====
+
+steps/train_mono.sh --boost-silence 1.25 --nj 4 --totgauss 1500 --cmd run.pl --mem 6G data/train_50000short data/lang exp/mono
+steps/train_mono.sh: Initializing monophone system.
+steps/train_mono.sh: Compiling training graphs
+steps/train_mono.sh: Aligning data equally (pass 0)
+steps/train_mono.sh: Pass 1
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 2
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 3
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 4
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 5
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 6
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 7
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 8
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 9
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 10
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 11
+steps/train_mono.sh: Pass 12
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 13
+steps/train_mono.sh: Pass 14
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 15
+steps/train_mono.sh: Pass 16
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 17
+steps/train_mono.sh: Pass 18
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 19
+steps/train_mono.sh: Pass 20
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 21
+steps/train_mono.sh: Pass 22
+steps/train_mono.sh: Pass 23
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 24
+steps/train_mono.sh: Pass 25
+steps/train_mono.sh: Pass 26
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 27
+steps/train_mono.sh: Pass 28
+steps/train_mono.sh: Pass 29
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 30
+steps/train_mono.sh: Pass 31
+steps/train_mono.sh: Pass 32
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 33
+steps/train_mono.sh: Pass 34
+steps/train_mono.sh: Pass 35
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 36
+steps/train_mono.sh: Pass 37
+steps/train_mono.sh: Pass 38
+steps/train_mono.sh: Aligning data
+steps/train_mono.sh: Pass 39
+steps/diagnostic/analyze_alignments.sh --cmd run.pl --mem 6G data/lang exp/mono
+steps/diagnostic/analyze_alignments.sh: see stats in exp/mono/log/analyze_alignments.log
+275 warnings in exp/mono/log/acc.*.*.log
+680 warnings in exp/mono/log/update.*.log
+36083 warnings in exp/mono/log/align.*.*.log
+exp/mono: nj=4 align prob=-86.57 over 41.73h [retry=0.5%, fail=0.0%] states=154 gauss=1479
+steps/train_mono.sh: Done training monophone system in exp/mono
+
+===== END: Train 50000 Short Mono =====
+===== BEGIN : make mono graph =====
+
+tree-info exp/mono/tree 
+tree-info exp/mono/tree 
+fstpushspecial 
+fstminimizeencoded 
+fstdeterminizestar --use-log=true 
+fsttablecompose data/lang/L_disambig.fst data/lang/G.fst 
+fstisstochastic data/lang/tmp/LG.fst 
+-0.0269029 -0.0277994
+[info]: LG not stochastic.
+fstcomposecontext --context-size=1 --central-position=0 --read-disambig-syms=data/lang/phones/disambig.int --write-disambig-syms=data/lang/tmp/disambig_ilabels_1_0.int data/lang/tmp/ilabels_1_0.363199 data/lang/tmp/LG.fst 
+fstisstochastic data/lang/tmp/CLG_1_0.fst 
+-0.0269029 -0.0277994
+[info]: CLG not stochastic.
+make-h-transducer --disambig-syms-out=exp/mono/graph/disambig_tid.int --transition-scale=1.0 data/lang/tmp/ilabels_1_0 exp/mono/tree exp/mono/final.mdl 
+fstdeterminizestar --use-log=true 
+fsttablecompose exp/mono/graph/Ha.fst data/lang/tmp/CLG_1_0.fst 
+fstrmsymbols exp/mono/graph/disambig_tid.int 
+fstrmepslocal 
+fstminimizeencoded 
+fstisstochastic exp/mono/graph/HCLGa.fst 
+0.000213802 -0.0536967
+HCLGa is not stochastic
+add-self-loops --self-loop-scale=0.1 --reorder=true exp/mono/final.mdl exp/mono/graph/HCLGa.fst 
+
+===== END: make mono graph =====
+===== BEGIN : mono decode validation =====
+
+steps/decode.sh --nj 4 --cmd run.pl --mem 4G exp/mono/graph data/valid exp/mono/decode_test
+decode.sh: feature type is delta
+steps/diagnostic/analyze_lats.sh --cmd run.pl --mem 4G exp/mono/graph exp/mono/decode_test
+steps/diagnostic/analyze_lats.sh: see stats in exp/mono/decode_test/log/analyze_alignments.log
+Overall, lattice depth (10,50,90-percentile)=(2,18,126) and mean=47.8
+steps/diagnostic/analyze_lats.sh: see stats in exp/mono/decode_test/log/analyze_lattice_depth_stats.log
+
+===== END: mono decode valiadtion =====
+Runtime was 13565.2579448

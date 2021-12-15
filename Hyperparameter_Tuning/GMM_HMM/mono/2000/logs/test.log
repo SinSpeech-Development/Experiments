@@ -1,0 +1,14 @@
+==== BEGIN : mono decode test ====
+
+steps/decode.sh --nj 4 --cmd run.pl --mem 4G exp/mono/graph data/test exp/mono/decode_test_set
+decode.sh: feature type is delta
+steps/diagnostic/analyze_lats.sh --cmd run.pl --mem 4G exp/mono/graph exp/mono/decode_test_set
+steps/diagnostic/analyze_lats.sh: see stats in exp/mono/decode_test_set/log/analyze_alignments.log
+Overall, lattice depth (10,50,90-percentile)=(2,17,124) and mean=47.0
+steps/diagnostic/analyze_lats.sh: see stats in exp/mono/decode_test_set/log/analyze_lattice_depth_stats.log
+
+===== END: mono decode test =====
+  File "<string>", line 1
+    print(1639368304.548039849 - )
+                                 ^
+SyntaxError: invalid syntax
