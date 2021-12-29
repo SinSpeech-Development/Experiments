@@ -1,0 +1,11 @@
+===== BEGIN : tri1 Test set decode =====
+
+steps/decode.sh --nj 4 --cmd run.pl --mem 8G exp/tri1/graph data/test exp/tri1/decode_test
+decode.sh: feature type is delta
+steps/diagnostic/analyze_lats.sh --cmd run.pl --mem 8G exp/tri1/graph exp/tri1/decode_test
+steps/diagnostic/analyze_lats.sh: see stats in exp/tri1/decode_test/log/analyze_alignments.log
+Overall, lattice depth (10,50,90-percentile)=(1,4,28) and mean=11.6
+steps/diagnostic/analyze_lats.sh: see stats in exp/tri1/decode_test/log/analyze_lattice_depth_stats.log
+
+===== END: tri1 Test set decode =====
+Runtime was 5746.70557141

@@ -1,0 +1,19 @@
+===== BEGIN : mono align =====
+
+
+===== END: mono align =====
+===== BEGIN : Train delta + delta-delta triphone =====
+
+
+===== END: Train delta + delta-delta triphone =====
+===== BEGIN : make tri1 graph =====
+
+
+===== END: make tri1 graph =====
+===== BEGIN : tri1 decode =====
+
+steps/decode.sh --nj 4 --cmd run.pl --mem 8G --stage 2 exp/tri1/graph data/valid exp/tri1/decode_valid
+decode.sh: feature type is delta
+
+===== END: tri1 decode =====
+Runtime was 269.628135204

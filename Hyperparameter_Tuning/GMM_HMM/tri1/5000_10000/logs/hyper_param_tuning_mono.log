@@ -1,0 +1,116 @@
+=== Hyper params for Mono Model ===
+totgauss: 1000
+
+===== BEGIN : mono align =====
+
+steps/align_si.sh --boost-silence 1.25 --nj 4 --cmd run.pl --mem 8G data/train data/lang exp/mono exp/mono_ali_train
+steps/align_si.sh: feature type is delta
+steps/align_si.sh: aligning data in data/train using model from exp/mono, putting alignments in exp/mono_ali_train
+steps/diagnostic/analyze_alignments.sh --cmd run.pl --mem 8G data/lang exp/mono_ali_train
+steps/diagnostic/analyze_alignments.sh: see stats in exp/mono_ali_train/log/analyze_alignments.log
+steps/align_si.sh: done aligning data.
+
+===== END: mono align =====
+===== BEGIN : Train delta + delta-delta triphone =====
+
+steps/train_deltas.sh --boost-silence 1.25 --cmd run.pl --mem 8G 5000 10000 data/train data/lang exp/mono_ali_train exp/tri1
+steps/train_deltas.sh: accumulating tree stats
+steps/train_deltas.sh: getting questions for tree-building, via clustering
+steps/train_deltas.sh: building the tree
+WARNING (gmm-init-model[5.5.0~1-40c7]:InitAmGmm():gmm-init-model.cc:55) Tree has pdf-id 1 with no stats; corresponding phone list: 6 7 8 9 10 
+WARNING (gmm-init-model[5.5.0~1-40c7]:InitAmGmm():gmm-init-model.cc:55) Tree has pdf-id 12 with no stats; corresponding phone list: 51 52 53 54 
+WARNING (gmm-init-model[5.5.0~1-40c7]:InitAmGmm():gmm-init-model.cc:55) Tree has pdf-id 14 with no stats; corresponding phone list: 59 60 61 62 
+WARNING (gmm-init-model[5.5.0~1-40c7]:InitAmGmm():gmm-init-model.cc:55) Tree has pdf-id 22 with no stats; corresponding phone list: 91 92 93 94 
+WARNING (gmm-init-model[5.5.0~1-40c7]:InitAmGmm():gmm-init-model.cc:55) Tree has pdf-id 30 with no stats; corresponding phone list: 123 124 125 126 
+** The warnings above about 'no stats' generally mean you have phones **
+** (or groups of phones) in your phone set that had no corresponding data. **
+** You should probably figure out whether something went wrong, **
+** or whether your data just doesn't happen to have examples of those **
+** phones. **
+steps/train_deltas.sh: converting alignments from exp/mono_ali_train to use current tree
+steps/train_deltas.sh: compiling graphs of transcripts
+steps/train_deltas.sh: training pass 1
+steps/train_deltas.sh: training pass 2
+steps/train_deltas.sh: training pass 3
+steps/train_deltas.sh: training pass 4
+steps/train_deltas.sh: training pass 5
+steps/train_deltas.sh: training pass 6
+steps/train_deltas.sh: training pass 7
+steps/train_deltas.sh: training pass 8
+steps/train_deltas.sh: training pass 9
+steps/train_deltas.sh: training pass 10
+steps/train_deltas.sh: aligning data
+steps/train_deltas.sh: training pass 11
+steps/train_deltas.sh: training pass 12
+steps/train_deltas.sh: training pass 13
+steps/train_deltas.sh: training pass 14
+steps/train_deltas.sh: training pass 15
+steps/train_deltas.sh: training pass 16
+steps/train_deltas.sh: training pass 17
+steps/train_deltas.sh: training pass 18
+steps/train_deltas.sh: training pass 19
+steps/train_deltas.sh: training pass 20
+steps/train_deltas.sh: aligning data
+steps/train_deltas.sh: training pass 21
+steps/train_deltas.sh: training pass 22
+steps/train_deltas.sh: training pass 23
+steps/train_deltas.sh: training pass 24
+steps/train_deltas.sh: training pass 25
+steps/train_deltas.sh: training pass 26
+steps/train_deltas.sh: training pass 27
+steps/train_deltas.sh: training pass 28
+steps/train_deltas.sh: training pass 29
+steps/train_deltas.sh: training pass 30
+steps/train_deltas.sh: aligning data
+steps/train_deltas.sh: training pass 31
+steps/train_deltas.sh: training pass 32
+steps/train_deltas.sh: training pass 33
+steps/train_deltas.sh: training pass 34
+steps/diagnostic/analyze_alignments.sh --cmd run.pl --mem 8G data/lang exp/tri1
+steps/diagnostic/analyze_alignments.sh: see stats in exp/tri1/log/analyze_alignments.log
+1 warnings in exp/tri1/log/build_tree.log
+170 warnings in exp/tri1/log/update.*.log
+687 warnings in exp/tri1/log/acc.*.*.log
+5 warnings in exp/tri1/log/init_model.log
+3129 warnings in exp/tri1/log/align.*.*.log
+5 warnings in exp/tri1/log/questions.log
+exp/tri1: nj=4 align prob=-85.89 over 172.01h [retry=0.7%, fail=0.0%] states=4048 gauss=10029 tree-impr=4.42
+steps/train_deltas.sh: Done training system with delta+delta-delta features in exp/tri1
+
+===== END: Train delta + delta-delta triphone =====
+===== BEGIN : make tri1 graph =====
+
+tree-info exp/tri1/tree 
+tree-info exp/tri1/tree 
+fsttablecompose data/lang/L_disambig.fst data/lang/G.fst 
+fstminimizeencoded 
+fstdeterminizestar --use-log=true 
+fstpushspecial 
+fstisstochastic data/lang/tmp/LG.fst 
+-0.0269029 -0.0277994
+[info]: LG not stochastic.
+fstcomposecontext --context-size=3 --central-position=1 --read-disambig-syms=data/lang/phones/disambig.int --write-disambig-syms=data/lang/tmp/disambig_ilabels_3_1.int data/lang/tmp/ilabels_3_1.4163 data/lang/tmp/LG.fst 
+fstisstochastic data/lang/tmp/CLG_3_1.fst 
+0 -0.0277994
+[info]: CLG not stochastic.
+make-h-transducer --disambig-syms-out=exp/tri1/graph/disambig_tid.int --transition-scale=1.0 data/lang/tmp/ilabels_3_1 exp/tri1/tree exp/tri1/final.mdl 
+fsttablecompose exp/tri1/graph/Ha.fst data/lang/tmp/CLG_3_1.fst 
+fstrmsymbols exp/tri1/graph/disambig_tid.int 
+fstrmepslocal 
+fstminimizeencoded 
+fstdeterminizestar --use-log=true 
+fstisstochastic exp/tri1/graph/HCLGa.fst 
+0.627404 -0.0755871
+HCLGa is not stochastic
+add-self-loops --self-loop-scale=0.1 --reorder=true exp/tri1/final.mdl exp/tri1/graph/HCLGa.fst 
+
+===== END: make tri1 graph =====
+===== BEGIN : tri1 decode =====
+
+steps/decode.sh --nj 4 --cmd run.pl --mem 8G exp/tri1/graph data/valid exp/tri1/decode_valid
+decode.sh: feature type is delta
+steps/diagnostic/analyze_lats.sh --cmd run.pl --mem 8G exp/tri1/graph exp/tri1/decode_valid
+steps/diagnostic/analyze_lats.sh: see stats in exp/tri1/decode_valid/log/analyze_alignments.log
+Overall, lattice depth (10,50,90-percentile)=(1,4,30) and mean=12.2
+steps/diagnostic/analyze_lats.sh: see stats in exp/tri1/decode_valid/log/analyze_lattice_depth_stats.log
+steps/decode.sh: Not scoring because local/score.sh does not exist or not executable.
