@@ -130,3 +130,6 @@ compute-wer --text --mode=present ark:exp/tri2b/decode_valid/scoring/test_filt.t
 %WER 43.56 [ 35584 / 81695, 5705 ins, 3208 del, 26671 sub ]
 %SER 76.31 [ 13590 / 17809 ]
 Scored 17809 sentences, 0 not present in hyp.
+
+Best WER
+40.65
