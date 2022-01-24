@@ -1,0 +1,135 @@
+compute-wer --text --mode=present ark:exp/tri3b/decode_valid/scoring/test_filt.txt ark,p:- 
+%WER 35.82 [ 29264 / 81695, 5806 ins, 2108 del, 21350 sub ]
+%SER 68.86 [ 12264 / 17809 ]
+Scored 17809 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri3b/decode_valid/scoring/test_filt.txt ark,p:- 
+%WER 35.54 [ 29034 / 81695, 5323 ins, 2381 del, 21330 sub ]
+%SER 68.77 [ 12247 / 17809 ]
+Scored 17809 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri3b/decode_valid/scoring/test_filt.txt ark,p:- 
+%WER 35.41 [ 28930 / 81695, 4935 ins, 2671 del, 21324 sub ]
+%SER 68.85 [ 12262 / 17809 ]
+Scored 17809 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri3b/decode_valid/scoring/test_filt.txt ark,p:- 
+%WER 35.30 [ 28840 / 81695, 5430 ins, 2221 del, 21189 sub ]
+%SER 68.54 [ 12206 / 17809 ]
+Scored 17809 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri3b/decode_valid/scoring/test_filt.txt ark,p:- 
+%WER 35.04 [ 28630 / 81695, 4957 ins, 2525 del, 21148 sub ]
+%SER 68.44 [ 12188 / 17809 ]
+Scored 17809 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri3b/decode_valid/scoring/test_filt.txt ark,p:- 
+%WER 34.97 [ 28572 / 81695, 4596 ins, 2833 del, 21143 sub ]
+%SER 68.48 [ 12196 / 17809 ]
+Scored 17809 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri3b/decode_valid/scoring/test_filt.txt ark,p:- 
+%WER 34.99 [ 28589 / 81695, 5129 ins, 2357 del, 21103 sub ]
+%SER 68.40 [ 12182 / 17809 ]
+Scored 17809 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri3b/decode_valid/scoring/test_filt.txt ark,p:- 
+%WER 34.80 [ 28426 / 81695, 4692 ins, 2657 del, 21077 sub ]
+%SER 68.35 [ 12173 / 17809 ]
+Scored 17809 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri3b/decode_valid/scoring/test_filt.txt ark,p:- 
+%WER 34.76 [ 28395 / 81695, 4317 ins, 2989 del, 21089 sub ]
+%SER 68.46 [ 12192 / 17809 ]
+Scored 17809 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri3b/decode_valid/scoring/test_filt.txt ark,p:- 
+%WER 34.80 [ 28428 / 81695, 4893 ins, 2471 del, 21064 sub ]
+%SER 68.35 [ 12172 / 17809 ]
+Scored 17809 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri3b/decode_valid/scoring/test_filt.txt ark,p:- 
+%WER 34.63 [ 28287 / 81695, 4440 ins, 2791 del, 21056 sub ]
+%SER 68.38 [ 12178 / 17809 ]
+Scored 17809 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri3b/decode_valid/scoring/test_filt.txt ark,p:- 
+%WER 34.60 [ 28266 / 81695, 4061 ins, 3140 del, 21065 sub ]
+%SER 68.45 [ 12190 / 17809 ]
+Scored 17809 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri3b/decode_valid/scoring/test_filt.txt ark,p:- 
+%WER 34.58 [ 28250 / 81695, 4656 ins, 2575 del, 21019 sub ]
+%SER 68.34 [ 12170 / 17809 ]
+Scored 17809 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri3b/decode_valid/scoring/test_filt.txt ark,p:- 
+%WER 34.47 [ 28161 / 81695, 4216 ins, 2940 del, 21005 sub ]
+%SER 68.35 [ 12172 / 17809 ]
+Scored 17809 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri3b/decode_valid/scoring/test_filt.txt ark,p:- 
+%WER 34.53 [ 28207 / 81695, 3863 ins, 3310 del, 21034 sub ]
+%SER 68.53 [ 12204 / 17809 ]
+Scored 17809 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri3b/decode_valid/scoring/test_filt.txt ark,p:- 
+%WER 34.45 [ 28147 / 81695, 4443 ins, 2689 del, 21015 sub ]
+%SER 68.31 [ 12166 / 17809 ]
+Scored 17809 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri3b/decode_valid/scoring/test_filt.txt ark,p:- 
+%WER 34.44 [ 28135 / 81695, 4033 ins, 3073 del, 21029 sub ]
+%SER 68.46 [ 12192 / 17809 ]
+Scored 17809 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri3b/decode_valid/scoring/test_filt.txt ark,p:- 
+%WER 34.52 [ 28202 / 81695, 3661 ins, 3465 del, 21076 sub ]
+%SER 68.57 [ 12211 / 17809 ]
+Scored 17809 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri3b/decode_valid/scoring/test_filt.txt ark,p:- 
+%WER 34.50 [ 28183 / 81695, 4282 ins, 2819 del, 21082 sub ]
+%SER 68.47 [ 12193 / 17809 ]
+Scored 17809 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri3b/decode_valid/scoring/test_filt.txt ark,p:- 
+%WER 34.47 [ 28164 / 81695, 3838 ins, 3201 del, 21125 sub ]
+%SER 68.66 [ 12228 / 17809 ]
+Scored 17809 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri3b/decode_valid/scoring/test_filt.txt ark,p:- 
+%WER 34.61 [ 28273 / 81695, 3485 ins, 3609 del, 21179 sub ]
+%SER 68.84 [ 12259 / 17809 ]
+Scored 17809 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri3b/decode_valid/scoring/test_filt.txt ark,p:- 
+%WER 34.56 [ 28230 / 81695, 4119 ins, 2940 del, 21171 sub ]
+%SER 68.71 [ 12237 / 17809 ]
+Scored 17809 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri3b/decode_valid/scoring/test_filt.txt ark,p:- 
+%WER 34.51 [ 28196 / 81695, 3696 ins, 3331 del, 21169 sub ]
+%SER 68.85 [ 12262 / 17809 ]
+Scored 17809 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri3b/decode_valid/scoring/test_filt.txt ark,p:- 
+%WER 34.74 [ 28381 / 81695, 3378 ins, 3730 del, 21273 sub ]
+%SER 69.13 [ 12312 / 17809 ]
+Scored 17809 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri3b/decode_valid/scoring/test_filt.txt ark,p:- 
+%WER 38.76 [ 31669 / 81695, 7496 ins, 1751 del, 22422 sub ]
+%SER 70.90 [ 12627 / 17809 ]
+Scored 17809 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri3b/decode_valid/scoring/test_filt.txt ark,p:- 
+%WER 38.43 [ 31393 / 81695, 7031 ins, 1947 del, 22415 sub ]
+%SER 70.83 [ 12614 / 17809 ]
+Scored 17809 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri3b/decode_valid/scoring/test_filt.txt ark,p:- 
+%WER 38.08 [ 31109 / 81695, 6567 ins, 2155 del, 22387 sub ]
+%SER 70.67 [ 12586 / 17809 ]
+Scored 17809 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri3b/decode_valid/scoring/test_filt.txt ark,p:- 
+%WER 37.59 [ 30708 / 81695, 6846 ins, 1861 del, 22001 sub ]
+%SER 70.13 [ 12490 / 17809 ]
+Scored 17809 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri3b/decode_valid/scoring/test_filt.txt ark,p:- 
+%WER 37.23 [ 30417 / 81695, 6349 ins, 2080 del, 21988 sub ]
+%SER 70.02 [ 12469 / 17809 ]
+Scored 17809 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri3b/decode_valid/scoring/test_filt.txt ark,p:- 
+%WER 36.93 [ 30174 / 81695, 5907 ins, 2317 del, 21950 sub ]
+%SER 69.90 [ 12448 / 17809 ]
+Scored 17809 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri3b/decode_valid/scoring/test_filt.txt ark,p:- 
+%WER 36.63 [ 29923 / 81695, 6288 ins, 1978 del, 21657 sub ]
+%SER 69.45 [ 12368 / 17809 ]
+Scored 17809 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri3b/decode_valid/scoring/test_filt.txt ark,p:- 
+%WER 36.27 [ 29633 / 81695, 5787 ins, 2228 del, 21618 sub ]
+%SER 69.32 [ 12345 / 17809 ]
+Scored 17809 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/tri3b/decode_valid/scoring/test_filt.txt ark,p:- 
+%WER 36.02 [ 29423 / 81695, 5348 ins, 2486 del, 21589 sub ]
+%SER 69.25 [ 12332 / 17809 ]
+Scored 17809 sentences, 0 not present in hyp.
+
+Best WER
+34.44
