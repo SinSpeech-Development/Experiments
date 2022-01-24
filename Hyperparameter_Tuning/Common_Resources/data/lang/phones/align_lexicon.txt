@@ -832,9 +832,9 @@
 අතුවල අතුවල a_B t^_I u_I w_I @_I l_I @_E
 අතුවලට අතුවලට a_B t^_I u_I w_I @_I l_I @_I t_I @_E
 අතුවලින් අතුවලින් a_B t^_I u_I w_I @_I l_I i_I n_E
-අතෘප්තිකර අතෘප්තිකර a_B t^_I r_I u_I p_I t^_I i_I k_I @_I r_I @_E
-අතෘප්තිමත් අතෘප්තිමත් a_B t^_I r_I u_I p_I t^_I i_I m_I a_I t^_E
-අතෘප්තිය අතෘප්තිය a_B t^_I r_I u_I p_I t^_I i_I y_I @_E
+අතෘප්තිකර අතෘප්තිකර a_B t^_I ru_I p_I t^_I i_I k_I @_I r_I @_E
+අතෘප්තිමත් අතෘප්තිමත් a_B t^_I ru_I p_I t^_I i_I m_I a_I t^_E
+අතෘප්තිය අතෘප්තිය a_B t^_I ru_I p_I t^_I i_I y_I @_E
 අතෙත් අතෙත් a_B t^_I e_I t^_E
 අතෙහි අතෙහි a_B t^_I e_I h_I i_E
 අතේ අතේ a_B t^_I e:_E
@@ -949,7 +949,7 @@
 අදුරු අදුරු a_B d^_I u_I r_I u_E
 අදුරෙන් අදුරෙන් a_B d^_I u_I r_I e_I n_E
 අදූරදර්ශී අදූරදර්ශී a_B d^_I u:_I r_I @_I d^_I a_I r_I s^_I i:_E
-අදෘශ්‍යමාන අදෘශ්‍යමාන a_B d^_I r_I u_I s^_I s^_I y_I @_I m_I a:_I n_I @_E
+අදෘශ්‍යමාන අදෘශ්‍යමාන a_B d^_I ru_I s^_I s^_I y_I @_I m_I a:_I n_I @_E
 අදෝස අදෝස a_B d^_I o:_I s_I @_E
 අධම අධම a_B d^_I @_I m_I @_E
 අධම්ම අධම්ම a_B d^_I a_I m_I m_I @_E
@@ -1050,7 +1050,7 @@
 අධිකාරීමය අධිකාරීමය a_B d^_I i_I k_I a:_I r_I i:_I m_I @_I y_I @_E
 අධිකාරීවරු අධිකාරීවරු a_B d^_I i_I k_I a:_I r_I i:_I w_I @_I r_I u_E
 අධිගම අධිගම a_B d^_I i_I g_I @_I m_I @_E
-අධිගෘහිත අධිගෘහිත a_B d^_I i_I g_I r_I u_I h_I i_I t^_I @_E
+අධිගෘහිත අධිගෘහිත a_B d^_I i_I g_I ru_I h_I i_I t^_I @_E
 අධිචිත්ත අධිචිත්ත a_B d^_I i_I c^_I i_I t^_I t^_I @_E
 අධිචිත්තේ අධිචිත්තේ a_B d^_I i_I c^_I i_I t^_I t^_I e:_E
 අධිතක්සේරුවෙනි අධිතක්සේරුවෙනි a_B d^_I i_I t^_I a_I k_I s_I e:_I r_I u_I w_I e_I n_I i_E
@@ -1101,10 +1101,10 @@
 අධීක්ෂණය අධීක්ෂණය a_B d^_I i:_I k_I s^_I @_I n_I @_I y_I @_E
 අධීක්ෂණයක් අධීක්ෂණයක් a_B d^_I i:_I k_I s^_I @_I n_I @_I y_I a_I k_E
 අධීක්ෂණයට අධීක්ෂණයට a_B d^_I i:_I k_I s^_I @_I n_I @_I y_I @_I t_I @_E
-අධෛර්ය අධෛර්ය a_B d^_I ai_I r_I y_I @_E
-අධෛර්යට අධෛර්යට a_B d^_I ai_I r_I y_I @_I t_I @_E
-අධෛර්යමත් අධෛර්යමත් a_B d^_I ai_I r_I y_I @_I m_I a_I t^_E
-අධෛර්යයමත් අධෛර්යයමත් a_B d^_I ai_I r_I y_I @_I y_I @_I m_I a_I t^_E
+අධෛර්ය අධෛර්ය a_B d^_I a_I i_I r_I y_I @_E
+අධෛර්යට අධෛර්යට a_B d^_I a_I i_I r_I y_I @_I t_I @_E
+අධෛර්යමත් අධෛර්යමත් a_B d^_I a_I i_I r_I y_I @_I m_I a_I t^_E
+අධෛර්යයමත් අධෛර්යයමත් a_B d^_I a_I i_I r_I y_I @_I y_I @_I m_I a_I t^_E
 අධෝ අධෝ a_B d^_I o:_E
 අනං අනං a_B n_I a_I x_E
 අනගාරික අනගාරික a_B n_I @_I g_I a:_I r_I i_I k_I @_E
@@ -1215,7 +1215,7 @@
 අන්තර්ජාලෙට අන්තර්ජාලෙට a_B n_I t^_I a_I r_I j_I a:_I l_I e_I t_I @_E
 අන්තර්ජාලෙටත් අන්තර්ජාලෙටත් a_B n_I t^_I a_I r_I j_I a:_I l_I e_I t_I a_I t^_E
 අන්තර්ජාලේ අන්තර්ජාලේ a_B n_I t^_I a_I r_I j_I a:_I l_I e:_E
-අන්තර්දෘෂ්ටිය අන්තර්දෘෂ්ටිය a_B n_I t^_I a_I r_I d^_I r_I u_I s^_I t_I i_I y_I @_E
+අන්තර්දෘෂ්ටිය අන්තර්දෘෂ්ටිය a_B n_I t^_I a_I r_I d^_I ru_I s^_I t_I i_I y_I @_E
 අන්තර්ධාන අන්තර්ධාන a_B n_I t^_I a_I r_I d^_I a:_I n_I @_E
 අන්තරාදායක අන්තරාදායක a_B n_I t^_I @_I r_I a:_I d^_I a:_I y_I @_I k_I @_E
 අන්තරායකර අන්තරායකර a_B n_I t^_I @_I r_I a:_I y_I @_I k_I @_I r_I @_E
@@ -2021,8 +2021,8 @@
 අභිලේඛන අභිලේඛන a_B b_I i_I l_I e:_I k_I @_I n_I @_E
 අභිලේඛනයක් අභිලේඛනයක් a_B b_I i_I l_I e:_I k_I @_I n_I @_I y_I a_I k_E
 අභිවාදනය අභිවාදනය a_B b_I i_I w_I a:_I d^_I @_I n_I @_I y_I @_E
-අභිවෘද්ධිය අභිවෘද්ධිය a_B b_I i_I w_I r_I u_I d^_I d^_I i_I y_I @_E
-අභිවෘද්ධියක් අභිවෘද්ධියක් a_B b_I i_I w_I r_I u_I d^_I d^_I i_I y_I a_I k_E
+අභිවෘද්ධිය අභිවෘද්ධිය a_B b_I i_I w_I ru_I d^_I d^_I i_I y_I @_E
+අභිවෘද්ධියක් අභිවෘද්ධියක් a_B b_I i_I w_I ru_I d^_I d^_I i_I y_I a_I k_E
 අභිෂේක අභිෂේක a_B b_I i_I s^_I e:_I k_I @_E
 අභිෂේකය අභිෂේකය a_B b_I i_I s^_I e:_I k_I @_I y_I @_E
 අභිෂේකයට අභිෂේකයට a_B b_I i_I s^_I e:_I k_I @_I y_I @_I t_I @_E
@@ -2244,8 +2244,8 @@
 අමූර්ත අමූර්ත a_B m_I u:_I r_I t^_I @_E
 අමූලික අමූලික a_B m_I u:_I l_I i_I k_I @_E
 අමූලිකා අමූලිකා a_B m_I u:_I l_I i_I k_I a:_E
-අමෘත අමෘත a_B m_I r_I u_I t^_I @_E
-අමෘතෙ අමෘතෙ a_B m_I r_I u_I t^_I e_E
+අමෘත අමෘත a_B m_I ru_I t^_I @_E
+අමෘතෙ අමෘතෙ a_B m_I ru_I t^_I e_E
 අමෙරිකන් අමෙරිකන් a_B m_I e_I r_I i_I k_I a_I n_E
 අමෙරිකන්ස්ලා අමෙරිකන්ස්ලා a_B m_I e_I r_I i_I k_I a_I n_I s_I l_I a:_E
 අමෙරිකා අමෙරිකා a_B m_I e_I r_I i_I k_I a:_E
@@ -2669,7 +2669,7 @@
 අලංකාරවත් අලංකාරවත් a_B l_I a_I x_I k_I a:_I r_I @_I w_I a_I t^_E
 අලංකාරවලින් අලංකාරවලින් a_B l_I a_I x_I k_I a:_I r_I @_I w_I @_I l_I i_I n_E
 අලංකාරවූත් අලංකාරවූත් a_B l_I a_I x_I k_I a:_I r_I @_I w_I u:_I t^_E
-අලංකෘත අලංකෘත a_B l_I a_I x_I k_I r_I u_I t^_I @_E
+අලංකෘත අලංකෘත a_B l_I a_I x_I k_I ru_I t^_I @_E
 අලකාර අලකාර a_B l_I @_I k_I a:_I r_I @_E
 අලගල්ල අලගල්ල a_B l_I @_I g_I a_I l_I l_I @_E
 අලගල්ලේ අලගල්ලේ a_B l_I @_I g_I a_I l_I l_I e:_E
@@ -3198,7 +3198,7 @@
 අසංක අසංක a_B s_I a_I x_I k_I @_E
 අසංඛ්‍ය අසංඛ්‍ය a_B s_I a_I x_I k_I k_I y_I @_E
 අසංග අසංග a_B s_I a_I x_I g_I @_E
-අසංතෘප්තයේ අසංතෘප්තයේ a_B s_I a_I x_I t^_I r_I u_I p_I t^_I @_I y_I e:_E
+අසංතෘප්තයේ අසංතෘප්තයේ a_B s_I a_I x_I t^_I ru_I p_I t^_I @_I y_I e:_E
 අසංවර අසංවර a_B s_I a_I x_I w_I @_I r_I @_E
 අසංවේදී අසංවේදී a_B s_I a_I x_I w_I e:_I d^_I i:_E
 අසත් අසත් a_B s_I a_I t^_E
@@ -3218,7 +3218,7 @@
 අසතුටින් අසතුටින් a_B s_I @_I t^_I u_I t_I i_I n_E
 අසතුටු අසතුටු a_B s_I @_I t^_I u_I t_I u_E
 අසතුටුදායක අසතුටුදායක a_B s_I @_I t^_I u_I t_I u_I d^_I a:_I y_I @_I k_I @_E
-අසදෘශ අසදෘශ a_B s_I a_I d^_I r_I u_I s^_I @_E
+අසදෘශ අසදෘශ a_B s_I a_I d^_I ru_I s^_I @_E
 අසන අසන a_B s_I @_I n_I @_E
 අසනවා අසනවා a_B s_I @_I n_I @_I w_I a:_E
 අසනවාට අසනවාට a_B s_I @_I n_I @_I w_I a:_I t_I @_E
@@ -3654,16 +3654,16 @@
 ආකාසේ ආකාසේ a:_B k_I a:_I s_I e:_E
 ආකිමිඩිස් ආකිමිඩිස් a:_B k_I i_I m_I i_I d_I i_I s_E
 ආකූල ආකූල a:_B k_I u:_I l_I @_E
-ආකෘති ආකෘති a:_B k_I r_I u_I t^_I i_E
-ආකෘතික ආකෘතික a:_B k_I r_I u_I t^_I i_I k_I @_E
-ආකෘතිමය ආකෘතිමය a:_B k_I r_I u_I t^_I i_I m_I @_I y_I @_E
-ආකෘතිය ආකෘතිය a:_B k_I r_I u_I t^_I i_I y_I @_E
-ආකෘතියක් ආකෘතියක් a:_B k_I r_I u_I t^_I i_I y_I a_I k_E
-ආකෘතියට ආකෘතියට a:_B k_I r_I u_I t^_I i_I y_I @_I t_I @_E
-ආකෘතියත් ආකෘතියත් a:_B k_I r_I u_I t^_I i_I y_I a_I t^_E
-ආකෘතියයි ආකෘතියයි a:_B k_I r_I u_I t^_I i_I y_I a_I y_I i_E
-ආකෘතියෙන් ආකෘතියෙන් a:_B k_I r_I u_I t^_I i_I y_I e_I n_E
-ආකෘතියේ ආකෘතියේ a:_B k_I r_I u_I t^_I i_I y_I e:_E
+ආකෘති ආකෘති a:_B k_I ru_I t^_I i_E
+ආකෘතික ආකෘතික a:_B k_I ru_I t^_I i_I k_I @_E
+ආකෘතිමය ආකෘතිමය a:_B k_I ru_I t^_I i_I m_I @_I y_I @_E
+ආකෘතිය ආකෘතිය a:_B k_I ru_I t^_I i_I y_I @_E
+ආකෘතියක් ආකෘතියක් a:_B k_I ru_I t^_I i_I y_I a_I k_E
+ආකෘතියට ආකෘතියට a:_B k_I ru_I t^_I i_I y_I @_I t_I @_E
+ආකෘතියත් ආකෘතියත් a:_B k_I ru_I t^_I i_I y_I a_I t^_E
+ආකෘතියයි ආකෘතියයි a:_B k_I ru_I t^_I i_I y_I a_I y_I i_E
+ආකෘතියෙන් ආකෘතියෙන් a:_B k_I ru_I t^_I i_I y_I e_I n_E
+ආකෘතියේ ආකෘතියේ a:_B k_I ru_I t^_I i_I y_I e:_E
 ආඛ්‍යාත ආඛ්‍යාත a:_B k_I y_I a:_I t^_I @_E
 ආඛ්‍යාන ආඛ්‍යාන a:_B k_I y_I a:_I n_I @_E
 ආඛ්‍යානගත ආඛ්‍යානගත a:_B k_I y_I a:_I n_I @_I g_I @_I t^_I @_E
@@ -6433,8 +6433,8 @@
 උත් උත් u_B t^_E
 උත්කර්ෂයට උත්කර්ෂයට u_B t^_I k_I a_I r_I s^_I @_I y_I @_I t_I @_E
 උත්කර්ෂවත් උත්කර්ෂවත් u_B t^_I k_I a_I r_I s^_I @_I w_I a_I t^_E
-උත්කෘෂ්ට උත්කෘෂ්ට u_B t^_I k_I r_I u_I s^_I t_I @_E
-උත්කෘෂ්ඨය උත්කෘෂ්ඨය u_B t^_I k_I r_I u_I s^_I t_I @_I y_I @_E
+උත්කෘෂ්ට උත්කෘෂ්ට u_B t^_I k_I ru_I s^_I t_I @_E
+උත්කෘෂ්ඨය උත්කෘෂ්ඨය u_B t^_I k_I ru_I s^_I t_I @_I y_I @_E
 උත්තම උත්තම u_B t^_I t^_I @_I m_I @_E
 උත්තමයකු උත්තමයකු u_B t^_I t^_I @_I m_I @_I y_I @_I k_I u_E
 උත්තමයන් උත්තමයන් u_B t^_I t^_I @_I m_I @_I y_I a_I n_E
@@ -6693,7 +6693,7 @@
 උදුර උදුර u_B d^_I u_I r_I @_E
 උදුරා උදුරා u_B d^_I u_I r_I a:_E
 උදුරාගෙන උදුරාගෙන u_B d^_I u_I r_I a:_I g_I e_I n_I @_E
-උදෘත උදෘත u_B d^_I r_I u_I t^_I @_E
+උදෘත උදෘත u_B d^_I ru_I t^_I @_E
 උදෙත් උදෙත් u_B d^_I e_I t^_E
 උදෙන් උදෙන් u_B d^_I e_I n_E
 උදෙසා උදෙසා u_B d^_I e_I s_I a:_E
@@ -6966,8 +6966,8 @@
 උපවිශේෂය උපවිශේෂය u_B p_I @_I w_I i_I s^_I e:_I s^_I @_I y_I @_E
 උපශාන්ත උපශාන්ත u_B p_I @_I s^_I a:_I n_I t^_I @_E
 උපශීර්ෂවලට උපශීර්ෂවලට u_B p_I @_I s^_I i:_I r_I s^_I @_I w_I @_I l_I @_I t_I @_E
-උපසංස්කෘතිය උපසංස්කෘතිය u_B p_I @_I s_I a_I x_I s_I k_I r_I u_I t^_I i_I y_I @_E
-උපසංස්කෘතියක් උපසංස්කෘතියක් u_B p_I @_I s_I a_I x_I s_I k_I r_I u_I t^_I i_I y_I a_I k_E
+උපසංස්කෘතිය උපසංස්කෘතිය u_B p_I @_I s_I a_I x_I s_I k_I ru_I t^_I i_I y_I @_E
+උපසංස්කෘතියක් උපසංස්කෘතියක් u_B p_I @_I s_I a_I x_I s_I k_I ru_I t^_I i_I y_I a_I k_E
 උපසපන් උපසපන් u_B p_I @_I s_I @_I p_I a_I n_E
 උපසභාපති උපසභාපති u_B p_I @_I s_I @_I b_I a:_I p_I @_I t^_I i_E
 උපසභාපතිවරයාගේ උපසභාපතිවරයාගේ u_B p_I @_I s_I @_I b_I a:_I p_I @_I t^_I i_I w_I @_I r_I @_I y_I a:_I g_I e:_E
@@ -8417,11 +8417,11 @@
 ඒවි ඒවි e:_B w_I i_E
 ඒෂියන් ඒෂියන් e:_B s^_I i_I y_I a_I n_E
 ඒසී ඒසී e:_B s_I i:_E
-ඓතිහාසික ඓතිහාසික ai_B t^_I i_I h_I a:_I s_I i_I k_I @_E
+ඓතිහාසික ඓතිහාසික a_B i_I t^_I i_I h_I a:_I s_I i_I k_I @_E
 ඓද්‍රියන් ඓද්‍රියන් ai_B d^_I r_I i_I y_I a_I n_E
-ඓශ්චර්යය ඓශ්චර්යය ai_B s^_I c^_I a_I r_I y_I @_I y_I @_E
-ඓශ්චර්යයක් ඓශ්චර්යයක් ai_B s^_I c^_I a_I r_I y_I @_I y_I a_I k_E
-ඓශ්චර්යවත් ඓශ්චර්යවත් ai_B s^_I c^_I a_I r_I y_I @_I w_I a_I t^_E
+ඓශ්චර්යය ඓශ්චර්යය a_B i_I s^_I c^_I a_I r_I y_I @_I y_I @_E
+ඓශ්චර්යයක් ඓශ්චර්යයක් a_B i_I s^_I c^_I a_I r_I y_I @_I y_I a_I k_E
+ඓශ්චර්යවත් ඓශ්චර්යවත් a_B i_I s^_I c^_I a_I r_I y_I @_I w_I a_I t^_E
 ඔ ඔ o_S
 ඔඑසීස් ඔඑසීස් o_B e_I s_I i:_I s_E
 ඔක ඔක o_B k_I @_E
@@ -9256,7 +9256,7 @@
 කතුවරයෙකු කතුවරයෙකු k_B a_I t^_I u_I w_I @_I r_I @_I y_I e_I k_I u_E
 කතුවරුන් කතුවරුන් k_B a_I t^_I u_I w_I @_I r_I u_I n_E
 කතුවරුන්ගේ කතුවරුන්ගේ k_B a_I t^_I u_I w_I @_I r_I u_I n_I g_I e:_E
-කතෘ කතෘ k_B a_I t^_I r_I u_E
+කතෘ කතෘ k_B a_I t^_I ru_E
 කතෝලික කතෝලික k_B a_I t^_I o:_I l_I i_I k_I @_E
 කතෝලිකයාට කතෝලිකයාට k_B a_I t^_I o:_I l_I i_I k_I @_I y_I a:_I t_I @_E
 කතෝලිකයින් කතෝලිකයින් k_B a_I t^_I o:_I l_I i_I k_I @_I y_I i_I n_E
@@ -9899,9 +9899,9 @@
 කර්තව්‍යයට කර්තව්‍යයට k_B a_I r_I t^_I a_I w_I y_I @_I y_I @_I t_I @_E
 කර්තව්‍යයටයි කර්තව්‍යයටයි k_B a_I r_I t^_I a_I w_I y_I @_I y_I @_I t_I a_I y_I i_E
 කර්ත්‍යවයට කර්ත්‍යවයට k_B a_I r_I t^_I t^_I y_I @_I w_I @_I y_I @_I t_I @_E
-කර්තෘ කර්තෘ k_B a_I r_I t^_I r_I u_E
-කර්තෘගේ කර්තෘගේ k_B a_I r_I t^_I r_I u_I g_I e:_E
-කර්තෘවරු කර්තෘවරු k_B a_I r_I t^_I r_I u_I w_I @_I r_I u_E
+කර්තෘ කර්තෘ k_B a_I r_I t^_I ru_E
+කර්තෘගේ කර්තෘගේ k_B a_I r_I t^_I ru_I g_I e:_E
+කර්තෘවරු කර්තෘවරු k_B a_I r_I t^_I ru_I w_I @_I r_I u_E
 කර්නල් කර්නල් k_B a_I r_I n_I a_I l_E
 කර්නල්වරයා කර්නල්වරයා k_B a_I r_I n_I a_I l_I w_I @_I r_I @_I y_I a:_E
 කර්න්න කර්න්න k_B a_I r_I n_I n_I @_E
@@ -10176,7 +10176,7 @@
 කලාකාරිනියක කලාකාරිනියක k_B a_I l_I a:_I k_I a:_I r_I i_I n_I i_I y_I @_I k_I @_E
 කලාකාරියක් කලාකාරියක් k_B a_I l_I a:_I k_I a:_I r_I i_I y_I a_I k_E
 කලාකුරකින් කලාකුරකින් k_B a_I l_I a:_I k_I u_I r_I @_I k_I i_I n_E
-කලාකෘතියක කලාකෘතියක k_B a_I l_I a:_I k_I r_I u_I t^_I i_I y_I @_I k_I @_E
+කලාකෘතියක කලාකෘතියක k_B a_I l_I a:_I k_I ru_I t^_I i_I y_I @_I k_I @_E
 කලාගාරයේ කලාගාරයේ k_B a_I l_I a:_I g_I a:_I r_I @_I y_I e:_E
 කලාට කලාට k_B a_I l_I a:_I t_I @_E
 කලාත්මක කලාත්මක k_B a_I l_I a:_I t^_I m_I @_I k_I @_E
@@ -12408,51 +12408,51 @@
 කූරෙන් කූරෙන් k_B u:_I r_I e_I n_E
 කූල කූල k_B u:_I l_I @_E
 කූල් කූල් k_B u:_I l_E
-කෘත කෘත k_B r_I u_I t^_I @_E
-කෘතගුණ කෘතගුණ k_B r_I u_I t^_I @_I g_I u_I n_I @_E
+කෘත කෘත k_B ru_I t^_I @_E
+කෘතගුණ කෘතගුණ k_B ru_I t^_I @_I g_I u_I n_I @_E
 කෘතඥතාවය කෘතඥතාවය k_B ru_I t^_I @_I jn_I @_I t^_I a:_I w_I @_I y_I @_E
-කෘතවේදී කෘතවේදී k_B r_I u_I t^_I @_I w_I e:_I d^_I i:_E
-කෘතහස්ත කෘතහස්ත k_B r_I u_I t^_I @_I h_I a_I s_I t^_I @_E
-කෘත්‍ය කෘත්‍ය k_B r_I u_I t^_I t^_I y_I @_E
-කෘත්‍යය කෘත්‍යය k_B r_I u_I t^_I t^_I y_I @_I y_I @_E
-කෘත්‍යයකර කෘත්‍යයකර k_B r_I u_I t^_I t^_I y_I @_I y_I @_I k_I @_I r_I @_E
-කෘත්‍යවාදයට කෘත්‍යවාදයට k_B r_I u_I t^_I t^_I y_I @_I w_I a:_I d^_I @_I y_I @_I t_I @_E
+කෘතවේදී කෘතවේදී k_B ru_I t^_I @_I w_I e:_I d^_I i:_E
+කෘතහස්ත කෘතහස්ත k_B ru_I t^_I @_I h_I a_I s_I t^_I @_E
+කෘත්‍ය කෘත්‍ය k_B ru_I t^_I t^_I y_I @_E
+කෘත්‍යය කෘත්‍යය k_B ru_I t^_I t^_I y_I @_I y_I @_E
+කෘත්‍යයකර කෘත්‍යයකර k_B ru_I t^_I t^_I y_I @_I y_I @_I k_I @_I r_I @_E
+කෘත්‍යවාදයට කෘත්‍යවාදයට k_B ru_I t^_I t^_I y_I @_I w_I a:_I d^_I @_I y_I @_I t_I @_E
 කෘත්‍රිම කෘත්‍රිම k_B ru_I t^_I t^_I r_I i_I m_I @_E
-කෘති කෘති k_B r_I u_I t^_I i_E
-කෘතිම කෘතිම k_B r_I u_I t^_I i_I m_I @_E
-කෘතිය කෘතිය k_B r_I u_I t^_I i_I y_I @_E
-කෘතියක කෘතියක k_B r_I u_I t^_I i_I y_I @_I k_I @_E
-කෘතියක් කෘතියක් k_B r_I u_I t^_I i_I y_I a_I k_E
-කෘතියක්ම කෘතියක්ම k_B r_I u_I t^_I i_I y_I a_I k_I m_I @_E
-කෘතියකි කෘතියකි k_B r_I u_I t^_I i_I y_I @_I k_I i_E
-කෘතියකින් කෘතියකින් k_B r_I u_I t^_I i_I y_I @_I k_I i_I n_E
-කෘතියකියි කෘතියකියි k_B r_I u_I t^_I i_I y_I @_I k_I i_I y_I i_E
-කෘතියට කෘතියට k_B r_I u_I t^_I i_I y_I @_I t_I @_E
-කෘතියෙන් කෘතියෙන් k_B r_I u_I t^_I i_I y_I e_I n_E
-කෘතියෙහි කෘතියෙහි k_B r_I u_I t^_I i_I y_I e_I h_I i_E
-කෘතියේ කෘතියේ k_B r_I u_I t^_I i_I y_I e:_E
-කෘතියේදීම කෘතියේදීම k_B r_I u_I t^_I i_I y_I e:_I d^_I i:_I m_I @_E
-කෘතිවල කෘතිවල k_B r_I u_I t^_I i_I w_I @_I l_I @_E
-කෘතිවලට කෘතිවලට k_B r_I u_I t^_I i_I w_I @_I l_I @_I t_I @_E
-කෘතිවලින් කෘතිවලින් k_B r_I u_I t^_I i_I w_I @_I l_I i_I n_E
-කෘතීන් කෘතීන් k_B r_I u_I t^_I i:_I n_E
+කෘති කෘති k_B ru_I t^_I i_E
+කෘතිම කෘතිම k_B ru_I t^_I i_I m_I @_E
+කෘතිය කෘතිය k_B ru_I t^_I i_I y_I @_E
+කෘතියක කෘතියක k_B ru_I t^_I i_I y_I @_I k_I @_E
+කෘතියක් කෘතියක් k_B ru_I t^_I i_I y_I a_I k_E
+කෘතියක්ම කෘතියක්ම k_B ru_I t^_I i_I y_I a_I k_I m_I @_E
+කෘතියකි කෘතියකි k_B ru_I t^_I i_I y_I @_I k_I i_E
+කෘතියකින් කෘතියකින් k_B ru_I t^_I i_I y_I @_I k_I i_I n_E
+කෘතියකියි කෘතියකියි k_B ru_I t^_I i_I y_I @_I k_I i_I y_I i_E
+කෘතියට කෘතියට k_B ru_I t^_I i_I y_I @_I t_I @_E
+කෘතියෙන් කෘතියෙන් k_B ru_I t^_I i_I y_I e_I n_E
+කෘතියෙහි කෘතියෙහි k_B ru_I t^_I i_I y_I e_I h_I i_E
+කෘතියේ කෘතියේ k_B ru_I t^_I i_I y_I e:_E
+කෘතියේදීම කෘතියේදීම k_B ru_I t^_I i_I y_I e:_I d^_I i:_I m_I @_E
+කෘතිවල කෘතිවල k_B ru_I t^_I i_I w_I @_I l_I @_E
+කෘතිවලට කෘතිවලට k_B ru_I t^_I i_I w_I @_I l_I @_I t_I @_E
+කෘතිවලින් කෘතිවලින් k_B ru_I t^_I i_I w_I @_I l_I i_I n_E
+කෘතීන් කෘතීන් k_B ru_I t^_I i:_I n_E
 කෘතීන්ගේ කෘතීන්ගේ k_B ru_I t^_I i:_I n_I g_I e:_E
-කෘතීම කෘතීම k_B r_I u_I t^_I i:_I m_I @_E
-කෘමි කෘමි k_B r_I u_I m_I i_E
-කෘමිනාශක කෘමිනාශක k_B r_I u_I m_I i_I n_I a:_I s^_I @_I k_I @_E
-කෘමිනාශකවල කෘමිනාශකවල k_B r_I u_I m_I i_I n_I a:_I s^_I @_I k_I @_I w_I @_I l_I @_E
-කෘමියා කෘමියා k_B r_I u_I m_I i_I y_I a:_E
-කෘමියාගේ කෘමියාගේ k_B r_I u_I m_I i_I y_I a:_I g_I e:_E
-කෘමීන් කෘමීන් k_B r_I u_I m_I i:_I n_E
-කෘරත්වයෙන් කෘරත්වයෙන් k_B r_I u_I r_I a_I t^_I w_I @_I y_I e_I n_E
-කෘෂ කෘෂ k_B r_I u_I s^_I @_E
-කෘෂි කෘෂි k_B r_I u_I s^_I i_E
-කෘෂිකර්ම කෘෂිකර්ම k_B r_I u_I s^_I i_I k_I a_I r_I m_I @_E
-කෘෂිකර්මය කෘෂිකර්මය k_B r_I u_I s^_I i_I k_I a_I r_I m_I @_I y_I @_E
-කෘෂිකර්මයත් කෘෂිකර්මයත් k_B r_I u_I s^_I i_I k_I a_I r_I m_I @_I y_I a_I t^_E
-කෘෂිකර්මයේ කෘෂිකර්මයේ k_B r_I u_I s^_I i_I k_I a_I r_I m_I @_I y_I e:_E
-කෘෂිකර්මාන්තය කෘෂිකර්මාන්තය k_B r_I u_I s^_I i_I k_I a_I r_I m_I a:_I n_I t^_I @_I y_I @_E
-කෘෂිකාර්මික කෘෂිකාර්මික k_B r_I u_I s^_I i_I k_I a:_I r_I m_I i_I k_I @_E
+කෘතීම කෘතීම k_B ru_I t^_I i:_I m_I @_E
+කෘමි කෘමි k_B ru_I m_I i_E
+කෘමිනාශක කෘමිනාශක k_B ru_I m_I i_I n_I a:_I s^_I @_I k_I @_E
+කෘමිනාශකවල කෘමිනාශකවල k_B ru_I m_I i_I n_I a:_I s^_I @_I k_I @_I w_I @_I l_I @_E
+කෘමියා කෘමියා k_B ru_I m_I i_I y_I a:_E
+කෘමියාගේ කෘමියාගේ k_B ru_I m_I i_I y_I a:_I g_I e:_E
+කෘමීන් කෘමීන් k_B ru_I m_I i:_I n_E
+කෘරත්වයෙන් කෘරත්වයෙන් k_B ru_I r_I a_I t^_I w_I @_I y_I e_I n_E
+කෘෂ කෘෂ k_B ru_I s^_I @_E
+කෘෂි කෘෂි k_B ru_I s^_I i_E
+කෘෂිකර්ම කෘෂිකර්ම k_B ru_I s^_I i_I k_I a_I r_I m_I @_E
+කෘෂිකර්මය කෘෂිකර්මය k_B ru_I s^_I i_I k_I a_I r_I m_I @_I y_I @_E
+කෘෂිකර්මයත් කෘෂිකර්මයත් k_B ru_I s^_I i_I k_I a_I r_I m_I @_I y_I a_I t^_E
+කෘෂිකර්මයේ කෘෂිකර්මයේ k_B ru_I s^_I i_I k_I a_I r_I m_I @_I y_I e:_E
+කෘෂිකර්මාන්තය කෘෂිකර්මාන්තය k_B ru_I s^_I i_I k_I a_I r_I m_I a:_I n_I t^_I @_I y_I @_E
+කෘෂිකාර්මික කෘෂිකාර්මික k_B ru_I s^_I i_I k_I a:_I r_I m_I i_I k_I @_E
 කෙක් කෙක් k_B e_I k_E
 කෙක්ක කෙක්ක k_B e_I k_I k_I @_E
 කෙක්කෙන් කෙක්කෙන් k_B e_I k_I k_I e_I n_E
@@ -12737,7 +12737,7 @@
 කේළමඵරුෂ කේළමඵරුෂ k_B e:_I l_I @_I m_I @_I p_I @_I r_I u_I s^_I @_E
 කේළම් කේළම් k_B e:_I l_I a_I m_E
 කේළාම් කේළාම් k_B e:_I l_I a:_I m_E
-කෛරාටික කෛරාටික k_B ai_I r_I a:_I t_I i_I k_I @_E
+කෛරාටික කෛරාටික k_B a_I i_I r_I a:_I t_I i_I k_I @_E
 කො කො k_B o_E
 කොංග්‍රසය කොංග්‍රසය k_B o_I x_I g_I g_I r_I @_I s_I @_I y_I @_E
 කොංග්‍රසයට කොංග්‍රසයට k_B o_I x_I g_I g_I r_I @_I s_I @_I y_I @_I t_I @_E
@@ -13290,8 +13290,8 @@
 කෞතුකාගාරයේ කෞතුකාගාරයේ k_B au_I t^_I u_I k_I a:_I g_I a:_I r_I @_I y_I e:_E
 කෞශල්‍යය කෞශල්‍යය k_B au_I s^_I a_I l_I l_I y_I @_I y_I @_E
 කෞෂාල් කෞෂාල් k_B au_I s^_I a:_I l_E
-කෲර කෲර k_B r_I u:_I r_I @_E
-කෲරත්වය කෲරත්වය k_B r_I u:_I r_I a_I t^_I w_I @_I y_I @_E
+කෲර කෲර k_B ru:_I r_I @_E
+කෲරත්වය කෲරත්වය k_B ru:_I r_I a_I t^_I w_I @_I y_I @_E
 ඛණ්ඩ ඛණ්ඩ k_B a_I n_I d_I @_E
 ඛණ්ඩණය ඛණ්ඩණය k_B a_I n_I d_I @_I n_I @_I y_I @_E
 ඛණ්ඩය ඛණ්ඩය k_B a_I n_I d_I @_I y_I @_E
@@ -14808,7 +14808,7 @@
 ගුණවර්ධන ගුණවර්ධන g_B u_I n_I @_I w_I a_I r_I d^_I @_I n_I @_E
 ගුණවර්ධනගේ ගුණවර්ධනගේ g_B u_I n_I @_I w_I a_I r_I d^_I @_I n_I @_I g_I e:_E
 ගුණවලට ගුණවලට g_B u_I n_I @_I w_I @_I l_I @_I t_I @_E
-ගුණවෘද්ධ ගුණවෘද්ධ g_B u_I n_I a_I w_I r_I u_I d^_I d^_I @_E
+ගුණවෘද්ධ ගුණවෘද්ධ g_B u_I n_I a_I w_I ru_I d^_I d^_I @_E
 ගුණසිංහ ගුණසිංහ g_B u_I n_I @_I s_I i_I x_I h_I @_E
 ගුණසිරි ගුණසිරි g_B u_I n_I @_I s_I i_I r_I i_E
 ගුණසේකර ගුණසේකර g_B u_I n_I @_I s_I e:_I k_I @_I r_I @_E
@@ -14941,20 +14941,20 @@
 ගූගල්වලින් ගූගල්වලින් g_B u:_I g_I a_I l_I w_I @_I l_I i_I n_E
 ගූඨ ගූඨ g_B u:_I t_I @_E
 ගූඪධාරකය ගූඪධාරකය g_B u:_I d_I @_I d^_I a:_I r_I @_I k_I @_I y_I @_E
-ගෘහ ගෘහ g_B r_I u_I h_I @_E
-ගෘහණියක ගෘහණියක g_B r_I u_I h_I @_I n_I i_I y_I @_I k_I @_E
-ගෘහණියන්ට ගෘහණියන්ට g_B r_I u_I h_I @_I n_I i_I y_I a_I n_I t_I @_E
-ගෘහනියක් ගෘහනියක් g_B r_I u_I h_I @_I n_I i_I y_I a_I k_E
-ගෘහනිර්මාණ ගෘහනිර්මාණ g_B r_I u_I h_I @_I n_I i_I r_I m_I a:_I n_I @_E
-ගෘහපති ගෘහපති g_B r_I u_I h_I @_I p_I @_I t^_I i_E
-ගෘහපතියකුගේ ගෘහපතියකුගේ g_B r_I u_I h_I @_I p_I @_I t^_I i_I y_I @_I k_I u_I g_I e:_E
-ගෘහපතියා ගෘහපතියා g_B r_I u_I h_I @_I p_I @_I t^_I i_I y_I a:_E
+ගෘහ ගෘහ g_B ru_I h_I @_E
+ගෘහණියක ගෘහණියක g_B ru_I h_I @_I n_I i_I y_I @_I k_I @_E
+ගෘහණියන්ට ගෘහණියන්ට g_B ru_I h_I @_I n_I i_I y_I a_I n_I t_I @_E
+ගෘහනියක් ගෘහනියක් g_B ru_I h_I @_I n_I i_I y_I a_I k_E
+ගෘහනිර්මාණ ගෘහනිර්මාණ g_B ru_I h_I @_I n_I i_I r_I m_I a:_I n_I @_E
+ගෘහපති ගෘහපති g_B ru_I h_I @_I p_I @_I t^_I i_E
+ගෘහපතියකුගේ ගෘහපතියකුගේ g_B ru_I h_I @_I p_I @_I t^_I i_I y_I @_I k_I u_I g_I e:_E
+ගෘහපතියා ගෘහපතියා g_B ru_I h_I @_I p_I @_I t^_I i_I y_I a:_E
 ගෘහභාණ්ඩ ගෘහභාණ්ඩ g_B ru_I h_I @_I b_I a:_I n_I d_I @_E
-ගෘහය ගෘහය g_B r_I u_I h_I @_I y_I @_E
-ගෘහයක ගෘහයක g_B r_I u_I h_I @_I y_I @_I k_I @_E
-ගෘහයෙහි ගෘහයෙහි g_B r_I u_I h_I @_I y_I e_I h_I i_E
-ගෘහයේ ගෘහයේ g_B r_I u_I h_I @_I y_I e:_E
-ගෘහස්ථ ගෘහස්ථ g_B r_I u_I h_I a_I s_I t^_I @_E
+ගෘහය ගෘහය g_B ru_I h_I @_I y_I @_E
+ගෘහයක ගෘහයක g_B ru_I h_I @_I y_I @_I k_I @_E
+ගෘහයෙහි ගෘහයෙහි g_B ru_I h_I @_I y_I e_I h_I i_E
+ගෘහයේ ගෘහයේ g_B ru_I h_I @_I y_I e:_E
+ගෘහස්ථ ගෘහස්ථ g_B ru_I h_I a_I s_I t^_I @_E
 ගෙ ගෙ g_B e_E
 ගෙට ගෙට g_B e_I t_I @_E
 ගෙඩි ගෙඩි g_B e_I d_I i_E
@@ -15180,7 +15180,7 @@
 ගේමෙන් ගේමෙන් g_B e:_I m_I e_I n_E
 ගේලෙස්බියන් ගේලෙස්බියන් g_B e:_I l_I e_I s_I b_I i_I y_I a_I n_E
 ගේ් ගේ් g_B e_E
-ගෛගර් ගෛගර් g_B ai_I g_I @_I r_E
+ගෛගර් ගෛගර් g_B a_I i_I g_I @_I r_E
 ගොං ගොං g_B o_I x_E
 ගොංකම ගොංකම g_B o_I x_I k_I @_I m_I @_E
 ගොක් ගොක් g_B o_I k_E
@@ -15948,24 +15948,24 @@
 චේතියගිරිය චේතියගිරිය c^_B e:_I t^_I i_I y_I @_I g_I i_I r_I i_I y_I @_E
 චේතියෙහි චේතියෙහි c^_B e:_I t^_I i_I y_I e_I h_I i_E
 චේතෝ චේතෝ c^_B e:_I t^_I o:_E
-චෛතයක් චෛතයක් c^_B ai_I t^_I @_I y_I a_I k_E
-චෛතසික චෛතසික c^_B ai_I t^_I @_I s_I i_I k_I @_E
-චෛතසිකය චෛතසිකය c^_B ai_I t^_I @_I s_I i_I k_I @_I y_I @_E
-චෛතසිකවලට චෛතසිකවලට c^_B ai_I t^_I @_I s_I i_I k_I @_I w_I @_I l_I @_I t_I @_E
-චෛත්‍ය චෛත්‍ය c^_B ai_I t^_I t^_I y_I @_E
-චෛත්‍යය චෛත්‍යය c^_B ai_I t^_I t^_I y_I @_I y_I @_E
-චෛත්‍යයක චෛත්‍යයක c^_B ai_I t^_I t^_I y_I @_I y_I @_I k_I @_E
-චෛත්‍යයකට චෛත්‍යයකට c^_B ai_I t^_I t^_I y_I @_I y_I @_I k_I @_I t_I @_E
-චෛත්‍යයක් චෛත්‍යයක් c^_B ai_I t^_I t^_I y_I @_I y_I a_I k_E
-චෛත්‍යයකි චෛත්‍යයකි c^_B ai_I t^_I t^_I y_I @_I y_I @_I k_I i_E
-චෛත්‍යයට චෛත්‍යයට c^_B ai_I t^_I t^_I y_I @_I y_I @_I t_I @_E
-චෛත්‍යයත් චෛත්‍යයත් c^_B ai_I t^_I t^_I y_I @_I y_I a_I t^_E
-චෛත්‍යයන් චෛත්‍යයන් c^_B ai_I t^_I t^_I y_I @_I y_I a_I n_E
+චෛතයක් චෛතයක් c^_B a_I i_I t^_I @_I y_I a_I k_E
+චෛතසික චෛතසික c^_B a_I i_I t^_I @_I s_I i_I k_I @_E
+චෛතසිකය චෛතසිකය c^_B a_I i_I t^_I @_I s_I i_I k_I @_I y_I @_E
+චෛතසිකවලට චෛතසිකවලට c^_B a_I i_I t^_I @_I s_I i_I k_I @_I w_I @_I l_I @_I t_I @_E
+චෛත්‍ය චෛත්‍ය c^_B a_I i_I t^_I t^_I y_I @_E
+චෛත්‍යය චෛත්‍යය c^_B a_I i_I t^_I t^_I y_I @_I y_I @_E
+චෛත්‍යයක චෛත්‍යයක c^_B a_I i_I t^_I t^_I y_I @_I y_I @_I k_I @_E
+චෛත්‍යයකට චෛත්‍යයකට c^_B a_I i_I t^_I t^_I y_I @_I y_I @_I k_I @_I t_I @_E
+චෛත්‍යයක් චෛත්‍යයක් c^_B a_I i_I t^_I t^_I y_I @_I y_I a_I k_E
+චෛත්‍යයකි චෛත්‍යයකි c^_B a_I i_I t^_I t^_I y_I @_I y_I @_I k_I i_E
+චෛත්‍යයට චෛත්‍යයට c^_B a_I i_I t^_I t^_I y_I @_I y_I @_I t_I @_E
+චෛත්‍යයත් චෛත්‍යයත් c^_B a_I i_I t^_I t^_I y_I @_I y_I a_I t^_E
+චෛත්‍යයන් චෛත්‍යයන් c^_B a_I i_I t^_I t^_I y_I @_I y_I a_I n_E
 චෛත්‍යයන්ගෙන් චෛත්‍යයන්ගෙන් c^_B ai_I t^_I t^_I y_I @_I y_I a_I n_I g_I e_I n_E
-චෛත්‍යයන්ට චෛත්‍යයන්ට c^_B ai_I t^_I t^_I y_I @_I y_I a_I n_I t_I @_E
-චෛත්‍යයේ චෛත්‍යයේ c^_B ai_I t^_I t^_I y_I @_I y_I e:_E
-චෛත්‍යයෝ චෛත්‍යයෝ c^_B ai_I t^_I t^_I y_I @_I y_I o:_E
-චෛත්‍යස්ථානයෙහි චෛත්‍යස්ථානයෙහි c^_B ai_I t^_I t^_I y_I a_I s_I t^_I a:_I n_I @_I y_I e_I h_I i_E
+චෛත්‍යයන්ට චෛත්‍යයන්ට c^_B a_I i_I t^_I t^_I y_I @_I y_I a_I n_I t_I @_E
+චෛත්‍යයේ චෛත්‍යයේ c^_B a_I i_I t^_I t^_I y_I @_I y_I e:_E
+චෛත්‍යයෝ චෛත්‍යයෝ c^_B a_I i_I t^_I t^_I y_I @_I y_I o:_E
+චෛත්‍යස්ථානයෙහි චෛත්‍යස්ථානයෙහි c^_B a_I i_I t^_I t^_I y_I a_I s_I t^_I a:_I n_I @_I y_I e_I h_I i_E
 චොකලට් චොකලට් c^_B o_I k_I @_I l_I @_I t_E
 චොක්ලට් චොක්ලට් c^_B o_I k_I l_I @_I t_E
 චොක්ස් චොක්ස් c^_B o_I k_I s_E
@@ -16633,9 +16633,9 @@
 ජේසු ජේසු j_B e:_I s_I u_E
 ජේසුතුමා ජේසුතුමා j_B e:_I s_I u_I t^_I u_I m_I a:_E
 ජේසුස් ජේසුස් j_B e:_I s_I u_I s_E
-ජෛන ජෛන j_B ai_I n_I @_E
-ජෛනයන් ජෛනයන් j_B ai_I n_I @_I y_I a_I n_E
-ජෛව ජෛව j_B ai_I w_I @_E
+ජෛන ජෛන j_B a_I i_I n_I @_E
+ජෛනයන් ජෛනයන් j_B a_I i_I n_I @_I y_I a_I n_E
+ජෛව ජෛව j_B a_I i_I w_I @_E
 ජොකාට ජොකාට j_B o_I k_I a:_I t_I @_E
 ජොතිගෙ ජොතිගෙ j_B o_I t^_I i_I g_I e_E
 ජොන් ජොන් j_B o_I n_E
@@ -17191,7 +17191,7 @@
 තප්පු තප්පු t^_B a_I p_I p_I u_E
 තප්පුලයි තප්පුලයි t^_B a_I p_I p_I u_I l_I a_I y_I i_E
 තප්පුව තප්පුව t^_B a_I p_I p_I u_I w_I @_E
-තපෝවෘද්ධ තපෝවෘද්ධ t^_B a_I p_I o:_I w_I r_I u_I d^_I d^_I @_E
+තපෝවෘද්ධ තපෝවෘද්ධ t^_B a_I p_I o:_I w_I ru_I d^_I d^_I @_E
 තබ තබ t^_B a_I b_I @_E
 තබද්දි තබද්දි t^_B a_I b_I a_I d^_I d^_I i_E
 තබන තබන t^_B a_I b_I @_I n_I @_E
@@ -18357,18 +18357,18 @@
 තූර්ය තූර්ය t^_B u:_I r_I y_I @_E
 තූර්යවාදන තූර්යවාදන t^_B u:_I r_I y_I @_I w_I a:_I d^_I @_I n_I @_E
 තූරු තූරු t^_B u:_I r_I u_E
-තෘණ තෘණ t^_B r_I u_I n_I @_E
-තෘප්ත තෘප්ත t^_B r_I u_I p_I t^_I @_E
-තෘප්ති තෘප්ති t^_B r_I u_I p_I t^_I i_E
-තෘප්තිකර තෘප්තිකර t^_B r_I u_I p_I t^_I i_I k_I @_I r_I @_E
-තෘප්තිමත් තෘප්තිමත් t^_B r_I u_I p_I t^_I i_I m_I a_I t^_E
-තෘප්තිය තෘප්තිය t^_B r_I u_I p_I t^_I i_I y_I @_E
-තෘප්තියක් තෘප්තියක් t^_B r_I u_I p_I t^_I i_I y_I a_I k_E
-තෘප්තියකින් තෘප්තියකින් t^_B r_I u_I p_I t^_I i_I y_I @_I k_I i_I n_E
-තෘප්තියේ තෘප්තියේ t^_B r_I u_I p_I t^_I i_I y_I e:_E
-තෘෂ්ණාව තෘෂ්ණාව t^_B r_I u_I s^_I n_I a:_I w_I @_E
-තෘෂ්ණාවයි තෘෂ්ණාවයි t^_B r_I u_I s^_I n_I a:_I w_I a_I y_I i_E
-තෘෂ්ණාවෙන් තෘෂ්ණාවෙන් t^_B r_I u_I s^_I n_I a:_I w_I e_I n_E
+තෘණ තෘණ t^_B ru_I n_I @_E
+තෘප්ත තෘප්ත t^_B ru_I p_I t^_I @_E
+තෘප්ති තෘප්ති t^_B ru_I p_I t^_I i_E
+තෘප්තිකර තෘප්තිකර t^_B ru_I p_I t^_I i_I k_I @_I r_I @_E
+තෘප්තිමත් තෘප්තිමත් t^_B ru_I p_I t^_I i_I m_I a_I t^_E
+තෘප්තිය තෘප්තිය t^_B ru_I p_I t^_I i_I y_I @_E
+තෘප්තියක් තෘප්තියක් t^_B ru_I p_I t^_I i_I y_I a_I k_E
+තෘප්තියකින් තෘප්තියකින් t^_B ru_I p_I t^_I i_I y_I @_I k_I i_I n_E
+තෘප්තියේ තෘප්තියේ t^_B ru_I p_I t^_I i_I y_I e:_E
+තෘෂ්ණාව තෘෂ්ණාව t^_B ru_I s^_I n_I a:_I w_I @_E
+තෘෂ්ණාවයි තෘෂ්ණාවයි t^_B ru_I s^_I n_I a:_I w_I a_I y_I i_E
+තෘෂ්ණාවෙන් තෘෂ්ණාවෙන් t^_B ru_I s^_I n_I a:_I w_I e_I n_E
 තෙ තෙ t^_B e_E
 තෙක් තෙක් t^_B e_I k_E
 තෙගුණ තෙගුණ t^_B e_I g_I u_I n_I @_E
@@ -18522,8 +18522,8 @@
 තේවා තේවා t^_B e:_I w_I a:_E
 තේවාව තේවාව t^_B e:_I w_I a:_I w_I @_E
 තේවාවට තේවාවට t^_B e:_I w_I a:_I w_I @_I t_I @_E
-තෛල තෛල t^_B ai_I l_I @_E
-තෛලය තෛලය t^_B ai_I l_I @_I y_I @_E
+තෛල තෛල t^_B a_I i_I l_I @_E
+තෛලය තෛලය t^_B a_I i_I l_I @_I y_I @_E
 තො තො t^_B o_E
 තොඉතුවකට තොඉතුවකට t^_B o_I i_I t^_I u_I w_I @_I k_I @_I t_I @_E
 තොග තොග t^_B o_I g_I @_E
@@ -20458,7 +20458,7 @@
 දුශ්චරිත දුශ්චරිත d^_B u_I s^_I c^_I @_I r_I i_I t^_I @_E
 දුශ්චරිතය දුශ්චරිතය d^_B u_I s^_I c^_I @_I r_I i_I t^_I @_I y_I @_E
 දුශ්චරිතවලට දුශ්චරිතවලට d^_B u_I s^_I c^_I @_I r_I i_I t^_I @_I w_I @_I l_I @_I t_I @_E
-දුශිතෛ දුශිතෛ d^_B u_I s^_I i_I t^_I ai_E
+දුශිතෛ දුශිතෛ d^_B u_I s^_I i_I t^_I a_I i_E
 දුෂණ දුෂණ d^_B u_I s^_I @_I n_I @_E
 දුෂණයෙන් දුෂණයෙන් d^_B u_I s^_I @_I n_I @_I y_I e_I n_E
 දුෂණවලින් දුෂණවලින් d^_B u_I s^_I @_I n_I @_I w_I @_I l_I i_I n_E
@@ -20515,35 +20515,35 @@
 දූෂණයකින් දූෂණයකින් d^_B u:_I s^_I @_I n_I @_I y_I @_I k_I i_I n_E
 දූෂණයට දූෂණයට d^_B u:_I s^_I @_I n_I @_I y_I @_I t_I @_E
 දූෂිත දූෂිත d^_B u:_I s^_I i_I t^_I @_E
-දෘඪතර දෘඪතර d^_B r_I u_I d_I @_I t^_I @_I r_I @_E
-දෘශ්ඨියයි දෘශ්ඨියයි d^_B r_I u_I s^_I t_I i_I y_I a_I y_I i_E
-දෘශ්‍ය දෘශ්‍ය d^_B r_I u_I s^_I s^_I y_I @_E
-දෘශ්‍යමාන දෘශ්‍යමාන d^_B r_I u_I s^_I s^_I y_I @_I m_I a:_I n_I @_E
-දෘශ්‍යමානයෙන් දෘශ්‍යමානයෙන් d^_B r_I u_I s^_I s^_I y_I @_I m_I a:_I n_I @_I y_I e_I n_E
-දෘෂ්ටි දෘෂ්ටි d^_B r_I u_I s^_I t_I i_E
-දෘෂ්ටික දෘෂ්ටික d^_B r_I u_I s^_I t_I i_I k_I @_E
-දෘෂ්ටිකයින්ට දෘෂ්ටිකයින්ට d^_B r_I u_I s^_I t_I i_I k_I @_I y_I i_I n_I t_I @_E
-දෘෂ්ටිකයෙක් දෘෂ්ටිකයෙක් d^_B r_I u_I s^_I t_I i_I k_I @_I y_I e_I k_E
-දෘෂ්ටිකයෝ දෘෂ්ටිකයෝ d^_B r_I u_I s^_I t_I i_I k_I @_I y_I o:_E
-දෘෂ්ටිකෝණයකි දෘෂ්ටිකෝණයකි d^_B r_I u_I s^_I t_I i_I k_I o:_I n_I @_I y_I @_I k_I i_E
-දෘෂ්ටියක දෘෂ්ටියක d^_B r_I u_I s^_I t_I i_I y_I @_I k_I @_E
-දෘෂ්ටියක් දෘෂ්ටියක් d^_B r_I u_I s^_I t_I i_I y_I a_I k_E
-දෘෂ්ටියකින් දෘෂ්ටියකින් d^_B r_I u_I s^_I t_I i_I y_I @_I k_I i_I n_E
-දෘෂ්ටියට දෘෂ්ටියට d^_B r_I u_I s^_I t_I i_I y_I @_I t_I @_E
-දෘෂ්ටියත් දෘෂ්ටියත් d^_B r_I u_I s^_I t_I i_I y_I a_I t^_E
-දෘෂ්ටියෙන් දෘෂ්ටියෙන් d^_B r_I u_I s^_I t_I i_I y_I e_I n_E
-දෘෂ්ටිවාදී දෘෂ්ටිවාදී d^_B r_I u_I s^_I t_I i_I w_I a:_I d^_I i:_E
+දෘඪතර දෘඪතර d^_B ru_I d_I @_I t^_I @_I r_I @_E
+දෘශ්ඨියයි දෘශ්ඨියයි d^_B ru_I s^_I t_I i_I y_I a_I y_I i_E
+දෘශ්‍ය දෘශ්‍ය d^_B ru_I s^_I s^_I y_I @_E
+දෘශ්‍යමාන දෘශ්‍යමාන d^_B ru_I s^_I s^_I y_I @_I m_I a:_I n_I @_E
+දෘශ්‍යමානයෙන් දෘශ්‍යමානයෙන් d^_B ru_I s^_I s^_I y_I @_I m_I a:_I n_I @_I y_I e_I n_E
+දෘෂ්ටි දෘෂ්ටි d^_B ru_I s^_I t_I i_E
+දෘෂ්ටික දෘෂ්ටික d^_B ru_I s^_I t_I i_I k_I @_E
+දෘෂ්ටිකයින්ට දෘෂ්ටිකයින්ට d^_B ru_I s^_I t_I i_I k_I @_I y_I i_I n_I t_I @_E
+දෘෂ්ටිකයෙක් දෘෂ්ටිකයෙක් d^_B ru_I s^_I t_I i_I k_I @_I y_I e_I k_E
+දෘෂ්ටිකයෝ දෘෂ්ටිකයෝ d^_B ru_I s^_I t_I i_I k_I @_I y_I o:_E
+දෘෂ්ටිකෝණයකි දෘෂ්ටිකෝණයකි d^_B ru_I s^_I t_I i_I k_I o:_I n_I @_I y_I @_I k_I i_E
+දෘෂ්ටියක දෘෂ්ටියක d^_B ru_I s^_I t_I i_I y_I @_I k_I @_E
+දෘෂ්ටියක් දෘෂ්ටියක් d^_B ru_I s^_I t_I i_I y_I a_I k_E
+දෘෂ්ටියකින් දෘෂ්ටියකින් d^_B ru_I s^_I t_I i_I y_I @_I k_I i_I n_E
+දෘෂ්ටියට දෘෂ්ටියට d^_B ru_I s^_I t_I i_I y_I @_I t_I @_E
+දෘෂ්ටියත් දෘෂ්ටියත් d^_B ru_I s^_I t_I i_I y_I a_I t^_E
+දෘෂ්ටියෙන් දෘෂ්ටියෙන් d^_B ru_I s^_I t_I i_I y_I e_I n_E
+දෘෂ්ටිවාදී දෘෂ්ටිවාදී d^_B ru_I s^_I t_I i_I w_I a:_I d^_I i:_E
 දෘෂ්ටිවාදීන්ගේ දෘෂ්ටිවාදීන්ගේ d^_B ru_I s^_I t_I i_I w_I a:_I d^_I i:_I n_I g_I e:_E
 දෘෂ්ටීන්ගෙන් දෘෂ්ටීන්ගෙන් d^_B ru_I s^_I t_I i:_I n_I g_I e_I n_E
-දෘෂ්ඨික දෘෂ්ඨික d^_B r_I u_I s^_I t_I i_I k_I @_E
-දෘෂ්ඨින්හි දෘෂ්ඨින්හි d^_B r_I u_I s^_I t_I i_I n_I h_I i_E
-දෘෂ්ඨිය දෘෂ්ඨිය d^_B r_I u_I s^_I t_I i_I y_I @_E
-දෘෂ්ඨියකට දෘෂ්ඨියකට d^_B r_I u_I s^_I t_I i_I y_I @_I k_I @_I t_I @_E
-දෘෂ්ඨියක් දෘෂ්ඨියක් d^_B r_I u_I s^_I t_I i_I y_I a_I k_E
-දෘෂ්ඨිවාද දෘෂ්ඨිවාද d^_B r_I u_I s^_I t_I i_I w_I a:_I d^_I @_E
-දෘෂ්ඨිවාදය දෘෂ්ඨිවාදය d^_B r_I u_I s^_I t_I i_I w_I a:_I d^_I @_I y_I @_E
-දෘෂ්ඨීයේ දෘෂ්ඨීයේ d^_B r_I u_I s^_I t_I i:_I y_I e:_E
-දෘෂ්‍යමාන දෘෂ්‍යමාන d^_B r_I u_I s^_I s^_I y_I @_I m_I a:_I n_I @_E
+දෘෂ්ඨික දෘෂ්ඨික d^_B ru_I s^_I t_I i_I k_I @_E
+දෘෂ්ඨින්හි දෘෂ්ඨින්හි d^_B ru_I s^_I t_I i_I n_I h_I i_E
+දෘෂ්ඨිය දෘෂ්ඨිය d^_B ru_I s^_I t_I i_I y_I @_E
+දෘෂ්ඨියකට දෘෂ්ඨියකට d^_B ru_I s^_I t_I i_I y_I @_I k_I @_I t_I @_E
+දෘෂ්ඨියක් දෘෂ්ඨියක් d^_B ru_I s^_I t_I i_I y_I a_I k_E
+දෘෂ්ඨිවාද දෘෂ්ඨිවාද d^_B ru_I s^_I t_I i_I w_I a:_I d^_I @_E
+දෘෂ්ඨිවාදය දෘෂ්ඨිවාදය d^_B ru_I s^_I t_I i_I w_I a:_I d^_I @_I y_I @_E
+දෘෂ්ඨීයේ දෘෂ්ඨීයේ d^_B ru_I s^_I t_I i:_I y_I e:_E
+දෘෂ්‍යමාන දෘෂ්‍යමාන d^_B ru_I s^_I s^_I y_I @_I m_I a:_I n_I @_E
 දෙ දෙ d^_B e_E
 දෙආකාර දෙආකාර d^_B e_I a:_I k_I a:_I r_I @_E
 දෙක දෙක d^_B e_I k_I @_E
@@ -21271,14 +21271,14 @@
 දේහයත් දේහයත් d^_B e:_I h_I @_I y_I a_I t^_E
 දේහයෙන් දේහයෙන් d^_B e:_I h_I @_I y_I e_I n_E
 දේ්වලට දේ්වලට d^_B e_I w_I @_I l_I @_I t_I @_E
-දෛනික දෛනික d^_B ai_I n_I i_I k_I @_E
-දෛනිකත්වය දෛනිකත්වය d^_B ai_I n_I i_I k_I a_I t^_I w_I @_I y_I @_E
-දෛව දෛව d^_B ai_I w_I @_E
+දෛනික දෛනික d^_B a_I i_I n_I i_I k_I @_E
+දෛනිකත්වය දෛනිකත්වය d^_B a_I i_I n_I i_I k_I a_I t^_I w_I @_I y_I @_E
+දෛව දෛව d^_B a_I i_I w_I @_E
 දෛවඥ දෛවඥ d^_B ai_I w_I @_I jn_I @_E
-දෛවය දෛවය d^_B ai_I w_I @_I y_I @_E
-දෛවයත් දෛවයත් d^_B ai_I w_I @_I y_I a_I t^_E
-දෛවයේ දෛවයේ d^_B ai_I w_I @_I y_I e:_E
-දෛවෝපගත දෛවෝපගත d^_B ai_I w_I o:_I p_I @_I g_I @_I t^_I @_E
+දෛවය දෛවය d^_B a_I i_I w_I @_I y_I @_E
+දෛවයත් දෛවයත් d^_B a_I i_I w_I @_I y_I a_I t^_E
+දෛවයේ දෛවයේ d^_B a_I i_I w_I @_I y_I e:_E
+දෛවෝපගත දෛවෝපගත d^_B a_I i_I w_I o:_I p_I @_I g_I @_I t^_I @_E
 දොට්ට දොට්ට d^_B o_I t_I t_I @_E
 දොටුවට දොටුවට d^_B o_I t_I u_I w_I @_I t_I @_E
 දොඩංවල දොඩංවල d^_B o_I d_I a_I x_I w_I @_I l_I @_E
@@ -21595,9 +21595,9 @@
 ධූරය ධූරය d^_B u:_I r_I @_I y_I @_E
 ධූරයට ධූරයට d^_B u:_I r_I @_I y_I @_I t_I @_E
 ධූරයේ ධූරයේ d^_B u:_I r_I @_I y_I e:_E
-ධෛර්යමත්භාවයක් ධෛර්යමත්භාවයක් d^_B ai_I r_I y_I @_I m_I a_I t^_I b_I a:_I w_I @_I y_I a_I k_E
-ධෛර්යය ධෛර්යය d^_B ai_I r_I y_I @_I y_I @_E
-ධෛර්යයක් ධෛර්යයක් d^_B ai_I r_I y_I @_I y_I a_I k_E
+ධෛර්යමත්භාවයක් ධෛර්යමත්භාවයක් d^_B a_I i_I r_I y_I @_I m_I a_I t^_I b_I a:_I w_I @_I y_I a_I k_E
+ධෛර්යය ධෛර්යය d^_B a_I i_I r_I y_I @_I y_I @_E
+ධෛර්යයක් ධෛර්යයක් d^_B a_I i_I r_I y_I @_I y_I a_I k_E
 න න n_B @_E
 නං නං n_B a_I x_E
 නංගි නංගි n_B a_I x_I g_I i_E
@@ -21836,7 +21836,7 @@
 නමුනු නමුනු n_B a_I m_I u_I n_I u_E
 නමෙන් නමෙන් n_B a_I m_I e_I n_E
 නමේ නමේ n_B a_I m_I e:_E
-නමෛයි නමෛයි n_B a_I m_I ai_I y_I i_E
+නමෛයි නමෛයි n_B a_I m_I a_I i_I y_I i_E
 නමෝ නමෝ n_B a_I m_I o:_E
 නයකු නයකු n_B a_I y_I @_I k_I u_E
 නයගරා නයගරා n_B a_I y_I @_I g_I @_I r_I a:_E
@@ -23053,9 +23053,9 @@
 නිර්මාණශීලීයි නිර්මාණශීලීයි n_B i_I r_I m_I a:_I n_I @_I s^_I i:_I l_I i:_I y_I i_E
 නිර්මාණාත්මක නිර්මාණාත්මක n_B i_I r_I m_I a:_I n_I a:_I t^_I m_I @_I k_I @_E
 නිර්මාණාත්මකභාවයක් නිර්මාණාත්මකභාවයක් n_B i_I r_I m_I a:_I n_I a:_I t^_I m_I @_I k_I @_I b_I a:_I w_I @_I y_I a_I k_E
-නිර්මාතෘ නිර්මාතෘ n_B i_I r_I m_I a:_I t^_I r_I u_E
-නිර්මාතෘවරයා නිර්මාතෘවරයා n_B i_I r_I m_I a:_I t^_I r_I u_I w_I @_I r_I @_I y_I a:_E
-නිර්මාතෘවරයෙක් නිර්මාතෘවරයෙක් n_B i_I r_I m_I a:_I t^_I r_I u_I w_I @_I r_I @_I y_I e_I k_E
+නිර්මාතෘ නිර්මාතෘ n_B i_I r_I m_I a:_I t^_I ru_E
+නිර්මාතෘවරයා නිර්මාතෘවරයා n_B i_I r_I m_I a:_I t^_I ru_I w_I @_I r_I @_I y_I a:_E
+නිර්මාතෘවරයෙක් නිර්මාතෘවරයෙක් n_B i_I r_I m_I a:_I t^_I ru_I w_I @_I r_I @_I y_I e_I k_E
 නිර්මාන නිර්මාන n_B i_I r_I m_I a:_I n_I @_E
 නිර්මානයක් නිර්මානයක් n_B i_I r_I m_I a:_I n_I @_I y_I a_I k_E
 නිර්මාපකයාගේ නිර්මාපකයාගේ n_B i_I r_I m_I a:_I p_I @_I k_I @_I y_I a:_I g_I e:_E
@@ -23640,9 +23640,9 @@
 නේවාසිකාගාරවල නේවාසිකාගාරවල n_B e:_I w_I a:_I s_I i_I k_I a:_I g_I a:_I r_I @_I w_I @_I l_I @_E
 නේවි නේවි n_B e:_I w_I i_E
 නේහ් නේහ් n_B e:_I h_E
-නෛතික නෛතික n_B ai_I t^_I i_I k_I @_E
-නෛසර්ගික නෛසර්ගික n_B ai_I s_I a_I r_I g_I i_I k_I @_E
-නෛසර්ගිකව නෛසර්ගිකව n_B ai_I s_I a_I r_I g_I i_I k_I @_I w_I @_E
+නෛතික නෛතික n_B a_I i_I t^_I i_I k_I @_E
+නෛසර්ගික නෛසර්ගික n_B a_I i_I s_I a_I r_I g_I i_I k_I @_E
+නෛසර්ගිකව නෛසර්ගිකව n_B a_I i_I s_I a_I r_I g_I i_I k_I @_I w_I @_E
 නො නො n_B o_E
 නොඅඩු නොඅඩු n_B o_I a_I d_I u_E
 නොඅනුමාන නොඅනුමාන n_B o_I a_I n_I u_I m_I a:_I n_I @_E
@@ -24425,7 +24425,7 @@
 පගාව පගාව p_B a_I g_I a:_I w_I @_E
 පගාවට පගාවට p_B a_I g_I a:_I w_I @_I t_I @_E
 පගේ පගේ p_B a_I g_I e:_E
-පඞි පඞි p_B ai_E
+පඞි පඞි p_B a_I i_E
 පඟුරුගස් පඟුරුගස් p_B a_I ng_I u_I r_I u_I g_I a_I s_E
 පච පච p_B a_I c^_I @_E
 පචයක් පචයක් p_B a_I c^_I @_I y_I a_I k_E
@@ -24727,7 +24727,7 @@
 පතිරණ පතිරණ p_B a_I t^_I i_I r_I @_I n_I @_E
 පතිරෙව්වුවේ පතිරෙව්වුවේ p_B a_I t^_I i_I r_I e_I w_I w_I u_I w_I e:_E
 පතිවත පතිවත p_B a_I t^_I i_I w_I @_I t^_I @_E
-පතිවෘතාව පතිවෘතාව p_B a_I t^_I i_I w_I r_I u_I t^_I a:_I w_I @_E
+පතිවෘතාව පතිවෘතාව p_B a_I t^_I i_I w_I ru_I t^_I a:_I w_I @_E
 පතුරනු පතුරනු p_B a_I t^_I u_I r_I @_I n_I u_E
 පතුරමින් පතුරමින් p_B a_I t^_I u_I r_I @_I m_I i_I n_E
 පතුරවන්න පතුරවන්න p_B a_I t^_I u_I r_I @_I w_I a_I n_I n_I @_E
@@ -25948,8 +25948,8 @@
 ප්‍රකාශවලින් ප්‍රකාශවලින් p_B r_I @_I k_I a:_I s^_I @_I w_I @_I l_I i_I n_E
 ප්‍රකාශ් ප්‍රකාශ් p_B r_I @_I k_I a:_I s^_E
 ප්‍රකාශිත ප්‍රකාශිත p_B r_I @_I k_I a:_I s^_I i_I t^_I @_E
-ප්‍රකෘති ප්‍රකෘති p_B r_I a_I k_I r_I u_I t^_I i_E
-ප්‍රකෘතියක් ප්‍රකෘතියක් p_B r_I a_I k_I r_I u_I t^_I i_I y_I a_I k_E
+ප්‍රකෘති ප්‍රකෘති p_B r_I a_I k_I ru_I t^_I i_E
+ප්‍රකෘතියක් ප්‍රකෘතියක් p_B r_I a_I k_I ru_I t^_I i_I y_I a_I k_E
 ප්‍රකෝපයට ප්‍රකෝපයට p_B r_I @_I k_I o:_I p_I @_I y_I @_I t_I @_E
 ප්‍රගතිය ප්‍රගතිය p_B r_I @_I g_I @_I t^_I i_I y_I @_E
 ප්‍රගතියක් ප්‍රගතියක් p_B r_I @_I g_I @_I t^_I i_I y_I a_I k_E
@@ -26364,7 +26364,7 @@
 ප්‍රයෝජනයි ප්‍රයෝජනයි p_B r_I @_I y_I o:_I j_I @_I n_I a_I y_I i_E
 ප්‍රයෝජනවත් ප්‍රයෝජනවත් p_B r_I @_I y_I o:_I j_I @_I n_I @_I w_I a_I t^_E
 ප්‍රරාක්ෂස ප්‍රරාක්ෂස p_B r_I @_I r_I a:_I k_I s^_I @_I s_I @_E
-ප්‍රරාවෘත්තයක් ප්‍රරාවෘත්තයක් p_B r_I @_I r_I a:_I w_I r_I u_I t^_I t^_I @_I y_I a_I k_E
+ප්‍රරාවෘත්තයක් ප්‍රරාවෘත්තයක් p_B r_I @_I r_I a:_I w_I ru_I t^_I t^_I @_I y_I a_I k_E
 ප්‍රලාප ප්‍රලාප p_B r_I @_I l_I a:_I p_I @_E
 ප්‍රලාපයක් ප්‍රලාපයක් p_B r_I @_I l_I a:_I p_I @_I y_I a_I k_E
 ප්‍රවණතා ප්‍රවණතා p_B r_I @_I w_I @_I n_I @_I t^_I a:_E
@@ -26400,16 +26400,16 @@
 ප්‍රවීණයන්ගෙන් ප්‍රවීණයන්ගෙන් p_B r_I @_I w_I i:_I n_I @_I y_I a_I n_I g_I e_I n_E
 ප්‍රවීණයෝවත් ප්‍රවීණයෝවත් p_B r_I @_I w_I i:_I n_I @_I y_I o:_I w_I a_I t^_E
 ප්‍රවීනයින් ප්‍රවීනයින් p_B r_I @_I w_I i:_I n_I @_I y_I i_I n_E
-ප්‍රවෘත්ති ප්‍රවෘත්ති p_B r_I a_I w_I r_I u_I t^_I t^_I i_E
-ප්‍රවෘත්තිනම් ප්‍රවෘත්තිනම් p_B r_I a_I w_I r_I u_I t^_I t^_I i_I n_I a_I m_E
-ප්‍රවෘත්තිමය ප්‍රවෘත්තිමය p_B r_I a_I w_I r_I u_I t^_I t^_I i_I m_I @_I y_I @_E
-ප්‍රවෘත්තිය ප්‍රවෘත්තිය p_B r_I a_I w_I r_I u_I t^_I t^_I i_I y_I @_E
-ප්‍රවෘත්තියක් ප්‍රවෘත්තියක් p_B r_I a_I w_I r_I u_I t^_I t^_I i_I y_I a_I k_E
-ප්‍රවෘත්තියකි ප්‍රවෘත්තියකි p_B r_I a_I w_I r_I u_I t^_I t^_I i_I y_I @_I k_I i_E
-ප්‍රවෘත්තියි ප්‍රවෘත්තියි p_B r_I a_I w_I r_I u_I t^_I t^_I i_I y_I i_E
-ප්‍රවෘත්තියේ ප්‍රවෘත්තියේ p_B r_I a_I w_I r_I u_I t^_I t^_I i_I y_I e:_E
-ප්‍රවෘත්තිවල ප්‍රවෘත්තිවල p_B r_I a_I w_I r_I u_I t^_I t^_I i_I w_I @_I l_I @_E
-ප්‍රවෘත්තිවලට ප්‍රවෘත්තිවලට p_B r_I a_I w_I r_I u_I t^_I t^_I i_I w_I @_I l_I @_I t_I @_E
+ප්‍රවෘත්ති ප්‍රවෘත්ති p_B r_I a_I w_I ru_I t^_I t^_I i_E
+ප්‍රවෘත්තිනම් ප්‍රවෘත්තිනම් p_B r_I a_I w_I ru_I t^_I t^_I i_I n_I a_I m_E
+ප්‍රවෘත්තිමය ප්‍රවෘත්තිමය p_B r_I a_I w_I ru_I t^_I t^_I i_I m_I @_I y_I @_E
+ප්‍රවෘත්තිය ප්‍රවෘත්තිය p_B r_I a_I w_I ru_I t^_I t^_I i_I y_I @_E
+ප්‍රවෘත්තියක් ප්‍රවෘත්තියක් p_B r_I a_I w_I ru_I t^_I t^_I i_I y_I a_I k_E
+ප්‍රවෘත්තියකි ප්‍රවෘත්තියකි p_B r_I a_I w_I ru_I t^_I t^_I i_I y_I @_I k_I i_E
+ප්‍රවෘත්තියි ප්‍රවෘත්තියි p_B r_I a_I w_I ru_I t^_I t^_I i_I y_I i_E
+ප්‍රවෘත්තියේ ප්‍රවෘත්තියේ p_B r_I a_I w_I ru_I t^_I t^_I i_I y_I e:_E
+ප්‍රවෘත්තිවල ප්‍රවෘත්තිවල p_B r_I a_I w_I ru_I t^_I t^_I i_I w_I @_I l_I @_E
+ප්‍රවෘත්තිවලට ප්‍රවෘත්තිවලට p_B r_I a_I w_I ru_I t^_I t^_I i_I w_I @_I l_I @_I t_I @_E
 ප්‍රවේශ ප්‍රවේශ p_B r_I @_I w_I e:_I s^_I @_E
 ප්‍රවේශපත්‍රවල ප්‍රවේශපත්‍රවල p_B r_I @_I w_I e:_I s^_I @_I p_I a_I t^_I t^_I r_I @_I w_I @_I l_I @_E
 ප්‍රවේශම් ප්‍රවේශම් p_B r_I @_I w_I e:_I s^_I a_I m_E
@@ -26541,7 +26541,7 @@
 ප්‍රහේළිකාව ප්‍රහේළිකාව p_B r_I a_I h_I e:_I l_I i_I k_I a:_I w_I @_E
 ප්‍රාකාරයක් ප්‍රාකාරයක් p_B r_I a:_I k_I a:_I r_I @_I y_I a_I k_E
 ප්‍රාකාරයේ ප්‍රාකාරයේ p_B r_I a:_I k_I a:_I r_I @_I y_I e:_E
-ප්‍රාකෘත ප්‍රාකෘත p_B r_I a:_I k_I r_I u_I t^_I @_E
+ප්‍රාකෘත ප්‍රාකෘත p_B r_I a:_I k_I ru_I t^_I @_E
 ප්‍රාග් ප්‍රාග් p_B r_I a:_I g_E
 ප්‍රාග්ධනය ප්‍රාග්ධනය p_B r_I a:_I g_I d^_I @_I n_I @_I y_I @_E
 ප්‍රාග්ධනයට ප්‍රාග්ධනයට p_B r_I a:_I g_I d^_I @_I n_I @_I y_I @_I t_I @_E
@@ -27837,7 +27837,7 @@
 පිතිකරුවන් පිතිකරුවන් p_B i_I t^_I i_I k_I a_I r_I u_I w_I a_I n_E
 පිතිකරුවා පිතිකරුවා p_B i_I t^_I i_I k_I a_I r_I u_I w_I a:_E
 පිතිකරුවෙකුගේ පිතිකරුවෙකුගේ p_B i_I t^_I i_I k_I a_I r_I u_I w_I e_I k_I u_I g_I e:_E
-පිතෘ පිතෘ p_B i_I t^_I r_I u_E
+පිතෘ පිතෘ p_B i_I t^_I ru_E
 පිදිණි පිදිණි p_B i_I d^_I i_I n_I i_E
 පිදිය පිදිය p_B i_I d^_I i_I y_I @_E
 පිදීම පිදීම p_B i_I d^_I i:_I m_I @_E
@@ -28595,9 +28595,9 @@
 පීඩිත පීඩිත p_B i:_I d_I i_I t^_I @_E
 පීඩිතයාට පීඩිතයාට p_B i:_I d_I i_I t^_I @_I y_I a:_I t_I @_E
 පීඩිතයෝ පීඩිතයෝ p_B i:_I d_I i_I t^_I @_I y_I o:_E
-පීතෘමූලික පීතෘමූලික p_B i:_I t^_I r_I u_I m_I u:_I l_I i_I k_I @_E
-පීතෘමූලිකත්වයට පීතෘමූලිකත්වයට p_B i:_I t^_I r_I u_I m_I u:_I l_I i_I k_I a_I t^_I w_I @_I y_I @_I t_I @_E
-පීතෘමූලිකවාදය පීතෘමූලිකවාදය p_B i:_I t^_I r_I u_I m_I u:_I l_I i_I k_I @_I w_I a:_I d^_I @_I y_I @_E
+පීතෘමූලික පීතෘමූලික p_B i:_I t^_I ru_I m_I u:_I l_I i_I k_I @_E
+පීතෘමූලිකත්වයට පීතෘමූලිකත්වයට p_B i:_I t^_I ru_I m_I u:_I l_I i_I k_I a_I t^_I w_I @_I y_I @_I t_I @_E
+පීතෘමූලිකවාදය පීතෘමූලිකවාදය p_B i:_I t^_I ru_I m_I u:_I l_I i_I k_I @_I w_I a:_I d^_I @_I y_I @_E
 පීදුන පීදුන p_B i:_I d^_I u_I n_I @_E
 පීනන පීනන p_B i:_I n_I @_I n_I @_E
 පීනනවා පීනනවා p_B i:_I n_I @_I n_I @_I w_I a:_E
@@ -28882,7 +28882,7 @@
 පුර්ණ පුර්ණ p_B u_I r_I n_I @_E
 පුර්වාදර්ශයක් පුර්වාදර්ශයක් p_B u_I r_I w_I a:_I d^_I a_I r_I s^_I @_I y_I a_I k_E
 පුරා පුරා p_B u_I r_I a:_E
-පුරාකෘත පුරාකෘත p_B u_I r_I a:_I k_I r_I u_I t^_I @_E
+පුරාකෘත පුරාකෘත p_B u_I r_I a:_I k_I ru_I t^_I @_E
 පුරාජේරු පුරාජේරු p_B u_I r_I a:_I j_I e:_I r_I u_E
 පුරාණ පුරාණ p_B u_I r_I a:_I n_I @_E
 පුරාණයකට පුරාණයකට p_B u_I r_I a:_I n_I @_I y_I @_I k_I @_I t_I @_E
@@ -28904,12 +28904,12 @@
 පුරාවිද්‍යාඥයෝ පුරාවිද්‍යාඥයෝ p_B u_I r_I a:_I w_I i_I d^_I d^_I y_I a:_I jn_I @_I y_I o:_E
 පුරාවිද්‍යාත්මක පුරාවිද්‍යාත්මක p_B u_I r_I a:_I w_I i_I d^_I d^_I y_I a:_I t^_I m_I @_I k_I @_E
 පුරාවිද්‍යාස්ථානයක් පුරාවිද්‍යාස්ථානයක් p_B u_I r_I a:_I w_I i_I d^_I d^_I y_I a:_I s_I t^_I a:_I n_I @_I y_I a_I k_E
-පුරාවෘත්ත පුරාවෘත්ත p_B u_I r_I a:_I w_I r_I u_I t^_I t^_I @_E
-පුරාවෘත්තය පුරාවෘත්තය p_B u_I r_I a:_I w_I r_I u_I t^_I t^_I @_I y_I @_E
-පුරාවෘත්තයන්ට පුරාවෘත්තයන්ට p_B u_I r_I a:_I w_I r_I u_I t^_I t^_I @_I y_I a_I n_I t_I @_E
-පුරාවෘත්තයේ පුරාවෘත්තයේ p_B u_I r_I a:_I w_I r_I u_I t^_I t^_I @_I y_I e:_E
-පුරාවෘත්තවල පුරාවෘත්තවල p_B u_I r_I a:_I w_I r_I u_I t^_I t^_I @_I w_I @_I l_I @_E
-පුරාවෘත්තිවලට පුරාවෘත්තිවලට p_B u_I r_I a:_I w_I r_I u_I t^_I t^_I i_I w_I @_I l_I @_I t_I @_E
+පුරාවෘත්ත පුරාවෘත්ත p_B u_I r_I a:_I w_I ru_I t^_I t^_I @_E
+පුරාවෘත්තය පුරාවෘත්තය p_B u_I r_I a:_I w_I ru_I t^_I t^_I @_I y_I @_E
+පුරාවෘත්තයන්ට පුරාවෘත්තයන්ට p_B u_I r_I a:_I w_I ru_I t^_I t^_I @_I y_I a_I n_I t_I @_E
+පුරාවෘත්තයේ පුරාවෘත්තයේ p_B u_I r_I a:_I w_I ru_I t^_I t^_I @_I y_I e:_E
+පුරාවෘත්තවල පුරාවෘත්තවල p_B u_I r_I a:_I w_I ru_I t^_I t^_I @_I w_I @_I l_I @_E
+පුරාවෘත්තිවලට පුරාවෘත්තිවලට p_B u_I r_I a:_I w_I ru_I t^_I t^_I i_I w_I @_I l_I @_I t_I @_E
 පුරිස පුරිස p_B u_I r_I i_I s_I @_E
 පුරිසදම්ම පුරිසදම්ම p_B u_I r_I i_I s_I @_I d^_I a_I m_I m_I @_E
 පුරුක පුරුක p_B u_I r_I u_I k_I @_E
@@ -29125,27 +29125,27 @@
 පූස්පාට් පූස්පාට් p_B u:_I s_I p_I a:_I t_E
 පූසා පූසා p_B u:_I s_I a:_E
 පූසෙක්ට පූසෙක්ට p_B u:_I s_I e_I k_I t_I @_E
-පෘතග්ජන පෘතග්ජන p_B r_I u_I t^_I a_I g_I j_I @_I n_I @_E
-පෘතග්ජනයෙකුට පෘතග්ජනයෙකුට p_B r_I u_I t^_I a_I g_I j_I @_I n_I @_I y_I e_I k_I u_I t_I @_E
-පෘතජ්ජනයකු පෘතජ්ජනයකු p_B r_I u_I t^_I a_I j_I j_I @_I n_I @_I y_I @_I k_I u_E
-පෘතුගාලයට පෘතුගාලයට p_B r_I u_I t^_I u_I g_I a:_I l_I @_I y_I @_I t_I @_E
-පෘතුගිසි පෘතුගිසි p_B r_I u_I t^_I u_I g_I i_I s_I i_E
-පෘතුගීසි පෘතුගීසි p_B r_I u_I t^_I u_I g_I i:_I s_I i_E
-පෘතුගීසින් පෘතුගීසින් p_B r_I u_I t^_I u_I g_I i:_I s_I i_I n_E
-පෘතුගීසීන් පෘතුගීසීන් p_B r_I u_I t^_I u_I g_I i:_I s_I i:_I n_E
-පෘතුවි පෘතුවි p_B r_I u_I t^_I u_I w_I i_E
-පෘතුවියට පෘතුවියට p_B r_I u_I t^_I u_I w_I i_I y_I @_I t_I @_E
-පෘථග්ජන පෘථග්ජන p_B r_I u_I t^_I a_I g_I j_I @_I n_I @_E
-පෘථග්ජනයකු පෘථග්ජනයකු p_B r_I u_I t^_I a_I g_I j_I @_I n_I @_I y_I @_I k_I u_E
-පෘථග්ජනයා පෘථග්ජනයා p_B r_I u_I t^_I a_I g_I j_I @_I n_I @_I y_I a:_E
-පෘථග්ජනයාට පෘථග්ජනයාට p_B r_I u_I t^_I a_I g_I j_I @_I n_I @_I y_I a:_I t_I @_E
-පෘථිවි පෘථිවි p_B r_I u_I t^_I i_I w_I i_E
-පෘථිවිය පෘථිවිය p_B r_I u_I t^_I i_I w_I i_I y_I @_E
-පෘථිවියට පෘථිවියට p_B r_I u_I t^_I i_I w_I i_I y_I @_I t_I @_E
-පෘථිවියෙන් පෘථිවියෙන් p_B r_I u_I t^_I i_I w_I i_I y_I e_I n_E
-පෘථිවියේ පෘථිවියේ p_B r_I u_I t^_I i_I w_I i_I y_I e:_E
-පෘථීවියේ පෘථීවියේ p_B r_I u_I t^_I i:_I w_I i_I y_I e:_E
-පෘෂ්ටයේ පෘෂ්ටයේ p_B r_I u_I s^_I t_I @_I y_I e:_E
+පෘතග්ජන පෘතග්ජන p_B ru_I t^_I a_I g_I j_I @_I n_I @_E
+පෘතග්ජනයෙකුට පෘතග්ජනයෙකුට p_B ru_I t^_I a_I g_I j_I @_I n_I @_I y_I e_I k_I u_I t_I @_E
+පෘතජ්ජනයකු පෘතජ්ජනයකු p_B ru_I t^_I a_I j_I j_I @_I n_I @_I y_I @_I k_I u_E
+පෘතුගාලයට පෘතුගාලයට p_B ru_I t^_I u_I g_I a:_I l_I @_I y_I @_I t_I @_E
+පෘතුගිසි පෘතුගිසි p_B ru_I t^_I u_I g_I i_I s_I i_E
+පෘතුගීසි පෘතුගීසි p_B ru_I t^_I u_I g_I i:_I s_I i_E
+පෘතුගීසින් පෘතුගීසින් p_B ru_I t^_I u_I g_I i:_I s_I i_I n_E
+පෘතුගීසීන් පෘතුගීසීන් p_B ru_I t^_I u_I g_I i:_I s_I i:_I n_E
+පෘතුවි පෘතුවි p_B ru_I t^_I u_I w_I i_E
+පෘතුවියට පෘතුවියට p_B ru_I t^_I u_I w_I i_I y_I @_I t_I @_E
+පෘථග්ජන පෘථග්ජන p_B ru_I t^_I a_I g_I j_I @_I n_I @_E
+පෘථග්ජනයකු පෘථග්ජනයකු p_B ru_I t^_I a_I g_I j_I @_I n_I @_I y_I @_I k_I u_E
+පෘථග්ජනයා පෘථග්ජනයා p_B ru_I t^_I a_I g_I j_I @_I n_I @_I y_I a:_E
+පෘථග්ජනයාට පෘථග්ජනයාට p_B ru_I t^_I a_I g_I j_I @_I n_I @_I y_I a:_I t_I @_E
+පෘථිවි පෘථිවි p_B ru_I t^_I i_I w_I i_E
+පෘථිවිය පෘථිවිය p_B ru_I t^_I i_I w_I i_I y_I @_E
+පෘථිවියට පෘථිවියට p_B ru_I t^_I i_I w_I i_I y_I @_I t_I @_E
+පෘථිවියෙන් පෘථිවියෙන් p_B ru_I t^_I i_I w_I i_I y_I e_I n_E
+පෘථිවියේ පෘථිවියේ p_B ru_I t^_I i_I w_I i_I y_I e:_E
+පෘථීවියේ පෘථීවියේ p_B ru_I t^_I i:_I w_I i_I y_I e:_E
+පෘෂ්ටයේ පෘෂ්ටයේ p_B ru_I s^_I t_I @_I y_I e:_E
 පෙඟ පෙඟ p_B e_I ng_I @_E
 පෙඟිල පෙඟිල p_B e_I ng_I i_I l_I @_E
 පෙඟෙන්න පෙඟෙන්න p_B e_I ng_I e_I n_I n_I @_E
@@ -31571,7 +31571,7 @@
 බූවක් බූවක් b_B u:_I w_I a_I k_E
 බූවලු බූවලු b_B u:_I w_I @_I l_I u_E
 බූස්සෙදි බූස්සෙදි b_B u:_I s_I s_I e_I d^_I i_E
-බෘෘස් බෘෘස් b_B r_I r_I u_I s_E
+බෘෘස් බෘෘස් b_B r_I ru_I s_E
 බෙංගමුවේ බෙංගමුවේ b_B e_I x_I g_I @_I m_I u_I w_I e:_E
 බෙංගාලි බෙංගාලි b_B e_I x_I g_I a:_I l_I i_E
 බෙකට් බෙකට් b_B e_I k_I @_I t_E
@@ -31960,7 +31960,7 @@
 බෞධයකු බෞධයකු b_B au_I d^_I @_I y_I @_I k_I u_E
 බෞධයන්ට බෞධයන්ට b_B au_I d^_I @_I y_I a_I n_I t_I @_E
 බෞධයින්ට බෞධයින්ට b_B au_I d^_I @_I y_I i_I n_I t_I @_E
-බෲස් බෲස් b_B r_I u:_I s_E
+බෲස් බෲස් b_B ru:_I s_E
 භංග භංග b_B a_I x_I g_I @_E
 භංගත්වය භංගත්වය b_B a_I x_I g_I a_I t^_I w_I @_I y_I @_E
 භංගත්වයට භංගත්වයට b_B a_I x_I g_I a_I t^_I w_I @_I y_I @_I t_I @_E
@@ -32017,7 +32017,7 @@
 භයක් භයක් b_B a_I y_I a_I k_E
 භයකුත් භයකුත් b_B a_I y_I @_I k_I u_I t^_E
 භයනාක භයනාක b_B a_I y_I @_I n_I a:_I k_I @_E
-භයවෛර භයවෛර b_B a_I y_I @_I w_I ai_I r_I @_E
+භයවෛර භයවෛර b_B a_I y_I @_I w_I a_I i_I r_I @_E
 භයානක භයානක b_B a_I y_I a:_I n_I @_I k_I @_E
 භයානකයි භයානකයි b_B a_I y_I a:_I n_I @_I k_I a_I y_I i_E
 භයෙන් භයෙන් b_B a_I y_I e_I n_E
@@ -32923,7 +32923,7 @@
 මනුෂ්‍යයෙකුට මනුෂ්‍යයෙකුට m_B a_I n_I u_I s^_I s^_I y_I @_I y_I e_I k_I u_I t_I @_E
 මනුෂ්‍යයෝ මනුෂ්‍යයෝ m_B a_I n_I u_I s^_I s^_I y_I @_I y_I o:_E
 මනුෂ්‍යාගේ මනුෂ්‍යාගේ m_B a_I n_I u_I s^_I s^_I y_I a:_I g_I e:_E
-මනුස්මෘති මනුස්මෘති m_B a_I n_I u_I s_I m_I r_I u_I t^_I i_E
+මනුස්මෘති මනුස්මෘති m_B a_I n_I u_I s_I m_I ru_I t^_I i_E
 මනුස්ස මනුස්ස m_B a_I n_I u_I s_I s_I @_E
 මනුස්සකම මනුස්සකම m_B a_I n_I u_I s_I s_I @_I k_I @_I m_I @_E
 මනුස්සකමක් මනුස්සකමක් m_B a_I n_I u_I s_I s_I @_I k_I @_I m_I a_I k_E
@@ -32965,7 +32965,7 @@
 මනෝවිද්‍යාඥයාගේ මනෝවිද්‍යාඥයාගේ m_B a_I n_I o:_I w_I i_I d^_I d^_I y_I a:_I jn_I @_I y_I a:_I g_I e:_E
 මනෝවිද්‍යාත්මක මනෝවිද්‍යාත්මක m_B a_I n_I o:_I w_I i_I d^_I d^_I y_I a:_I t^_I m_I @_I k_I @_E
 මනෝවිද්‍යාව මනෝවිද්‍යාව m_B a_I n_I o:_I w_I i_I d^_I d^_I y_I a:_I w_I @_E
-මනෝවෛද්‍ය මනෝවෛද්‍ය m_B a_I n_I o:_I w_I ai_I d^_I d^_I y_I @_E
+මනෝවෛද්‍ය මනෝවෛද්‍ය m_B a_I n_I o:_I w_I a_I i_I d^_I d^_I y_I @_E
 මඳ මඳ m_B a_I nd^_I @_E
 මඳකට මඳකට m_B a_I nd^_I @_I k_I @_I t_I @_E
 මඳක් මඳක් m_B a_I nd^_I a_I k_E
@@ -33673,18 +33673,18 @@
 මාතිකා මාතිකා m_B a:_I t^_I i_I k_I a:_E
 මාතින් මාතින් m_B a:_I t^_I i_I n_E
 මාතුපෝසක මාතුපෝසක m_B a:_I t^_I u_I p_I o:_I s_I @_I k_I @_E
-මාතෘ මාතෘ m_B a:_I t^_I r_I u_E
-මාතෘකා මාතෘකා m_B a:_I t^_I r_I u_I k_I a:_E
-මාතෘකාව මාතෘකාව m_B a:_I t^_I r_I u_I k_I a:_I w_I @_E
-මාතෘකාවක් මාතෘකාවක් m_B a:_I t^_I r_I u_I k_I a:_I w_I a_I k_E
-මාතෘකාවකින් මාතෘකාවකින් m_B a:_I t^_I r_I u_I k_I a:_I w_I @_I k_I i_I n_E
-මාතෘකාවට මාතෘකාවට m_B a:_I t^_I r_I u_I k_I a:_I w_I @_I t_I @_E
-මාතෘකාවලට මාතෘකාවලට m_B a:_I t^_I r_I u_I k_I a:_I w_I @_I l_I @_I t_I @_E
-මාතෘකාවල්වල මාතෘකාවල්වල m_B a:_I t^_I r_I u_I k_I a:_I w_I a_I l_I w_I @_I l_I @_E
-මාතෘකාවෙන් මාතෘකාවෙන් m_B a:_I t^_I r_I u_I k_I a:_I w_I e_I n_E
-මාතෘත්වය මාතෘත්වය m_B a:_I t^_I r_I u_I t^_I w_I @_I y_I @_E
-මාතෘත්වයෙන් මාතෘත්වයෙන් m_B a:_I t^_I r_I u_I t^_I w_I @_I y_I e_I n_E
-මාතෘභූමියේ මාතෘභූමියේ m_B a:_I t^_I r_I u_I b_I u:_I m_I i_I y_I e:_E
+මාතෘ මාතෘ m_B a:_I t^_I ru_E
+මාතෘකා මාතෘකා m_B a:_I t^_I ru_I k_I a:_E
+මාතෘකාව මාතෘකාව m_B a:_I t^_I ru_I k_I a:_I w_I @_E
+මාතෘකාවක් මාතෘකාවක් m_B a:_I t^_I ru_I k_I a:_I w_I a_I k_E
+මාතෘකාවකින් මාතෘකාවකින් m_B a:_I t^_I ru_I k_I a:_I w_I @_I k_I i_I n_E
+මාතෘකාවට මාතෘකාවට m_B a:_I t^_I ru_I k_I a:_I w_I @_I t_I @_E
+මාතෘකාවලට මාතෘකාවලට m_B a:_I t^_I ru_I k_I a:_I w_I @_I l_I @_I t_I @_E
+මාතෘකාවල්වල මාතෘකාවල්වල m_B a:_I t^_I ru_I k_I a:_I w_I a_I l_I w_I @_I l_I @_E
+මාතෘකාවෙන් මාතෘකාවෙන් m_B a:_I t^_I ru_I k_I a:_I w_I e_I n_E
+මාතෘත්වය මාතෘත්වය m_B a:_I t^_I ru_I t^_I w_I @_I y_I @_E
+මාතෘත්වයෙන් මාතෘත්වයෙන් m_B a:_I t^_I ru_I t^_I w_I @_I y_I e_I n_E
+මාතෘභූමියේ මාතෘභූමියේ m_B a:_I t^_I ru_I b_I u:_I m_I i_I y_I e:_E
 මාතොට මාතොට m_B a:_I t^_I o_I t_I @_E
 මාදම්පේ මාදම්පේ m_B a:_I d^_I a_I m_I p_I e:_E
 මාදිලි මාදිලි m_B a:_I d^_I i_I l_I i_E
@@ -34349,7 +34349,7 @@
 මිත්තරයා මිත්තරයා m_B i_I t^_I t^_I @_I r_I @_I y_I a:_E
 මිත්තොත් මිත්තොත් m_B i_I t^_I t^_I o_I t^_E
 මිත්‍යා මිත්‍යා m_B i_I t^_I t^_I y_I a:_E
-මිත්‍යාදෘෂ්ටික මිත්‍යාදෘෂ්ටික m_B i_I t^_I t^_I y_I a:_I d^_I r_I u_I s^_I t_I i_I k_I @_E
+මිත්‍යාදෘෂ්ටික මිත්‍යාදෘෂ්ටික m_B i_I t^_I t^_I y_I a:_I d^_I ru_I s^_I t_I i_I k_I @_E
 මිත්‍යාව මිත්‍යාව m_B i_I t^_I t^_I y_I a:_I w_I @_E
 මිත්‍යාවක මිත්‍යාවක m_B i_I t^_I t^_I y_I a:_I w_I @_I k_I @_E
 මිත්‍යාවක් මිත්‍යාවක් m_B i_I t^_I t^_I y_I a:_I w_I a_I k_E
@@ -34406,7 +34406,7 @@
 මිථ්‍යාචාරය මිථ්‍යාචාරය m_B i_I t^_I t^_I y_I a:_I c^_I a:_I r_I @_I y_I @_E
 මිථ්‍යාචාරයට මිථ්‍යාචාරයට m_B i_I t^_I t^_I y_I a:_I c^_I a:_I r_I @_I y_I @_I t_I @_E
 මිථ්‍යාචාරයේ මිථ්‍යාචාරයේ m_B i_I t^_I t^_I y_I a:_I c^_I a:_I r_I @_I y_I e:_E
-මිථ්‍යාදෘෂ්ටික මිථ්‍යාදෘෂ්ටික m_B i_I t^_I t^_I y_I a:_I d^_I r_I u_I s^_I t_I i_I k_I @_E
+මිථ්‍යාදෘෂ්ටික මිථ්‍යාදෘෂ්ටික m_B i_I t^_I t^_I y_I a:_I d^_I ru_I s^_I t_I i_I k_I @_E
 මිථ්‍යාව මිථ්‍යාව m_B i_I t^_I t^_I y_I a:_I w_I @_E
 මිථ්‍යාවක් මිථ්‍යාවක් m_B i_I t^_I t^_I y_I a:_I w_I a_I k_E
 මිථුන මිථුන m_B i_I t^_I u_I n_I @_E
@@ -34926,7 +34926,7 @@
 මුල්කරගෙන මුල්කරගෙන m_B u_I l_I k_I @_I r_I @_I g_I e_I n_I @_E
 මුල්කාලයේ මුල්කාලයේ m_B u_I l_I k_I a:_I l_I @_I y_I e:_E
 මුල්කාලීන මුල්කාලීන m_B u_I l_I k_I a:_I l_I i:_I n_I @_E
-මුල්කෘති මුල්කෘති m_B u_I l_I k_I r_I u_I t^_I i_E
+මුල්කෘති මුල්කෘති m_B u_I l_I k_I ru_I t^_I i_E
 මුල්කොට මුල්කොට m_B u_I l_I k_I o_I t_I @_E
 මුල්කොටගත් මුල්කොටගත් m_B u_I l_I k_I o_I t_I @_I g_I a_I t^_E
 මුල්ගල් මුල්ගල් m_B u_I l_I g_I a_I l_E
@@ -35137,17 +35137,17 @@
 මූසල මූසල m_B u:_I s_I @_I l_I @_E
 මූසලයෝ මූසලයෝ m_B u:_I s_I @_I l_I @_I y_I o:_E
 මූළික මූළික m_B u:_I l_I i_I k_I @_E
-මෘග මෘග m_B r_I u_I g_I @_E
-මෘත මෘත m_B r_I u_I t^_I @_E
+මෘග මෘග m_B ru_I g_I @_E
+මෘත මෘත m_B ru_I t^_I @_E
 මෘතශරීරය මෘතශරීරය m_B ru_I t^_I @_I s^_I @_I r_I i:_I r_I @_I y_I @_E
 මෘතශරීරයක් මෘතශරීරයක් m_B ru_I t^_I @_I s^_I @_I r_I i:_I r_I @_I y_I a_I k_E
-මෘදු මෘදු m_B r_I u_I d^_I u_E
-මෘදුකාංග මෘදුකාංග m_B r_I u_I d^_I u_I k_I a:_I x_I g_I @_E
-මෘදුකාංගමය මෘදුකාංගමය m_B r_I u_I d^_I u_I k_I a:_I x_I g_I @_I m_I @_I y_I @_E
-මෘදුකාංගය මෘදුකාංගය m_B r_I u_I d^_I u_I k_I a:_I x_I g_I @_I y_I @_E
-මෘදුකාංගයක් මෘදුකාංගයක් m_B r_I u_I d^_I u_I k_I a:_I x_I g_I @_I y_I a_I k_E
-මෘදුකාංගවලින් මෘදුකාංගවලින් m_B r_I u_I d^_I u_I k_I a:_I x_I g_I @_I w_I @_I l_I i_I n_E
-මෘදුයි මෘදුයි m_B r_I u_I d^_I u_I y_I i_E
+මෘදු මෘදු m_B ru_I d^_I u_E
+මෘදුකාංග මෘදුකාංග m_B ru_I d^_I u_I k_I a:_I x_I g_I @_E
+මෘදුකාංගමය මෘදුකාංගමය m_B ru_I d^_I u_I k_I a:_I x_I g_I @_I m_I @_I y_I @_E
+මෘදුකාංගය මෘදුකාංගය m_B ru_I d^_I u_I k_I a:_I x_I g_I @_I y_I @_E
+මෘදුකාංගයක් මෘදුකාංගයක් m_B ru_I d^_I u_I k_I a:_I x_I g_I @_I y_I a_I k_E
+මෘදුකාංගවලින් මෘදුකාංගවලින් m_B ru_I d^_I u_I k_I a:_I x_I g_I @_I w_I @_I l_I i_I n_E
+මෘදුයි මෘදුයි m_B ru_I d^_I u_I y_I i_E
 මෙ මෙ m_B e_E
 මෙකට මෙකට m_B e_I k_I @_I t_I @_E
 මෙකත් මෙකත් m_B e_I k_I a_I t^_E
@@ -35519,7 +35519,7 @@
 මෛත්‍රීයට මෛත්‍රීයට m_B ai_I t^_I t^_I r_I i:_I y_I @_I t_I @_E
 මෛත්‍රීයයි මෛත්‍රීයයි m_B ai_I t^_I t^_I r_I i:_I y_I a_I y_I i_E
 මෛත්‍රීයෙන් මෛත්‍රීයෙන් m_B ai_I t^_I t^_I r_I i:_I y_I e_I n_E
-මෛත්‍රෙය මෛත්‍රෙය m_B ai_I t^_I t^_I r_I e_I y_I @_E
+මෛත්‍රෙය මෛත්‍රෙය m_B a_I i_I t^_I t^_I r_I e_I y_I @_E
 මොංගල් මොංගල් m_B o_I x_I g_I a_I l_E
 මොක මොක m_B o_I k_I @_E
 මොකක මොකක m_B o_I k_I @_I k_I @_E
@@ -37179,7 +37179,7 @@
 රාජකුමාරියක රාජකුමාරියක r_B a:_I j_I @_I k_I u_I m_I a:_I r_I i_I y_I @_I k_I @_E
 රාජගිරි රාජගිරි r_B a:_I j_I @_I g_I i_I r_I i_E
 රාජගුරු රාජගුරු r_B a:_I j_I @_I g_I u_I r_I u_E
-රාජගෘහය රාජගෘහය r_B a:_I j_I a_I g_I r_I u_I h_I @_I y_I @_E
+රාජගෘහය රාජගෘහය r_B a:_I j_I a_I g_I ru_I h_I @_I y_I @_E
 රාජණියන් රාජණියන් r_B a:_I j_I @_I n_I i_I y_I a_I n_E
 රාජදඬුවම් රාජදඬුවම් r_B a:_I j_I @_I d^_I @_I nd_I u_I w_I a_I m_E
 රාජධානි රාජධානි r_B a:_I j_I @_I d^_I a:_I n_I i_E
@@ -39619,7 +39619,7 @@
 වයිෆ් වයිෆ් w_B a_I y_I i_I f_E
 වයිෆුත් වයිෆුත් w_B a_I y_I i_I f_I u_I t^_E
 වයෝ වයෝ w_B a_I y_I o:_E
-වයෝවෘද්ධ වයෝවෘද්ධ w_B a_I y_I o:_I w_I r_I u_I d^_I d^_I @_E
+වයෝවෘද්ධ වයෝවෘද්ධ w_B a_I y_I o:_I w_I ru_I d^_I d^_I @_E
 වර වර w_B a_I r_I @_E
 වරක වරක w_B a_I r_I @_I k_I @_E
 වරකට වරකට w_B a_I r_I @_I k_I @_I t_I @_E
@@ -40182,16 +40182,16 @@
 ව්‍යාපාරිකයොත් ව්‍යාපාරිකයොත් w_B y_I a:_I p_I a:_I r_I i_I k_I @_I y_I o_I t^_E
 ව්‍යාපාරිකයෝ ව්‍යාපාරිකයෝ w_B y_I a:_I p_I a:_I r_I i_I k_I @_I y_I o:_E
 ව්‍යාපාරේ ව්‍යාපාරේ w_B y_I a:_I p_I a:_I r_I e:_E
-ව්‍යාපෘති ව්‍යාපෘති w_B y_I a:_I p_I r_I u_I t^_I i_E
-ව්‍යාපෘතිය ව්‍යාපෘතිය w_B y_I a:_I p_I r_I u_I t^_I i_I y_I @_E
-ව්‍යාපෘතියක් ව්‍යාපෘතියක් w_B y_I a:_I p_I r_I u_I t^_I i_I y_I a_I k_E
-ව්‍යාපෘතියට ව්‍යාපෘතියට w_B y_I a:_I p_I r_I u_I t^_I i_I y_I @_I t_I @_E
-ව්‍යාපෘතියත් ව්‍යාපෘතියත් w_B y_I a:_I p_I r_I u_I t^_I i_I y_I a_I t^_E
-ව්‍යාපෘතියයි ව්‍යාපෘතියයි w_B y_I a:_I p_I r_I u_I t^_I i_I y_I a_I y_I i_E
-ව්‍යාපෘතියෙන් ව්‍යාපෘතියෙන් w_B y_I a:_I p_I r_I u_I t^_I i_I y_I e_I n_E
-ව්‍යාපෘතියේ ව්‍යාපෘතියේ w_B y_I a:_I p_I r_I u_I t^_I i_I y_I e:_E
-ව්‍යාපෘතිවලින් ව්‍යාපෘතිවලින් w_B y_I a:_I p_I r_I u_I t^_I i_I w_I @_I l_I i_I n_E
-ව්‍යාපෘතීන් ව්‍යාපෘතීන් w_B y_I a:_I p_I r_I u_I t^_I i:_I n_E
+ව්‍යාපෘති ව්‍යාපෘති w_B y_I a:_I p_I ru_I t^_I i_E
+ව්‍යාපෘතිය ව්‍යාපෘතිය w_B y_I a:_I p_I ru_I t^_I i_I y_I @_E
+ව්‍යාපෘතියක් ව්‍යාපෘතියක් w_B y_I a:_I p_I ru_I t^_I i_I y_I a_I k_E
+ව්‍යාපෘතියට ව්‍යාපෘතියට w_B y_I a:_I p_I ru_I t^_I i_I y_I @_I t_I @_E
+ව්‍යාපෘතියත් ව්‍යාපෘතියත් w_B y_I a:_I p_I ru_I t^_I i_I y_I a_I t^_E
+ව්‍යාපෘතියයි ව්‍යාපෘතියයි w_B y_I a:_I p_I ru_I t^_I i_I y_I a_I y_I i_E
+ව්‍යාපෘතියෙන් ව්‍යාපෘතියෙන් w_B y_I a:_I p_I ru_I t^_I i_I y_I e_I n_E
+ව්‍යාපෘතියේ ව්‍යාපෘතියේ w_B y_I a:_I p_I ru_I t^_I i_I y_I e:_E
+ව්‍යාපෘතිවලින් ව්‍යාපෘතිවලින් w_B y_I a:_I p_I ru_I t^_I i_I w_I @_I l_I i_I n_E
+ව්‍යාපෘතීන් ව්‍යාපෘතීන් w_B y_I a:_I p_I ru_I t^_I i:_I n_E
 ව්‍යාපෘතීන්ගේ ව්‍යාපෘතීන්ගේ w_B y_I a:_I p_I ru_I t^_I i:_I n_I g_I e:_E
 ව්‍යායාම ව්‍යායාම w_B y_I a:_I y_I a:_I m_I @_E
 ව්‍යායාමය ව්‍යායාමය w_B y_I a:_I y_I a:_I m_I @_I y_I @_E
@@ -40201,7 +40201,7 @@
 ව්‍යායාම් ව්‍යායාම් w_B y_I a:_I y_I a:_I m_E
 ව්‍යායාම්වල ව්‍යායාම්වල w_B y_I a:_I y_I a:_I m_I w_I @_I l_I @_E
 ව්‍යාර්ථ ව්‍යාර්ථ w_B y_I a:_I r_I t^_I @_E
-ව්‍යාවෘත ව්‍යාවෘත w_B y_I a:_I w_I r_I u_I t^_I @_E
+ව්‍යාවෘත ව්‍යාවෘත w_B y_I a:_I w_I ru_I t^_I @_E
 ව්‍යුහ ව්‍යුහ w_B y_I u_I h_I @_E
 ව්‍යුහගත ව්‍යුහගත w_B y_I u_I h_I @_I g_I @_I t^_I @_E
 ව්‍යුහමය ව්‍යුහමය w_B y_I u_I h_I @_I m_I @_I y_I @_E
@@ -41148,12 +41148,12 @@
 විකුනා විකුනා w_B i_I k_I u_I n_I a:_E
 විකුනුවා විකුනුවා w_B i_I k_I u_I n_I u_I w_I a:_E
 විකුර්ති විකුර්ති w_B i_I k_I u_I r_I t^_I i_E
-විකෘති විකෘති w_B i_I k_I r_I u_I t^_I i_E
-විකෘතිකයන් විකෘතිකයන් w_B i_I k_I r_I u_I t^_I i_I k_I @_I y_I a_I n_E
-විකෘතිතා විකෘතිතා w_B i_I k_I r_I u_I t^_I i_I t^_I a:_E
-විකෘතිය විකෘතිය w_B i_I k_I r_I u_I t^_I i_I y_I @_E
-විකෘතියක් විකෘතියක් w_B i_I k_I r_I u_I t^_I i_I y_I a_I k_E
-විකෘතීන් විකෘතීන් w_B i_I k_I r_I u_I t^_I i:_I n_E
+විකෘති විකෘති w_B i_I k_I ru_I t^_I i_E
+විකෘතිකයන් විකෘතිකයන් w_B i_I k_I ru_I t^_I i_I k_I @_I y_I a_I n_E
+විකෘතිතා විකෘතිතා w_B i_I k_I ru_I t^_I i_I t^_I a:_E
+විකෘතිය විකෘතිය w_B i_I k_I ru_I t^_I i_I y_I @_E
+විකෘතියක් විකෘතියක් w_B i_I k_I ru_I t^_I i_I y_I a_I k_E
+විකෘතීන් විකෘතීන් w_B i_I k_I ru_I t^_I i:_I n_E
 විගණනය විගණනය w_B i_I g_I @_I n_I @_I n_I @_I y_I @_E
 විගණනයේ විගණනයේ w_B i_I g_I @_I n_I @_I n_I @_I y_I e:_E
 විගමන විගමන w_B i_I g_I @_I m_I @_I n_I @_E
@@ -42031,9 +42031,9 @@
 විවිධාකාරයේ විවිධාකාරයේ w_B i_I w_I i_I d^_I a:_I k_I a:_I r_I @_I y_I e:_E
 විවිය විවිය w_B i_I w_I i_I y_I @_E
 විවිර විවිර w_B i_I w_I i_I r_I @_E
-විවෘත විවෘත w_B i_I w_I r_I u_I t^_I @_E
-විවෘතයි විවෘතයි w_B i_I w_I r_I u_I t^_I a_I y_I i_E
-විවෘත්තයි විවෘත්තයි w_B i_I w_I r_I u_I t^_I t^_I a_I y_I i_E
+විවෘත විවෘත w_B i_I w_I ru_I t^_I @_E
+විවෘතයි විවෘතයි w_B i_I w_I ru_I t^_I a_I y_I i_E
+විවෘත්තයි විවෘත්තයි w_B i_I w_I ru_I t^_I t^_I a_I y_I i_E
 විවේක විවේක w_B i_I w_I e:_I k_I @_E
 විවේකය විවේකය w_B i_I w_I e:_I k_I @_I y_I @_E
 විවේකයක් විවේකයක් w_B i_I w_I e:_I k_I @_I y_I a_I k_E
@@ -42270,7 +42270,7 @@
 විස්තරෙන් විස්තරෙන් w_B i_I s_I t^_I @_I r_I e_I n_E
 විස්තරේ විස්තරේ w_B i_I s_I t^_I @_I r_I e:_E
 විස්තරේට විස්තරේට w_B i_I s_I t^_I @_I r_I e:_I t_I @_E
-විස්තෘත විස්තෘත w_B i_I s_I t^_I r_I u_I t^_I @_E
+විස්තෘත විස්තෘත w_B i_I s_I t^_I ru_I t^_I @_E
 විස්මය විස්මය w_B i_I s_I m_I @_I y_I @_E
 විස්මයජනක විස්මයජනක w_B i_I s_I m_I @_I y_I @_I j_I @_I n_I @_I k_I @_E
 විස්මයට විස්මයට w_B i_I s_I m_I @_I y_I @_I t_I @_E
@@ -42607,38 +42607,38 @@
 වූවෝ වූවෝ w_B u:_I w_I o:_E
 වූහ වූහ w_B u:_I h_I @_E
 වූහයි වූහයි w_B u:_I h_I a_I y_I i_E
-වෘකයන් වෘකයන් w_B r_I u_I k_I @_I y_I a_I n_E
-වෘකයා වෘකයා w_B r_I u_I k_I @_I y_I a:_E
-වෘකයාව වෘකයාව w_B r_I u_I k_I @_I y_I a:_I w_I @_E
-වෘකයෙක් වෘකයෙක් w_B r_I u_I k_I @_I y_I e_I k_E
-වෘකයෝ වෘකයෝ w_B r_I u_I k_I @_I y_I o:_E
-වෘක්ෂ වෘක්ෂ w_B r_I u_I k_I s^_I @_E
-වෘක්ෂනාශක වෘක්ෂනාශක w_B r_I u_I k_I s^_I @_I n_I a:_I s^_I @_I k_I @_E
-වෘක්ෂය වෘක්ෂය w_B r_I u_I k_I s^_I @_I y_I @_E
-වෘක්ෂයක් වෘක්ෂයක් w_B r_I u_I k_I s^_I @_I y_I a_I k_E
-වෘක්ෂයට වෘක්ෂයට w_B r_I u_I k_I s^_I @_I y_I @_I t_I @_E
-වෘක්ෂලතා වෘක්ෂලතා w_B r_I u_I k_I s^_I @_I l_I @_I t^_I a:_E
-වෘත්ත වෘත්ත w_B r_I u_I t^_I t^_I @_E
-වෘත්තය වෘත්තය w_B r_I u_I t^_I t^_I @_I y_I @_E
+වෘකයන් වෘකයන් w_B ru_I k_I @_I y_I a_I n_E
+වෘකයා වෘකයා w_B ru_I k_I @_I y_I a:_E
+වෘකයාව වෘකයාව w_B ru_I k_I @_I y_I a:_I w_I @_E
+වෘකයෙක් වෘකයෙක් w_B ru_I k_I @_I y_I e_I k_E
+වෘකයෝ වෘකයෝ w_B ru_I k_I @_I y_I o:_E
+වෘක්ෂ වෘක්ෂ w_B ru_I k_I s^_I @_E
+වෘක්ෂනාශක වෘක්ෂනාශක w_B ru_I k_I s^_I @_I n_I a:_I s^_I @_I k_I @_E
+වෘක්ෂය වෘක්ෂය w_B ru_I k_I s^_I @_I y_I @_E
+වෘක්ෂයක් වෘක්ෂයක් w_B ru_I k_I s^_I @_I y_I a_I k_E
+වෘක්ෂයට වෘක්ෂයට w_B ru_I k_I s^_I @_I y_I @_I t_I @_E
+වෘක්ෂලතා වෘක්ෂලතා w_B ru_I k_I s^_I @_I l_I @_I t^_I a:_E
+වෘත්ත වෘත්ත w_B ru_I t^_I t^_I @_E
+වෘත්තය වෘත්තය w_B ru_I t^_I t^_I @_I y_I @_E
 වෘත්තයන්ගේ වෘත්තයන්ගේ w_B ru_I t^_I t^_I @_I y_I a_I n_I g_I e:_E
-වෘත්තාකාර වෘත්තාකාර w_B r_I u_I t^_I t^_I a:_I k_I a:_I r_I @_E
-වෘත්තාන්තය වෘත්තාන්තය w_B r_I u_I t^_I t^_I a:_I n_I t^_I @_I y_I @_E
-වෘත්තාන්තයේ වෘත්තාන්තයේ w_B r_I u_I t^_I t^_I a:_I n_I t^_I @_I y_I e:_E
-වෘත්තිය වෘත්තිය w_B r_I u_I t^_I t^_I i_I y_I @_E
-වෘත්තියක වෘත්තියක w_B r_I u_I t^_I t^_I i_I y_I @_I k_I @_E
+වෘත්තාකාර වෘත්තාකාර w_B ru_I t^_I t^_I a:_I k_I a:_I r_I @_E
+වෘත්තාන්තය වෘත්තාන්තය w_B ru_I t^_I t^_I a:_I n_I t^_I @_I y_I @_E
+වෘත්තාන්තයේ වෘත්තාන්තයේ w_B ru_I t^_I t^_I a:_I n_I t^_I @_I y_I e:_E
+වෘත්තිය වෘත්තිය w_B ru_I t^_I t^_I i_I y_I @_E
+වෘත්තියක වෘත්තියක w_B ru_I t^_I t^_I i_I y_I @_I k_I @_E
 වෘත්තියකයන්ගේ වෘත්තියකයන්ගේ w_B ru_I t^_I t^_I i_I y_I @_I k_I @_I y_I a_I n_I g_I e:_E
-වෘත්තියක් වෘත්තියක් w_B r_I u_I t^_I t^_I i_I y_I a_I k_E
-වෘත්තියට වෘත්තියට w_B r_I u_I t^_I t^_I i_I y_I @_I t_I @_E
-වෘත්තියෙන් වෘත්තියෙන් w_B r_I u_I t^_I t^_I i_I y_I e_I n_E
-වෘත්තීන් වෘත්තීන් w_B r_I u_I t^_I t^_I i:_I n_E
-වෘත්තීමය වෘත්තීමය w_B r_I u_I t^_I t^_I i:_I m_I @_I y_I @_E
-වෘත්තීය වෘත්තීය w_B r_I u_I t^_I t^_I i:_I y_I @_E
-වෘතාන්ත වෘතාන්ත w_B r_I u_I t^_I a:_I n_I t^_I @_E
-වෘද්ධ වෘද්ධ w_B r_I u_I d^_I d^_I @_E
-වෘද්ධි වෘද්ධි w_B r_I u_I d^_I d^_I i_E
-වෘශ්චික වෘශ්චික w_B r_I u_I s^_I c^_I i_I k_I @_E
-වෘෂභ වෘෂභ w_B r_I u_I s^_I @_I b_I @_E
-වෘෂභයට වෘෂභයට w_B r_I u_I s^_I @_I b_I @_I y_I @_I t_I @_E
+වෘත්තියක් වෘත්තියක් w_B ru_I t^_I t^_I i_I y_I a_I k_E
+වෘත්තියට වෘත්තියට w_B ru_I t^_I t^_I i_I y_I @_I t_I @_E
+වෘත්තියෙන් වෘත්තියෙන් w_B ru_I t^_I t^_I i_I y_I e_I n_E
+වෘත්තීන් වෘත්තීන් w_B ru_I t^_I t^_I i:_I n_E
+වෘත්තීමය වෘත්තීමය w_B ru_I t^_I t^_I i:_I m_I @_I y_I @_E
+වෘත්තීය වෘත්තීය w_B ru_I t^_I t^_I i:_I y_I @_E
+වෘතාන්ත වෘතාන්ත w_B ru_I t^_I a:_I n_I t^_I @_E
+වෘද්ධ වෘද්ධ w_B ru_I d^_I d^_I @_E
+වෘද්ධි වෘද්ධි w_B ru_I d^_I d^_I i_E
+වෘශ්චික වෘශ්චික w_B ru_I s^_I c^_I i_I k_I @_E
+වෘෂභ වෘෂභ w_B ru_I s^_I @_I b_I @_E
+වෘෂභයට වෘෂභයට w_B ru_I s^_I @_I b_I @_I y_I @_I t_I @_E
 වෙගේ වෙගේ w_B e_I g_I e:_E
 වෙච්ච වෙච්ච w_B e_I c^_I c^_I @_E
 වෙච්චි වෙච්චි w_B e_I c^_I c^_I i_E
@@ -43080,39 +43080,39 @@
 වේළුවනාරාමයට වේළුවනාරාමයට w_B e:_I l_I u_I w_I @_I n_I a:_I r_I a:_I m_I @_I y_I @_I t_I @_E
 වේළුවනාරාමයෙහි වේළුවනාරාමයෙහි w_B e:_I l_I u_I w_I @_I n_I a:_I r_I a:_I m_I @_I y_I e_I h_I i_E
 වේළුවනාරාමයේ වේළුවනාරාමයේ w_B e:_I l_I u_I w_I @_I n_I a:_I r_I a:_I m_I @_I y_I e:_E
-වෛද්‍ය වෛද්‍ය w_B ai_I d^_I d^_I y_I @_E
-වෛද්‍යතුමනි වෛද්‍යතුමනි w_B ai_I d^_I d^_I y_I @_I t^_I u_I m_I @_I n_I i_E
-වෛද්‍යයවරයෙකුගේ වෛද්‍යයවරයෙකුගේ w_B ai_I d^_I d^_I y_I @_I y_I @_I w_I @_I r_I @_I y_I e_I k_I u_I g_I e:_E
-වෛද්‍යවරයකු වෛද්‍යවරයකු w_B ai_I d^_I d^_I y_I @_I w_I @_I r_I @_I y_I @_I k_I u_E
-වෛද්‍යවරයකුගේ වෛද්‍යවරයකුගේ w_B ai_I d^_I d^_I y_I @_I w_I @_I r_I @_I y_I @_I k_I u_I g_I e:_E
-වෛද්‍යවරයකුට වෛද්‍යවරයකුට w_B ai_I d^_I d^_I y_I @_I w_I @_I r_I @_I y_I @_I k_I u_I t_I @_E
-වෛද්‍යවරයා වෛද්‍යවරයා w_B ai_I d^_I d^_I y_I @_I w_I @_I r_I @_I y_I a:_E
-වෛද්‍යවරයෙක් වෛද්‍යවරයෙක් w_B ai_I d^_I d^_I y_I @_I w_I @_I r_I @_I y_I e_I k_E
-වෛද්‍යවරයෙක්දවත් වෛද්‍යවරයෙක්දවත් w_B ai_I d^_I d^_I y_I @_I w_I @_I r_I @_I y_I e_I k_I d^_I @_I w_I a_I t^_E
-වෛද්‍යවරයෙකු වෛද්‍යවරයෙකු w_B ai_I d^_I d^_I y_I @_I w_I @_I r_I @_I y_I e_I k_I u_E
+වෛද්‍ය වෛද්‍ය w_B a_I i_I d^_I d^_I y_I @_E
+වෛද්‍යතුමනි වෛද්‍යතුමනි w_B a_I i_I d^_I d^_I y_I @_I t^_I u_I m_I @_I n_I i_E
+වෛද්‍යයවරයෙකුගේ වෛද්‍යයවරයෙකුගේ w_B a_I i_I d^_I d^_I y_I @_I y_I @_I w_I @_I r_I @_I y_I e_I k_I u_I g_I e:_E
+වෛද්‍යවරයකු වෛද්‍යවරයකු w_B a_I i_I d^_I d^_I y_I @_I w_I @_I r_I @_I y_I @_I k_I u_E
+වෛද්‍යවරයකුගේ වෛද්‍යවරයකුගේ w_B a_I i_I d^_I d^_I y_I @_I w_I @_I r_I @_I y_I @_I k_I u_I g_I e:_E
+වෛද්‍යවරයකුට වෛද්‍යවරයකුට w_B a_I i_I d^_I d^_I y_I @_I w_I @_I r_I @_I y_I @_I k_I u_I t_I @_E
+වෛද්‍යවරයා වෛද්‍යවරයා w_B a_I i_I d^_I d^_I y_I @_I w_I @_I r_I @_I y_I a:_E
+වෛද්‍යවරයෙක් වෛද්‍යවරයෙක් w_B a_I i_I d^_I d^_I y_I @_I w_I @_I r_I @_I y_I e_I k_E
+වෛද්‍යවරයෙක්දවත් වෛද්‍යවරයෙක්දවත් w_B a_I i_I d^_I d^_I y_I @_I w_I @_I r_I @_I y_I e_I k_I d^_I @_I w_I a_I t^_E
+වෛද්‍යවරයෙකු වෛද්‍යවරයෙකු w_B a_I i_I d^_I d^_I y_I @_I w_I @_I r_I @_I y_I e_I k_I u_E
 වෛද්‍යවරිය වෛද්‍යවරිය w_B ai_I d^_I d^_I y_I @_I w_I @_I r_I i_I y_I @_E
 වෛද්‍යවරියක වෛද්‍යවරියක w_B ai_I d^_I d^_I y_I @_I w_I @_I r_I i_I y_I @_I k_I @_E
 වෛද්‍යවරියක් වෛද්‍යවරියක් w_B ai_I d^_I d^_I y_I @_I w_I @_I r_I i_I y_I a_I k_E
 වෛද්‍යවරු වෛද්‍යවරු w_B ai_I d^_I d^_I y_I @_I w_I @_I r_I u_E
 වෛද්‍යවරුන් වෛද්‍යවරුන් w_B ai_I d^_I d^_I y_I @_I w_I @_I r_I u_I n_E
 වෛද්‍යවරුන්ගේ වෛද්‍යවරුන්ගේ w_B ai_I d^_I d^_I y_I @_I w_I @_I r_I u_I n_I g_I e:_E
-වෛදික වෛදික w_B ai_I d^_I i_I k_I @_E
-වෛර වෛර w_B ai_I r_I @_E
-වෛරන් වෛරන් w_B ai_I r_I a_I n_E
-වෛරය වෛරය w_B ai_I r_I @_I y_I @_E
-වෛරයක් වෛරයක් w_B ai_I r_I @_I y_I a_I k_E
-වෛරයකි වෛරයකි w_B ai_I r_I @_I y_I @_I k_I i_E
-වෛරයකින් වෛරයකින් w_B ai_I r_I @_I y_I @_I k_I i_I n_E
-වෛරයත් වෛරයත් w_B ai_I r_I @_I y_I a_I t^_E
-වෛරයයි වෛරයයි w_B ai_I r_I @_I y_I a_I y_I i_E
-වෛරයෙන් වෛරයෙන් w_B ai_I r_I @_I y_I e_I n_E
-වෛරයේ වෛරයේ w_B ai_I r_I @_I y_I e:_E
-වෛරසය වෛරසය w_B ai_I r_I @_I s_I @_I y_I @_E
-වෛවර්ණ වෛවර්ණ w_B ai_I w_I a_I r_I n_I @_E
-වෛවර්ණයෙන් වෛවර්ණයෙන් w_B ai_I w_I a_I r_I n_I @_I y_I e_I n_E
-වෛශ්‍ය වෛශ්‍ය w_B ai_I s^_I s^_I y_I @_E
-වෛශාරද්‍ය වෛශාරද්‍ය w_B ai_I s^_I a:_I r_I a_I d^_I d^_I y_I @_E
-වෛශාලියෙහි වෛශාලියෙහි w_B ai_I s^_I a:_I l_I i_I y_I e_I h_I i_E
+වෛදික වෛදික w_B a_I i_I d^_I i_I k_I @_E
+වෛර වෛර w_B a_I i_I r_I @_E
+වෛරන් වෛරන් w_B a_I i_I r_I a_I n_E
+වෛරය වෛරය w_B a_I i_I r_I @_I y_I @_E
+වෛරයක් වෛරයක් w_B a_I i_I r_I @_I y_I a_I k_E
+වෛරයකි වෛරයකි w_B a_I i_I r_I @_I y_I @_I k_I i_E
+වෛරයකින් වෛරයකින් w_B a_I i_I r_I @_I y_I @_I k_I i_I n_E
+වෛරයත් වෛරයත් w_B a_I i_I r_I @_I y_I a_I t^_E
+වෛරයයි වෛරයයි w_B a_I i_I r_I @_I y_I a_I y_I i_E
+වෛරයෙන් වෛරයෙන් w_B a_I i_I r_I @_I y_I e_I n_E
+වෛරයේ වෛරයේ w_B a_I i_I r_I @_I y_I e:_E
+වෛරසය වෛරසය w_B a_I i_I r_I @_I s_I @_I y_I @_E
+වෛවර්ණ වෛවර්ණ w_B a_I i_I w_I a_I r_I n_I @_E
+වෛවර්ණයෙන් වෛවර්ණයෙන් w_B a_I i_I w_I a_I r_I n_I @_I y_I e_I n_E
+වෛශ්‍ය වෛශ්‍ය w_B a_I i_I s^_I s^_I y_I @_E
+වෛශාරද්‍ය වෛශාරද්‍ය w_B a_I i_I s^_I a:_I r_I a_I d^_I d^_I y_I @_E
+වෛශාලියෙහි වෛශාලියෙහි w_B a_I i_I s^_I a:_I l_I i_I y_I e_I h_I i_E
 වොට්සන් වොට්සන් w_B o_I t_I s_I a_I n_E
 වොඩෆෝන් වොඩෆෝන් w_B o_I d_I @_I f_I o:_I n_E
 වොත් වොත් w_B o_I t^_E
@@ -43366,16 +43366,16 @@
 ශාස්ත්‍රවේදී ශාස්ත්‍රවේදී s^_B a:_I s_I t^_I t^_I r_I @_I w_I e:_I d^_I i:_E
 ශාස්ත්‍රාලෝකයෙන් ශාස්ත්‍රාලෝකයෙන් s^_B a:_I s_I t^_I t^_I r_I a:_I l_I o:_I k_I @_I y_I e_I n_E
 ශාස්ත්‍රීය ශාස්ත්‍රීය s^_B a:_I s_I t^_I t^_I r_I i:_I y_I @_E
-ශාස්තෘ ශාස්තෘ s^_B a:_I s_I t^_I r_I u_E
-ශාස්තෘන් ශාස්තෘන් s^_B a:_I s_I t^_I r_I u_I n_E
-ශාස්තෘවරයකු ශාස්තෘවරයකු s^_B a:_I s_I t^_I r_I u_I w_I @_I r_I @_I y_I @_I k_I u_E
-ශාස්තෘවරයකුට ශාස්තෘවරයකුට s^_B a:_I s_I t^_I r_I u_I w_I @_I r_I @_I y_I @_I k_I u_I t_I @_E
-ශාස්තෘවරයා ශාස්තෘවරයා s^_B a:_I s_I t^_I r_I u_I w_I @_I r_I @_I y_I a:_E
-ශාස්තෘවරයෙක් ශාස්තෘවරයෙක් s^_B a:_I s_I t^_I r_I u_I w_I @_I r_I @_I y_I e_I k_E
-ශාස්තෘවරුන් ශාස්තෘවරුන් s^_B a:_I s_I t^_I r_I u_I w_I @_I r_I u_I n_E
-ශාස්තෲ ශාස්තෲ s^_B a:_I s_I t^_I r_I u:_E
-ශාස්තෲන් ශාස්තෲන් s^_B a:_I s_I t^_I r_I u:_I n_E
-ශාස්තෲවරයකු ශාස්තෲවරයකු s^_B a:_I s_I t^_I r_I u:_I w_I @_I r_I @_I y_I @_I k_I u_E
+ශාස්තෘ ශාස්තෘ s^_B a:_I s_I t^_I ru_E
+ශාස්තෘන් ශාස්තෘන් s^_B a:_I s_I t^_I ru_I n_E
+ශාස්තෘවරයකු ශාස්තෘවරයකු s^_B a:_I s_I t^_I ru_I w_I @_I r_I @_I y_I @_I k_I u_E
+ශාස්තෘවරයකුට ශාස්තෘවරයකුට s^_B a:_I s_I t^_I ru_I w_I @_I r_I @_I y_I @_I k_I u_I t_I @_E
+ශාස්තෘවරයා ශාස්තෘවරයා s^_B a:_I s_I t^_I ru_I w_I @_I r_I @_I y_I a:_E
+ශාස්තෘවරයෙක් ශාස්තෘවරයෙක් s^_B a:_I s_I t^_I ru_I w_I @_I r_I @_I y_I e_I k_E
+ශාස්තෘවරුන් ශාස්තෘවරුන් s^_B a:_I s_I t^_I ru_I w_I @_I r_I u_I n_E
+ශාස්තෲ ශාස්තෲ s^_B a:_I s_I t^_I ru:_E
+ශාස්තෲන් ශාස්තෲන් s^_B a:_I s_I t^_I ru:_I n_E
+ශාස්තෲවරයකු ශාස්තෲවරයකු s^_B a:_I s_I t^_I ru:_I w_I @_I r_I @_I y_I @_I k_I u_E
 ශාස්වත ශාස්වත s^_B a:_I s_I w_I @_I t^_I @_E
 ශැඩ්‍රින් ශැඩ්‍රින් s^_B ae_I d_I d_I r_I i_I n_E
 ශික්ෂණ ශික්ෂණ s^_B i_I k_I s^_I @_I n_I @_E
@@ -43536,7 +43536,7 @@
 ශූරි ශූරි s^_B u:_I r_I i_E
 ශූරින් ශූරින් s^_B u:_I r_I i_I n_E
 ශූරීන්ගේ ශූරීන්ගේ s^_B u:_I r_I i:_I n_I g_I e:_E
-ශෘංගාරාත්මක ශෘංගාරාත්මක s^_B r_I u_I x_I g_I a:_I r_I a:_I t^_I m_I @_I k_I @_E
+ශෘංගාරාත්මක ශෘංගාරාත්මක s^_B ru_I x_I g_I a:_I r_I a:_I t^_I m_I @_I k_I @_E
 ශෙරිල් ශෙරිල් s^_B e_I r_I i_I l_E
 ශේප් ශේප් s^_B e:_I p_E
 ශේෂ ශේෂ s^_B e:_I s^_I @_E
@@ -43545,17 +43545,17 @@
 ශේෂවි ශේෂවි s^_B e:_I s^_I @_I w_I i_E
 ශේෂාද්‍රිට ශේෂාද්‍රිට s^_B e:_I s^_I a:_I d^_I d^_I r_I i_I t_I @_E
 ශේ්‍රණියක් ශේ්‍රණියක් s^_B e_I r_I @_I n_I i_I y_I a_I k_E
-ශෛලතලාරාමය ශෛලතලාරාමය s^_B ai_I l_I @_I t^_I @_I l_I a:_I r_I a:_I m_I @_I y_I @_E
-ශෛලමය ශෛලමය s^_B ai_I l_I @_I m_I @_I y_I @_E
-ශෛලයකින් ශෛලයකින් s^_B ai_I l_I @_I y_I @_I k_I i_I n_E
-ශෛලවලින් ශෛලවලින් s^_B ai_I l_I @_I w_I @_I l_I i_I n_E
-ශෛලිය ශෛලිය s^_B ai_I l_I i_I y_I @_E
-ශෛලියකට ශෛලියකට s^_B ai_I l_I i_I y_I @_I k_I @_I t_I @_E
-ශෛලියට ශෛලියට s^_B ai_I l_I i_I y_I @_I t_I @_E
-ශෛලියෙන් ශෛලියෙන් s^_B ai_I l_I i_I y_I e_I n_E
-ශෛලියෙහි ශෛලියෙහි s^_B ai_I l_I i_I y_I e_I h_I i_E
-ශෛලියේ ශෛලියේ s^_B ai_I l_I i_I y_I e:_E
-ශෛලීන් ශෛලීන් s^_B ai_I l_I i:_I n_E
+ශෛලතලාරාමය ශෛලතලාරාමය s^_B a_I i_I l_I @_I t^_I @_I l_I a:_I r_I a:_I m_I @_I y_I @_E
+ශෛලමය ශෛලමය s^_B a_I i_I l_I @_I m_I @_I y_I @_E
+ශෛලයකින් ශෛලයකින් s^_B a_I i_I l_I @_I y_I @_I k_I i_I n_E
+ශෛලවලින් ශෛලවලින් s^_B a_I i_I l_I @_I w_I @_I l_I i_I n_E
+ශෛලිය ශෛලිය s^_B a_I i_I l_I i_I y_I @_E
+ශෛලියකට ශෛලියකට s^_B a_I i_I l_I i_I y_I @_I k_I @_I t_I @_E
+ශෛලියට ශෛලියට s^_B a_I i_I l_I i_I y_I @_I t_I @_E
+ශෛලියෙන් ශෛලියෙන් s^_B a_I i_I l_I i_I y_I e_I n_E
+ශෛලියෙහි ශෛලියෙහි s^_B a_I i_I l_I i_I y_I e_I h_I i_E
+ශෛලියේ ශෛලියේ s^_B a_I i_I l_I i_I y_I e:_E
+ශෛලීන් ශෛලීන් s^_B a_I i_I l_I i:_I n_E
 ශෝක ශෝක s^_B o:_I k_I @_E
 ශෝකජනක ශෝකජනක s^_B o:_I k_I @_I j_I @_I n_I @_I k_I @_E
 ශෝකනීය ශෝකනීය s^_B o:_I k_I @_I n_I i:_I y_I @_E
@@ -43877,7 +43877,7 @@
 සංවිධායකවරු සංවිධායකවරු s_B a_I x_I w_I i_I d^_I a:_I y_I @_I k_I @_I w_I @_I r_I u_E
 සංවිධායකවරුන් සංවිධායකවරුන් s_B a_I x_I w_I i_I d^_I a:_I y_I @_I k_I @_I w_I @_I r_I u_I n_E
 සංවිධිත සංවිධිත s_B a_I x_I w_I i_I d^_I i_I t^_I @_E
-සංවෘත සංවෘත s_B a_I x_I w_I r_I u_I t^_I @_E
+සංවෘත සංවෘත s_B a_I x_I w_I ru_I t^_I @_E
 සංවේගය සංවේගය s_B a_I x_I w_I e:_I g_I @_I y_I @_E
 සංවේගයක් සංවේගයක් s_B a_I x_I w_I e:_I g_I @_I y_I a_I k_E
 සංවේගයකි සංවේගයකි s_B a_I x_I w_I e:_I g_I @_I y_I @_I k_I i_E
@@ -43911,29 +43911,29 @@
 සංස්කාරකයන් සංස්කාරකයන් s_B a_I x_I s_I k_I a:_I r_I @_I k_I @_I y_I a_I n_E
 සංස්කාරයන්ගේ සංස්කාරයන්ගේ s_B a_I x_I s_I k_I a:_I r_I @_I y_I a_I n_I g_I e:_E
 සංස්කාරයන්ගේ් සංස්කාරයන්ගේ් s_B a_I x_I s_I k_I a:_I r_I @_I y_I a_I n_I g_I e_E
-සංස්කෘත සංස්කෘත s_B a_I x_I s_I k_I r_I u_I t^_I @_E
-සංස්කෘතවේදයේ සංස්කෘතවේදයේ s_B a_I x_I s_I k_I r_I u_I t^_I @_I w_I e:_I d^_I @_I y_I e:_E
-සංස්කෘතික සංස්කෘතික s_B a_I x_I s_I k_I r_I u_I t^_I i_I k_I @_E
-සංස්කෘතිකමය සංස්කෘතිකමය s_B a_I x_I s_I k_I r_I u_I t^_I i_I k_I @_I m_I @_I y_I @_E
-සංස්කෘතිකාංග සංස්කෘතිකාංග s_B a_I x_I s_I k_I r_I u_I t^_I i_I k_I a:_I x_I g_I @_E
-සංස්කෘතිය සංස්කෘතිය s_B a_I x_I s_I k_I r_I u_I t^_I i_I y_I @_E
-සංස්කෘතියක සංස්කෘතියක s_B a_I x_I s_I k_I r_I u_I t^_I i_I y_I @_I k_I @_E
-සංස්කෘතියකට සංස්කෘතියකට s_B a_I x_I s_I k_I r_I u_I t^_I i_I y_I @_I k_I @_I t_I @_E
-සංස්කෘතියක් සංස්කෘතියක් s_B a_I x_I s_I k_I r_I u_I t^_I i_I y_I a_I k_E
-සංස්කෘතියකි සංස්කෘතියකි s_B a_I x_I s_I k_I r_I u_I t^_I i_I y_I @_I k_I i_E
-සංස්කෘතියකින් සංස්කෘතියකින් s_B a_I x_I s_I k_I r_I u_I t^_I i_I y_I @_I k_I i_I n_E
-සංස්කෘතියට සංස්කෘතියට s_B a_I x_I s_I k_I r_I u_I t^_I i_I y_I @_I t_I @_E
-සංස්කෘතියටත් සංස්කෘතියටත් s_B a_I x_I s_I k_I r_I u_I t^_I i_I y_I @_I t_I a_I t^_E
-සංස්කෘතියත් සංස්කෘතියත් s_B a_I x_I s_I k_I r_I u_I t^_I i_I y_I a_I t^_E
-සංස්කෘතියයි සංස්කෘතියයි s_B a_I x_I s_I k_I r_I u_I t^_I i_I y_I a_I y_I i_E
-සංස්කෘතියෙ සංස්කෘතියෙ s_B a_I x_I s_I k_I r_I u_I t^_I i_I y_I e_E
-සංස්කෘතියෙන් සංස්කෘතියෙන් s_B a_I x_I s_I k_I r_I u_I t^_I i_I y_I e_I n_E
-සංස්කෘතියෙහි සංස්කෘතියෙහි s_B a_I x_I s_I k_I r_I u_I t^_I i_I y_I e_I h_I i_E
-සංස්කෘතියේ සංස්කෘතියේ s_B a_I x_I s_I k_I r_I u_I t^_I i_I y_I e:_E
-සංස්කෘතියේත් සංස්කෘතියේත් s_B a_I x_I s_I k_I r_I u_I t^_I i_I y_I e:_I t^_E
-සංස්කෘතීන් සංස්කෘතීන් s_B a_I x_I s_I k_I r_I u_I t^_I i:_I n_E
-සංස්කෘතීන්ට සංස්කෘතීන්ට s_B a_I x_I s_I k_I r_I u_I t^_I i:_I n_I t_I @_E
-සංස්කෘතීන්වල සංස්කෘතීන්වල s_B a_I x_I s_I k_I r_I u_I t^_I i:_I n_I w_I @_I l_I @_E
+සංස්කෘත සංස්කෘත s_B a_I x_I s_I k_I ru_I t^_I @_E
+සංස්කෘතවේදයේ සංස්කෘතවේදයේ s_B a_I x_I s_I k_I ru_I t^_I @_I w_I e:_I d^_I @_I y_I e:_E
+සංස්කෘතික සංස්කෘතික s_B a_I x_I s_I k_I ru_I t^_I i_I k_I @_E
+සංස්කෘතිකමය සංස්කෘතිකමය s_B a_I x_I s_I k_I ru_I t^_I i_I k_I @_I m_I @_I y_I @_E
+සංස්කෘතිකාංග සංස්කෘතිකාංග s_B a_I x_I s_I k_I ru_I t^_I i_I k_I a:_I x_I g_I @_E
+සංස්කෘතිය සංස්කෘතිය s_B a_I x_I s_I k_I ru_I t^_I i_I y_I @_E
+සංස්කෘතියක සංස්කෘතියක s_B a_I x_I s_I k_I ru_I t^_I i_I y_I @_I k_I @_E
+සංස්කෘතියකට සංස්කෘතියකට s_B a_I x_I s_I k_I ru_I t^_I i_I y_I @_I k_I @_I t_I @_E
+සංස්කෘතියක් සංස්කෘතියක් s_B a_I x_I s_I k_I ru_I t^_I i_I y_I a_I k_E
+සංස්කෘතියකි සංස්කෘතියකි s_B a_I x_I s_I k_I ru_I t^_I i_I y_I @_I k_I i_E
+සංස්කෘතියකින් සංස්කෘතියකින් s_B a_I x_I s_I k_I ru_I t^_I i_I y_I @_I k_I i_I n_E
+සංස්කෘතියට සංස්කෘතියට s_B a_I x_I s_I k_I ru_I t^_I i_I y_I @_I t_I @_E
+සංස්කෘතියටත් සංස්කෘතියටත් s_B a_I x_I s_I k_I ru_I t^_I i_I y_I @_I t_I a_I t^_E
+සංස්කෘතියත් සංස්කෘතියත් s_B a_I x_I s_I k_I ru_I t^_I i_I y_I a_I t^_E
+සංස්කෘතියයි සංස්කෘතියයි s_B a_I x_I s_I k_I ru_I t^_I i_I y_I a_I y_I i_E
+සංස්කෘතියෙ සංස්කෘතියෙ s_B a_I x_I s_I k_I ru_I t^_I i_I y_I e_E
+සංස්කෘතියෙන් සංස්කෘතියෙන් s_B a_I x_I s_I k_I ru_I t^_I i_I y_I e_I n_E
+සංස්කෘතියෙහි සංස්කෘතියෙහි s_B a_I x_I s_I k_I ru_I t^_I i_I y_I e_I h_I i_E
+සංස්කෘතියේ සංස්කෘතියේ s_B a_I x_I s_I k_I ru_I t^_I i_I y_I e:_E
+සංස්කෘතියේත් සංස්කෘතියේත් s_B a_I x_I s_I k_I ru_I t^_I i_I y_I e:_I t^_E
+සංස්කෘතීන් සංස්කෘතීන් s_B a_I x_I s_I k_I ru_I t^_I i:_I n_E
+සංස්කෘතීන්ට සංස්කෘතීන්ට s_B a_I x_I s_I k_I ru_I t^_I i:_I n_I t_I @_E
+සංස්කෘතීන්වල සංස්කෘතීන්වල s_B a_I x_I s_I k_I ru_I t^_I i:_I n_I w_I @_I l_I @_E
 සංස්ථා සංස්ථා s_B a_I x_I s_I t^_I a:_E
 සංස්ථාගත සංස්ථාගත s_B a_I x_I s_I t^_I a:_I g_I @_I t^_I @_E
 සංස්ථාව සංස්ථාව s_B a_I x_I s_I t^_I a:_I w_I @_E
@@ -44018,8 +44018,8 @@
 සක්‍රීයතාව සක්‍රීයතාව s_B a_I k_I r_I i:_I y_I @_I t^_I a:_I w_I @_E
 සකු සකු s_B a_I k_I u_E
 සකුළුදායිගේ සකුළුදායිගේ s_B a_I k_I u_I l_I u_I d^_I a:_I y_I i_I g_I e:_E
-සකෘදාගාමි සකෘදාගාමි s_B a_I k_I r_I u_I d^_I a:_I g_I a:_I m_I i_E
-සකෘදාගාමී සකෘදාගාමී s_B a_I k_I r_I u_I d^_I a:_I g_I a:_I m_I i:_E
+සකෘදාගාමි සකෘදාගාමි s_B a_I k_I ru_I d^_I a:_I g_I a:_I m_I i_E
+සකෘදාගාමී සකෘදාගාමී s_B a_I k_I ru_I d^_I a:_I g_I a:_I m_I i:_E
 සඛී සඛී s_B a_I k_I i:_E
 සග සග s_B a_I g_I @_E
 සගයකු සගයකු s_B a_I g_I @_I y_I @_I k_I u_E
@@ -44358,7 +44358,7 @@
 සන්තෑසියමයි සන්තෑසියමයි s_B a_I n_I t^_I ae:_I s_I i_I y_I @_I m_I a_I y_I i_E
 සන්තුස්සද සන්තුස්සද s_B a_I n_I t^_I u_I s_I s_I @_I d^_I @_E
 සන්තුසිත සන්තුසිත s_B a_I n_I t^_I u_I s_I i_I t^_I @_E
-සන්තෘෂ්ඨිය සන්තෘෂ්ඨිය s_B a_I n_I t^_I r_I u_I s^_I t_I i_I y_I @_E
+සන්තෘෂ්ඨිය සන්තෘෂ්ඨිය s_B a_I n_I t^_I ru_I s^_I t_I i_I y_I @_E
 සන්තොසින් සන්තොසින් s_B a_I n_I t^_I o_I s_I i_I n_E
 සන්තෝෂ සන්තෝෂ s_B a_I n_I t^_I o:_I s^_I @_E
 සන්තෝෂයට සන්තෝෂයට s_B a_I n_I t^_I o:_I s^_I @_I y_I @_I t_I @_E
@@ -45067,10 +45067,10 @@
 සමූහයාට සමූහයාට s_B a_I m_I u:_I h_I @_I y_I a:_I t_I @_E
 සමූහයේ සමූහයේ s_B a_I m_I u:_I h_I @_I y_I e:_E
 සමූහාණ්ඩුවේ සමූහාණ්ඩුවේ s_B a_I m_I u:_I h_I a:_I n_I d_I u_I w_I e:_E
-සමෘද්ධි සමෘද්ධි s_B a_I m_I r_I u_I d^_I d^_I i_E
-සමෘද්ධිමත් සමෘද්ධිමත් s_B a_I m_I r_I u_I d^_I d^_I i_I m_I a_I t^_E
-සමෘද්ධිය සමෘද්ධිය s_B a_I m_I r_I u_I d^_I d^_I i_I y_I @_E
-සමෘද්ධිලාභීන්ට සමෘද්ධිලාභීන්ට s_B a_I m_I r_I u_I d^_I d^_I i_I l_I a:_I b_I i:_I n_I t_I @_E
+සමෘද්ධි සමෘද්ධි s_B a_I m_I ru_I d^_I d^_I i_E
+සමෘද්ධිමත් සමෘද්ධිමත් s_B a_I m_I ru_I d^_I d^_I i_I m_I a_I t^_E
+සමෘද්ධිය සමෘද්ධිය s_B a_I m_I ru_I d^_I d^_I i_I y_I @_E
+සමෘද්ධිලාභීන්ට සමෘද්ධිලාභීන්ට s_B a_I m_I ru_I d^_I d^_I i_I l_I a:_I b_I i:_I n_I t_I @_E
 සමෙන් සමෙන් s_B a_I m_I e_I n_E
 සමේ සමේ s_B a_I m_I e:_E
 සය සය s_B a_I y_I @_E
@@ -46125,7 +46125,7 @@
 සාස්තරෙත් සාස්තරෙත් s_B a:_I s_I t^_I @_I r_I e_I t^_E
 සාස්තරේ සාස්තරේ s_B a:_I s_I t^_I @_I r_I e:_E
 සාස්ත්‍රෙ සාස්ත්‍රෙ s_B a:_I s_I t^_I t^_I r_I e_E
-සාස්තෘශාසනවල සාස්තෘශාසනවල s_B a:_I s_I t^_I r_I u_I s^_I a:_I s_I @_I n_I @_I w_I @_I l_I @_E
+සාස්තෘශාසනවල සාස්තෘශාසනවල s_B a:_I s_I t^_I ru_I s^_I a:_I s_I @_I n_I @_I w_I @_I l_I @_E
 සාහසික සාහසික s_B a:_I h_I @_I s_I i_I k_I @_E
 සාහසිකයා සාහසිකයා s_B a:_I h_I @_I s_I i_I k_I @_I y_I a:_E
 සාහසිකයින් සාහසිකයින් s_B a:_I h_I @_I s_I i_I k_I @_I y_I i_I n_E
@@ -47556,7 +47556,7 @@
 සීලයෙන් සීලයෙන් s_B i:_I l_I @_I y_I e_I n_E
 සීලයෙහි සීලයෙහි s_B i:_I l_I @_I y_I e_I h_I i_E
 සීලවනාගරාජ සීලවනාගරාජ s_B i:_I l_I @_I w_I @_I n_I a:_I g_I @_I r_I a:_I j_I @_E
-සීලවෘද්ධ සීලවෘද්ධ s_B i:_I l_I a_I w_I r_I u_I d^_I d^_I @_E
+සීලවෘද්ධ සීලවෘද්ධ s_B i:_I l_I a_I w_I ru_I d^_I d^_I @_E
 සීලාචාර සීලාචාර s_B i:_I l_I a:_I c^_I a:_I r_I @_E
 සීලිම සීලිම s_B i:_I l_I i_I m_I @_E
 සීවලී සීවලී s_B i:_I w_I @_I l_I i:_E
@@ -48002,13 +48002,13 @@
 සූරීන් සූරීන් s_B u:_I r_I i:_I n_E
 සූවිසි සූවිසි s_B u:_I w_I i_I s_I i_E
 සූසන් සූසන් s_B u:_I s_I a_I n_E
-සෘජු සෘජු s_B r_I u_I j_I u_E
-සෘද්ධි සෘද්ධි s_B r_I u_I d^_I d^_I i_E
-සෘද්ධිබල සෘද්ධිබල s_B r_I u_I d^_I d^_I i_I b_I @_I l_I @_E
-සෘද්ධිසම්පන්න සෘද්ධිසම්පන්න s_B r_I u_I d^_I d^_I i_I s_I a_I m_I p_I a_I n_I n_I @_E
-සෘෂිවරයාණ සෘෂිවරයාණ s_B r_I u_I s^_I i_I w_I @_I r_I @_I y_I a:_I n_I @_E
-සෘෂිවරු සෘෂිවරු s_B r_I u_I s^_I i_I w_I @_I r_I u_E
-සෘෂිවරුන් සෘෂිවරුන් s_B r_I u_I s^_I i_I w_I @_I r_I u_I n_E
+සෘජු සෘජු s_B ru_I j_I u_E
+සෘද්ධි සෘද්ධි s_B ru_I d^_I d^_I i_E
+සෘද්ධිබල සෘද්ධිබල s_B ru_I d^_I d^_I i_I b_I @_I l_I @_E
+සෘද්ධිසම්පන්න සෘද්ධිසම්පන්න s_B ru_I d^_I d^_I i_I s_I a_I m_I p_I a_I n_I n_I @_E
+සෘෂිවරයාණ සෘෂිවරයාණ s_B ru_I s^_I i_I w_I @_I r_I @_I y_I a:_I n_I @_E
+සෘෂිවරු සෘෂිවරු s_B ru_I s^_I i_I w_I @_I r_I u_E
+සෘෂිවරුන් සෘෂිවරුන් s_B ru_I s^_I i_I w_I @_I r_I u_I n_E
 සෙංකඩගල සෙංකඩගල s_B e_I x_I k_I @_I d_I @_I g_I @_I l_I @_E
 සෙංකඩගලපුර සෙංකඩගලපුර s_B e_I x_I k_I @_I d_I @_I g_I @_I l_I @_I p_I u_I r_I @_E
 සෙකන්ඩ් සෙකන්ඩ් s_B e_I k_I a_I n_I d_E
@@ -48267,8 +48267,8 @@
 සේවේ සේවේ s_B e:_I w_I e:_E
 සේසතම සේසතම s_B e:_I s_I @_I t^_I @_I m_I @_E
 සේසත් සේසත් s_B e:_I s_I a_I t^_E
-සෛල සෛල s_B ai_I l_I @_E
-සෛලයක සෛලයක s_B ai_I l_I @_I y_I @_I k_I @_E
+සෛල සෛල s_B a_I i_I l_I @_E
+සෛලයක සෛලයක s_B a_I i_I l_I @_I y_I @_I k_I @_E
 සොකරි සොකරි s_B o_I k_I @_I r_I i_E
 සොක්කො සොක්කො s_B o_I k_I k_I o_E
 සොච්චම් සොච්චම් s_B o_I c^_I c^_I a_I m_E
@@ -49973,8 +49973,8 @@
 හිතෙනෙවා හිතෙනෙවා h_B i_I t^_I e_I n_I e_I w_I a:_E
 හිතෙයි හිතෙයි h_B i_I t^_I e_I y_I i_E
 හිතේ හිතේ h_B i_I t^_I e:_E
-හිතෛෂී හිතෛෂී h_B i_I t^_I ai_I s^_I i:_E
-හිතෛෂීවන්ත හිතෛෂීවන්ත h_B i_I t^_I ai_I s^_I i:_I w_I a_I n_I t^_I @_E
+හිතෛෂී හිතෛෂී h_B i_I t^_I a_I i_I s^_I i:_E
+හිතෛෂීවන්ත හිතෛෂීවන්ත h_B i_I t^_I a_I i_I s^_I i:_I w_I a_I n_I t^_I @_E
 හිදි හිදි h_B i_I d^_I i_E
 හිදින හිදින h_B i_I d^_I i_I n_I @_E
 හිදී හිදී h_B i_I d^_I i:_E
@@ -50168,7 +50168,7 @@
 හීනෙන්වත් හීනෙන්වත් h_B i:_I n_I e_I n_I w_I a_I t^_E
 හීනේ හීනේ h_B i:_I n_I e:_E
 හීනේන් හීනේන් h_B i:_I n_I e:_I n_E
-හීබෘ හීබෘ h_B i:_I b_I r_I u_E
+හීබෘ හීබෘ h_B i:_I b_I ru_E
 හීරුනොත් හීරුනොත් h_B i:_I r_I u_I n_I o_I t^_E
 හීරෝ හීරෝ h_B i:_I r_I o:_E
 හීල් හීල් h_B i:_I l_E
@@ -50247,12 +50247,12 @@
 හූල්ලනු හූල්ලනු h_B u:_I l_I l_I @_I n_I u_E
 හූල්ලාම හූල්ලාම h_B u:_I l_I l_I a:_I m_I @_E
 හූවකිං හූවකිං h_B u:_I w_I @_I k_I i_I x_E
-හෘද හෘද h_B r_I u_I d^_I @_E
-හෘදය හෘදය h_B r_I u_I d^_I @_I y_I @_E
-හෘදයාබාධයක් හෘදයාබාධයක් h_B r_I u_I d^_I @_I y_I a:_I b_I a:_I d^_I @_I y_I a_I k_E
-හෘදයාබාධයකින් හෘදයාබාධයකින් h_B r_I u_I d^_I @_I y_I a:_I b_I a:_I d^_I @_I y_I @_I k_I i_I n_E
-හෘදයේ හෘදයේ h_B r_I u_I d^_I @_I y_I e:_E
-හෘදසාක්ෂිය හෘදසාක්ෂිය h_B r_I u_I d^_I @_I s_I a:_I k_I s^_I i_I y_I @_E
+හෘද හෘද h_B ru_I d^_I @_E
+හෘදය හෘදය h_B ru_I d^_I @_I y_I @_E
+හෘදයාබාධයක් හෘදයාබාධයක් h_B ru_I d^_I @_I y_I a:_I b_I a:_I d^_I @_I y_I a_I k_E
+හෘදයාබාධයකින් හෘදයාබාධයකින් h_B ru_I d^_I @_I y_I a:_I b_I a:_I d^_I @_I y_I @_I k_I i_I n_E
+හෘදයේ හෘදයේ h_B ru_I d^_I @_I y_I e:_E
+හෘදසාක්ෂිය හෘදසාක්ෂිය h_B ru_I d^_I @_I s_I a:_I k_I s^_I i_I y_I @_E
 හෙංචයියන් හෙංචයියන් h_B e_I x_I c^_I @_I y_I i_I y_I a_I n_E
 හෙංචයියෙක් හෙංචයියෙක් h_B e_I x_I c^_I @_I y_I i_I y_I e_I k_E
 හෙක්ටයාර හෙක්ටයාර h_B e_I k_I t_I @_I y_I a:_I r_I @_E
