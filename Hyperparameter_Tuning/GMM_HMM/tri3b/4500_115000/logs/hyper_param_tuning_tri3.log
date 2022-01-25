@@ -1,0 +1,125 @@
+=== Hyper params for Tri3 Model ===
+number of leaves: 4500
+totgauss: 115000
+
+===== BEGIN: tri2b model align =====
+
+steps/align_si.sh --nj 4 --cmd run.pl --mem 8G --use-graphs true data/train data/lang exp/tri2b exp/tri2b_ali_train
+steps/align_si.sh: feature type is lda
+steps/align_si.sh: aligning data in data/train using model from exp/tri2b, putting alignments in exp/tri2b_ali_train
+steps/diagnostic/analyze_alignments.sh --cmd run.pl --mem 8G data/lang exp/tri2b_ali_train
+steps/diagnostic/analyze_alignments.sh: see stats in exp/tri2b_ali_train/log/analyze_alignments.log
+steps/align_si.sh: done aligning data.
+
+===== END: tri2b model align =====
+===== BEGIN : train LDA+MLLT+SAT - tri3b model =====
+
+steps/train_sat.sh --cmd run.pl --mem 8G 4500 115000 data/train data/lang exp/tri2b_ali_train exp/tri3b
+steps/train_sat.sh: feature type is lda
+steps/train_sat.sh: obtaining initial fMLLR transforms since not present in exp/tri2b_ali_train
+steps/train_sat.sh: Accumulating tree stats
+steps/train_sat.sh: Getting questions for tree clustering.
+steps/train_sat.sh: Building the tree
+steps/train_sat.sh: Initializing the model
+WARNING (gmm-init-model[5.5.0~1-40c7]:InitAmGmm():gmm-init-model.cc:55) Tree has pdf-id 1 with no stats; corresponding phone list: 6 7 8 9 10 
+WARNING (gmm-init-model[5.5.0~1-40c7]:InitAmGmm():gmm-init-model.cc:55) Tree has pdf-id 12 with no stats; corresponding phone list: 51 52 53 54 
+WARNING (gmm-init-model[5.5.0~1-40c7]:InitAmGmm():gmm-init-model.cc:55) Tree has pdf-id 14 with no stats; corresponding phone list: 59 60 61 62 
+WARNING (gmm-init-model[5.5.0~1-40c7]:InitAmGmm():gmm-init-model.cc:55) Tree has pdf-id 22 with no stats; corresponding phone list: 91 92 93 94 
+WARNING (gmm-init-model[5.5.0~1-40c7]:InitAmGmm():gmm-init-model.cc:55) Tree has pdf-id 30 with no stats; corresponding phone list: 123 124 125 126 
+This is a bad warning.
+steps/train_sat.sh: Converting alignments from exp/tri2b_ali_train to use current tree
+steps/train_sat.sh: Compiling graphs of transcripts
+Pass 1
+Pass 2
+Estimating fMLLR transforms
+Pass 3
+Pass 4
+Estimating fMLLR transforms
+Pass 5
+Pass 6
+Estimating fMLLR transforms
+Pass 7
+Pass 8
+Pass 9
+Pass 10
+Aligning data
+Pass 11
+Pass 12
+Estimating fMLLR transforms
+Pass 13
+Pass 14
+Pass 15
+Pass 16
+Pass 17
+Pass 18
+Pass 19
+Pass 20
+Aligning data
+Pass 21
+Pass 22
+Pass 23
+Pass 24
+Pass 25
+Pass 26
+Pass 27
+Pass 28
+Pass 29
+Pass 30
+Aligning data
+Pass 31
+Pass 32
+Pass 33
+Pass 34
+steps/diagnostic/analyze_alignments.sh --cmd run.pl --mem 8G data/lang exp/tri3b
+steps/diagnostic/analyze_alignments.sh: see stats in exp/tri3b/log/analyze_alignments.log
+85 warnings in exp/tri3b/log/fmllr.*.*.log
+801 warnings in exp/tri3b/log/acc.*.*.log
+1308 warnings in exp/tri3b/log/align.*.*.log
+5 warnings in exp/tri3b/log/questions.log
+1 warnings in exp/tri3b/log/build_tree.log
+5 warnings in exp/tri3b/log/init_model.log
+5 warnings in exp/tri3b/log/est_alimdl.log
+170 warnings in exp/tri3b/log/update.*.log
+steps/train_sat.sh: Likelihood evolution:
+-45.0208 -45.6399 -45.1124 -44.7622 -43.9314 -43.1073 -42.5619 -42.2192 -41.9783 -41.4911 -41.3023 -40.9469 -40.8112 -40.7192 -40.6369 -40.5623 -40.5001 -40.4409 -40.3851 -40.2748 -40.2083 -40.1629 -40.1224 -40.086 -40.0515 -40.0165 -39.9849 -39.9554 -39.926 -39.8742 -39.8362 -39.8145 -39.7984 -39.7861 
+exp/tri3b: nj=4 align prob=-44.19 over 172.02h [retry=0.2%, fail=0.0%] states=3656 gauss=115130 fmllr-impr=4.24 over 83.86h tree-impr=8.84
+steps/train_sat.sh: done training SAT system in exp/tri3b
+
+===== END: train LDA+MLLT+SAT - tri3b model =====
+===== BEGIN : make tri3b graph =====
+
+tree-info exp/tri3b/tree 
+tree-info exp/tri3b/tree 
+make-h-transducer --disambig-syms-out=exp/tri3b/graph/disambig_tid.int --transition-scale=1.0 data/lang/tmp/ilabels_3_1 exp/tri3b/tree exp/tri3b/final.mdl 
+fstrmsymbols exp/tri3b/graph/disambig_tid.int 
+fsttablecompose exp/tri3b/graph/Ha.fst data/lang/tmp/CLG_3_1.fst 
+fstminimizeencoded 
+fstrmepslocal 
+fstdeterminizestar --use-log=true 
+fstisstochastic exp/tri3b/graph/HCLGa.fst 
+0.627404 -0.0757236
+HCLGa is not stochastic
+add-self-loops --self-loop-scale=0.1 --reorder=true exp/tri3b/final.mdl exp/tri3b/graph/HCLGa.fst 
+
+===== END: make tri3b graph =====
+===== BEGIN : tri3b fmllr decode =====
+
+steps/decode_fmllr.sh --nj 4 --cmd run.pl --mem 8G exp/tri3b/graph data/valid exp/tri3b/decode_valid
+steps/decode.sh --scoring-opts  --num-threads 1 --skip-scoring false --acwt 0.083333 --nj 4 --cmd run.pl --mem 8G --beam 10.0 --model exp/tri3b/final.alimdl --max-active 2000 exp/tri3b/graph data/valid exp/tri3b/decode_valid.si
+decode.sh: feature type is lda
+steps/diagnostic/analyze_lats.sh --cmd run.pl --mem 8G exp/tri3b/graph exp/tri3b/decode_valid.si
+steps/diagnostic/analyze_lats.sh: see stats in exp/tri3b/decode_valid.si/log/analyze_alignments.log
+Overall, lattice depth (10,50,90-percentile)=(1,3,14) and mean=6.1
+steps/diagnostic/analyze_lats.sh: see stats in exp/tri3b/decode_valid.si/log/analyze_lattice_depth_stats.log
+steps/decode_fmllr.sh: feature type is lda
+steps/decode_fmllr.sh: getting first-pass fMLLR transforms.
+steps/decode_fmllr.sh: doing main lattice generation phase
+steps/decode_fmllr.sh: estimating fMLLR transforms a second time.
+steps/decode_fmllr.sh: doing a final pass of acoustic rescoring.
+steps/diagnostic/analyze_lats.sh --cmd run.pl --mem 8G exp/tri3b/graph exp/tri3b/decode_valid
+steps/diagnostic/analyze_lats.sh: see stats in exp/tri3b/decode_valid/log/analyze_alignments.log
+Overall, lattice depth (10,50,90-percentile)=(1,2,9) and mean=4.4
+steps/diagnostic/analyze_lats.sh: see stats in exp/tri3b/decode_valid/log/analyze_lattice_depth_stats.log
+
+===== END: tri3b fmllr decode =====
+Runtime was 27305.6334834
