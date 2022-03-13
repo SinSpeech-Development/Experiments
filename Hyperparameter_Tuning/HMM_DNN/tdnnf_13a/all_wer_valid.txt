@@ -1,0 +1,135 @@
+compute-wer --text --mode=present ark:exp/chain/multistream_cnn_13a_sp/decode_valid/scoring/test_filt.txt ark,p:- 
+%WER 26.50 [ 21648 / 81695, 3118 ins, 2017 del, 16513 sub ]
+%SER 60.59 [ 10791 / 17809 ]
+Scored 17809 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/chain/multistream_cnn_13a_sp/decode_valid/scoring/test_filt.txt ark,p:- 
+%WER 26.51 [ 21660 / 81695, 2794 ins, 2314 del, 16552 sub ]
+%SER 60.72 [ 10814 / 17809 ]
+Scored 17809 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/chain/multistream_cnn_13a_sp/decode_valid/scoring/test_filt.txt ark,p:- 
+%WER 26.63 [ 21759 / 81695, 2516 ins, 2641 del, 16602 sub ]
+%SER 60.91 [ 10848 / 17809 ]
+Scored 17809 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/chain/multistream_cnn_13a_sp/decode_valid/scoring/test_filt.txt ark,p:- 
+%WER 26.72 [ 21832 / 81695, 2929 ins, 2158 del, 16745 sub ]
+%SER 61.19 [ 10898 / 17809 ]
+Scored 17809 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/chain/multistream_cnn_13a_sp/decode_valid/scoring/test_filt.txt ark,p:- 
+%WER 26.84 [ 21926 / 81695, 2614 ins, 2505 del, 16807 sub ]
+%SER 61.41 [ 10937 / 17809 ]
+Scored 17809 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/chain/multistream_cnn_13a_sp/decode_valid/scoring/test_filt.txt ark,p:- 
+%WER 26.94 [ 22006 / 81695, 2320 ins, 2864 del, 16822 sub ]
+%SER 61.57 [ 10965 / 17809 ]
+Scored 17809 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/chain/multistream_cnn_13a_sp/decode_valid/scoring/test_filt.txt ark,p:- 
+%WER 27.08 [ 22121 / 81695, 2751 ins, 2321 del, 17049 sub ]
+%SER 62.02 [ 11045 / 17809 ]
+Scored 17809 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/chain/multistream_cnn_13a_sp/decode_valid/scoring/test_filt.txt ark,p:- 
+%WER 27.25 [ 22262 / 81695, 2465 ins, 2715 del, 17082 sub ]
+%SER 62.29 [ 11093 / 17809 ]
+Scored 17809 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/chain/multistream_cnn_13a_sp/decode_valid/scoring/test_filt.txt ark,p:- 
+%WER 27.39 [ 22379 / 81695, 2154 ins, 3106 del, 17119 sub ]
+%SER 62.50 [ 11131 / 17809 ]
+Scored 17809 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/chain/multistream_cnn_13a_sp/decode_valid/scoring/test_filt.txt ark,p:- 
+%WER 27.57 [ 22527 / 81695, 2620 ins, 2514 del, 17393 sub ]
+%SER 63.02 [ 11223 / 17809 ]
+Scored 17809 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/chain/multistream_cnn_13a_sp/decode_valid/scoring/test_filt.txt ark,p:- 
+%WER 27.79 [ 22707 / 81695, 2303 ins, 2945 del, 17459 sub ]
+%SER 63.33 [ 11278 / 17809 ]
+Scored 17809 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/chain/multistream_cnn_13a_sp/decode_valid/scoring/test_filt.txt ark,p:- 
+%WER 27.99 [ 22869 / 81695, 2003 ins, 3381 del, 17485 sub ]
+%SER 63.63 [ 11331 / 17809 ]
+Scored 17809 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/chain/multistream_cnn_13a_sp/decode_valid/scoring/test_filt.txt ark,p:- 
+%WER 28.12 [ 22969 / 81695, 2501 ins, 2722 del, 17746 sub ]
+%SER 63.87 [ 11374 / 17809 ]
+Scored 17809 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/chain/multistream_cnn_13a_sp/decode_valid/scoring/test_filt.txt ark,p:- 
+%WER 28.30 [ 23123 / 81695, 2159 ins, 3174 del, 17790 sub ]
+%SER 64.17 [ 11428 / 17809 ]
+Scored 17809 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/chain/multistream_cnn_13a_sp/decode_valid/scoring/test_filt.txt ark,p:- 
+%WER 28.67 [ 23419 / 81695, 1882 ins, 3687 del, 17850 sub ]
+%SER 64.52 [ 11490 / 17809 ]
+Scored 17809 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/chain/multistream_cnn_13a_sp/decode_valid/scoring/test_filt.txt ark,p:- 
+%WER 28.73 [ 23473 / 81695, 2393 ins, 2921 del, 18159 sub ]
+%SER 64.93 [ 11563 / 17809 ]
+Scored 17809 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/chain/multistream_cnn_13a_sp/decode_valid/scoring/test_filt.txt ark,p:- 
+%WER 29.05 [ 23734 / 81695, 2059 ins, 3454 del, 18221 sub ]
+%SER 65.26 [ 11623 / 17809 ]
+Scored 17809 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/chain/multistream_cnn_13a_sp/decode_valid/scoring/test_filt.txt ark,p:- 
+%WER 29.42 [ 24033 / 81695, 1779 ins, 3982 del, 18272 sub ]
+%SER 65.75 [ 11710 / 17809 ]
+Scored 17809 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/chain/multistream_cnn_13a_sp/decode_valid/scoring/test_filt.txt ark,p:- 
+%WER 29.45 [ 24060 / 81695, 2306 ins, 3155 del, 18599 sub ]
+%SER 65.94 [ 11743 / 17809 ]
+Scored 17809 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/chain/multistream_cnn_13a_sp/decode_valid/scoring/test_filt.txt ark,p:- 
+%WER 29.70 [ 24260 / 81695, 1967 ins, 3685 del, 18608 sub ]
+%SER 66.28 [ 11803 / 17809 ]
+Scored 17809 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/chain/multistream_cnn_13a_sp/decode_valid/scoring/test_filt.txt ark,p:- 
+%WER 30.14 [ 24625 / 81695, 1690 ins, 4268 del, 18667 sub ]
+%SER 66.85 [ 11906 / 17809 ]
+Scored 17809 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/chain/multistream_cnn_13a_sp/decode_valid/scoring/test_filt.txt ark,p:- 
+%WER 30.07 [ 24564 / 81695, 2242 ins, 3332 del, 18990 sub ]
+%SER 66.92 [ 11917 / 17809 ]
+Scored 17809 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/chain/multistream_cnn_13a_sp/decode_valid/scoring/test_filt.txt ark,p:- 
+%WER 30.35 [ 24791 / 81695, 1884 ins, 3907 del, 19000 sub ]
+%SER 67.30 [ 11985 / 17809 ]
+Scored 17809 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/chain/multistream_cnn_13a_sp/decode_valid/scoring/test_filt.txt ark,p:- 
+%WER 30.84 [ 25198 / 81695, 1629 ins, 4521 del, 19048 sub ]
+%SER 67.91 [ 12094 / 17809 ]
+Scored 17809 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/chain/multistream_cnn_13a_sp/decode_valid/scoring/test_filt.txt ark,p:- 
+%WER 26.76 [ 21862 / 81695, 3906 ins, 1665 del, 16291 sub ]
+%SER 59.54 [ 10603 / 17809 ]
+Scored 17809 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/chain/multistream_cnn_13a_sp/decode_valid/scoring/test_filt.txt ark,p:- 
+%WER 26.67 [ 21789 / 81695, 3602 ins, 1867 del, 16320 sub ]
+%SER 59.60 [ 10614 / 17809 ]
+Scored 17809 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/chain/multistream_cnn_13a_sp/decode_valid/scoring/test_filt.txt ark,p:- 
+%WER 26.70 [ 21816 / 81695, 3315 ins, 2100 del, 16401 sub ]
+%SER 59.89 [ 10665 / 17809 ]
+Scored 17809 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/chain/multistream_cnn_13a_sp/decode_valid/scoring/test_filt.txt ark,p:- 
+%WER 26.52 [ 21668 / 81695, 3604 ins, 1766 del, 16298 sub ]
+%SER 59.71 [ 10633 / 17809 ]
+Scored 17809 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/chain/multistream_cnn_13a_sp/decode_valid/scoring/test_filt.txt ark,p:- 
+%WER 26.40 [ 21568 / 81695, 3259 ins, 1984 del, 16325 sub ]
+%SER 59.76 [ 10642 / 17809 ]
+Scored 17809 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/chain/multistream_cnn_13a_sp/decode_valid/scoring/test_filt.txt ark,p:- 
+%WER 26.44 [ 21599 / 81695, 2978 ins, 2237 del, 16384 sub ]
+%SER 60.00 [ 10686 / 17809 ]
+Scored 17809 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/chain/multistream_cnn_13a_sp/decode_valid/scoring/test_filt.txt ark,p:- 
+%WER 26.35 [ 21530 / 81695, 3318 ins, 1862 del, 16350 sub ]
+%SER 59.98 [ 10682 / 17809 ]
+Scored 17809 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/chain/multistream_cnn_13a_sp/decode_valid/scoring/test_filt.txt ark,p:- 
+%WER 26.39 [ 21556 / 81695, 3002 ins, 2152 del, 16402 sub ]
+%SER 60.14 [ 10710 / 17809 ]
+Scored 17809 sentences, 0 not present in hyp.
+compute-wer --text --mode=present ark:exp/chain/multistream_cnn_13a_sp/decode_valid/scoring/test_filt.txt ark,p:- 
+%WER 26.46 [ 21620 / 81695, 2726 ins, 2445 del, 16449 sub ]
+%SER 60.39 [ 10754 / 17809 ]
+Scored 17809 sentences, 0 not present in hyp.
+
+BEST WER
+26.35
